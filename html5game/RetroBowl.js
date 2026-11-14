@@ -2409,9 +2409,9 @@ id:100314,pPreCreateCode:gml_RoomCC_rm_options_31_PreCreate,rotation:0,scaleX:1.
 pPreCreateCode:gml_RoomCC_rm_options_37_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:184,index:72,id:100288,pPreCreateCode:gml_RoomCC_rm_options_38_PreCreate,rotation:0,scaleX:1.7321434020996094,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:144,index:72,id:100277,pPreCreateCode:gml_RoomCC_rm_options_39_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:241,y:128,index:39,id:100278,
 pPreCreateCode:gml_RoomCC_rm_options_40_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:390,y:144,index:72,id:100315,pPreCreateCode:gml_RoomCC_rm_options_41_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:392,y:128,index:39,id:100316,pPreCreateCode:gml_RoomCC_rm_options_42_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:-56,y:0,index:137,id:100300,rotation:0,scaleX:1,
 scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:48,y:232,index:20,id:100279,pCode:gml_RoomCC_rm_options_44_Create,pPreCreateCode:gml_RoomCC_rm_options_44_PreCreate,rotation:0,scaleX:2.454545497894287,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:240,y:184,index:72,id:100317,pCode:gml_RoomCC_rm_options_45_Create,pPreCreateCode:gml_RoomCC_rm_options_45_PreCreate,rotation:0,scaleX:1.5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:240,y:168,index:39,id:100318,pCode:gml_RoomCC_rm_options_46_Create,
-pPreCreateCode:gml_RoomCC_rm_options_46_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:241,y:128,index:39,id:109001,pPreCreateCode:gml_RoomCC_rm_options_47_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:144,index:72,id:109002,pPreCreateCode:gml_RoomCC_rm_options_48_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:241,y:168,index:39,id:109003,pPreCreateCode:gml_RoomCC_rm_options_49_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:184,index:72,id:109004,pPreCreateCode:gml_RoomCC_rm_options_50_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:392,y:168,index:39,id:109005,pPreCreateCode:gml_RoomCC_rm_options_51_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:390,y:184,index:72,id:109006,pPreCreateCode:gml_RoomCC_rm_options_52_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:392,y:208,index:39,id:109007,pPreCreateCode:gml_RoomCC_rm_options_53_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:390,y:224,index:72,id:109008,pPreCreateCode:gml_RoomCC_rm_options_54_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:241,y:208,index:39,id:109009,pPreCreateCode:gml_RoomCC_rm_options_55_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:224,index:72,id:109010,pPreCreateCode:gml_RoomCC_rm_options_56_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295}],tiles:[],layers:[{pName:"PopUps",id:63,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:0,iinstIDs:[]},{pName:"Links_Mobile",id:64,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:0,effectEnabled:1,effectType:"",effectProperties:[],icount:7,iinstIDs:[100272,100273,100274,100275,100276,100277,100278]},{pName:"Exhibition",
+pPreCreateCode:gml_RoomCC_rm_options_46_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:241,y:128,index:39,id:109001,pPreCreateCode:gml_RoomCC_rm_options_47_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:144,index:72,id:109002,pPreCreateCode:gml_RoomCC_rm_options_48_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:241,y:168,index:39,id:109003,pPreCreateCode:gml_RoomCC_rm_options_49_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:184,index:72,id:109004,pPreCreateCode:gml_RoomCC_rm_options_50_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:392,y:168,index:39,id:109005,pPreCreateCode:gml_RoomCC_rm_options_51_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:390,y:184,index:72,id:109006,pPreCreateCode:gml_RoomCC_rm_options_52_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:392,y:208,index:39,id:109007,pPreCreateCode:gml_RoomCC_rm_options_53_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:390,y:224,index:72,id:109008,pPreCreateCode:gml_RoomCC_rm_options_54_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:241,y:208,index:39,id:109009,pPreCreateCode:gml_RoomCC_rm_options_55_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:224,index:72,id:109010,pPreCreateCode:gml_RoomCC_rm_options_56_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295},{x:241,y:128,index:39,id:109011,pPreCreateCode:gml_RoomCC_rm_options_57_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:239,y:144,index:72,id:109012,pPreCreateCode:gml_RoomCC_rm_options_58_PreCreate,rotation:0,scaleX:1.5238100290298462,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295}],tiles:[],layers:[{pName:"PopUps",id:63,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:0,iinstIDs:[]},{pName:"Links_Mobile",id:64,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:0,effectEnabled:1,effectType:"",effectProperties:[],icount:7,iinstIDs:[100272,100273,100274,100275,100276,100277,100278]},{pName:"Exhibition",
 id:65,type:2,depth:200,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100279]},{pName:"Links_Browser",id:66,type:2,depth:300,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:3,iinstIDs:[100280,100281,100282]},{pName:"Instances_ConsoleBuild",id:67,type:2,depth:400,x:0,y:0,hspeed:0,vspeed:0,visible:0,effectEnabled:1,effectType:"",effectProperties:[],icount:6,iinstIDs:[100283,100284,100285,100286,100287,
-100288]},{pName:"Instances_Box",id:68,type:2,depth:500,x:0,y:0,hspeed:0,vspeed:0,visible:0,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100289]},{pName:"Instances",id:69,type:2,depth:600,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:39,iinstIDs:[109010,109009,109008,109007,109006,109005,109001,109002,109003,109004,100290,100291,100292,100293,100294,100295,100296,100297,100298,100299,100300,100301,100302,100303,100304,100305,100306,100307,100308,100309,100310,100311,100312,100313,100314,100315,100316,
+100288]},{pName:"Instances_Box",id:68,type:2,depth:500,x:0,y:0,hspeed:0,vspeed:0,visible:0,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100289]},{pName:"Instances",id:69,type:2,depth:600,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:41,iinstIDs:[109012,109011,109010,109009,109008,109007,109006,109005,109001,109002,109003,109004,100290,100291,100292,100293,100294,100295,100296,100297,100298,100299,100300,100301,100302,100303,100304,100305,100306,100307,100308,100309,100310,100311,100312,100313,100314,100315,100316,
 100317,100318]},{pName:"Background",id:70,type:1,depth:700,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],bvisible:true,bforeground:false,bindex:-1,bhtiled:false,bvtiled:false,bstretch:false,bblend:-499648,bimage_index:0,bimage_speed:15}]},{pName:"rm_playoffs",width:480,height:270,speed:0,colour:0,LayerCount:5,showColour:false,enableViews:true,viewClearScreen:false,pCode:gml_Room_rm_playoffs_Create,backgrounds:[],views:[{visible:true,wview:480,hview:270,wport:480,
 hport:270},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768}],pInstances:[{x:64,y:56,index:74,id:100324,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:64,y:88,index:74,id:100325,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,
 imageIndex:0,colour:4294967295},{x:64,y:200,index:74,id:100326,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:64,y:168,index:74,id:100327,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:120,y:72,index:74,id:100328,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:120,y:104,index:74,id:100329,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:120,y:184,index:74,id:100330,rotation:0,scaleX:1,
@@ -8682,6 +8682,288 @@ function gml_RoomCC_rm_options_55_PreCreate(_inst,_other){
     _inst.gmlonClickAction=function(_i,_o){rbConsole(_i,_o);};
 }
 function gml_RoomCC_rm_options_56_PreCreate(_inst,_other){_inst.gmltext="CONSOLE";_inst.gmldraw_box=false;_inst.gmlhalign=2;}
+function gml_RoomCC_rm_options_57_PreCreate(_inst,_other){
+    _inst.gmltext="SIGN IN";
+    _inst.gmlonClickAction=function(_i,_o){rbLogin(_i,_o);};
+}
+function gml_RoomCC_rm_options_58_PreCreate(_inst,_other){_inst.gmltext="ACCOUNT";_inst.gmldraw_box=false;_inst.gmlhalign=2;}
+// ---- Accounts: Supabase (Auth + a "saves" table). Username "bob" signs in as bob@retrobowl.app behind the scenes.
+// Each account links to a copy of the RetroBowl.0.savedata.ini save. While signed in, game saves are mirrored to the account. ----
+var RB_SB_URL = "https://mrxmwbkfgdxkwmujbnnr.supabase.co";
+var RB_SB_KEY = "sb_publishable_xkaAnZTOgQDUoNGBzXGNHA_nX-_lScT";   // publishable key: safe to ship, row-level security protects the data
+var RB_EMAIL_DOMAIN = "retrobowl.app";
+var RB_SAVE_KEY = "RetroBowl.0.savedata.ini", RB_SESSION_KEY = "RB_session";
+var rbAcctLock = false, rbSbTimer = null, rbSbPending = null;
+function rbSbGet() { try { var s = JSON.parse(localStorage.getItem(RB_SESSION_KEY) || "null"); return (s && s.access_token) ? s : null; } catch (_e) { return null; } }
+function rbSbSet(s) { try { if (s) { localStorage.setItem(RB_SESSION_KEY, JSON.stringify(s)); } else { localStorage.removeItem(RB_SESSION_KEY); } } catch (_e) {} }
+function rbSbMake(j, name) {
+    return { access_token: j.access_token, refresh_token: j.refresh_token,
+             expires_at: j.expires_at || (Math.floor(Date.now() / 1000) + (j.expires_in || 3600)),
+             uid: j.user && j.user.id, name: name };
+}
+function rbSbReq(method, path, token, body, extra, keepalive) {
+    var h = { "apikey": RB_SB_KEY };
+    if (token) { h["Authorization"] = "Bearer " + token; }
+    if (body !== undefined) { h["Content-Type"] = "application/json"; }
+    if (extra) { for (var k in extra) { h[k] = extra[k]; } }
+    return fetch(RB_SB_URL + path, { method: method, headers: h, keepalive: !!keepalive, body: body === undefined ? undefined : JSON.stringify(body) })
+        .then(function (r) { return r.text().then(function (t) { var j = null; try { j = t ? JSON.parse(t) : null; } catch (_e) {} return { ok: r.ok, status: r.status, json: j }; }); });
+}
+function rbSbToken() {
+    var s = rbSbGet(); if (!s) return Promise.resolve(null);
+    if (s.expires_at - 60 > Date.now() / 1000) return Promise.resolve(s);
+    return rbSbReq("POST", "/auth/v1/token?grant_type=refresh_token", null, { refresh_token: s.refresh_token }).then(function (r) {
+        if (r.ok && r.json && r.json.access_token) { var n = rbSbMake(r.json, s.name); rbSbSet(n); return n; }
+        if (r.status === 400 || r.status === 401) { rbSbSet(null); }
+        return null;
+    }, function () { return null; });
+}
+function rbSbPush(s, data, keepalive) {
+    return rbSbReq("POST", "/rest/v1/saves?on_conflict=user_id", s.access_token,
+        { user_id: s.uid, data: data, updated_at: new Date().toISOString() },
+        { "Prefer": "resolution=merge-duplicates,return=minimal" }, keepalive).then(function (r) { return r.ok; }, function () { return false; });
+}
+function rbSbPull(s) {
+    return rbSbReq("GET", "/rest/v1/saves?select=data&user_id=eq." + encodeURIComponent(s.uid), s.access_token).then(function (r) {
+        if (!r.ok) { return { ok: false }; }
+        return { ok: true, data: (r.json && r.json[0] && typeof r.json[0].data === "string") ? r.json[0].data : "" };
+    }, function () { return { ok: false }; });
+}
+// mirror game saves to the signed-in account (debounced)
+function rbAcctSync(v) {
+    if (rbAcctLock || typeof v !== "string" || !rbSbGet()) return;
+    rbSbPending = v;
+    if (rbSbTimer) { clearTimeout(rbSbTimer); }
+    rbSbTimer = setTimeout(rbSbFlush, 1500);
+}
+function rbSbFlush() {
+    rbSbTimer = null;
+    var v = rbSbPending; if (v === null) return;
+    rbSbPending = null;
+    rbSbToken().then(function (s) { if (s) { rbSbPush(s, v).then(function (ok) { if (!ok && rbSbPending === null) { rbSbPending = v; } }); } });
+}
+(function () {
+    try {
+        var si = Storage.prototype.setItem;
+        Storage.prototype.setItem = function (k, v) {
+            si.apply(this, arguments);
+            if (k === RB_SAVE_KEY && this === window.localStorage) { rbAcctSync(v); }
+        };
+        window.addEventListener("pagehide", function () {
+            var s = rbSbGet(), v = rbSbPending;
+            if (s && v !== null && !rbAcctLock) { rbSbPending = null; try { rbSbPush(s, v, true); } catch (_e) {} }
+        });
+    } catch (_e) {}
+})();
+function rbAcctMsg(L, text, ok) { L.msg = text; L.msgOk = !!ok; }
+function rbAcctCreate(_i, _o) {
+    var L = rbLog; if (!L || L.busy) return;
+    rbLogEnd();
+    var u = String(L.v.su).trim(), pw = String(L.v.sp);
+    if (!u || !pw) { rbAcctMsg(L, "ENTER A USERNAME AND PASSWORD", false); return; }
+    if (!/^[A-Za-z0-9_]{3,16}$/.test(u)) { rbAcctMsg(L, "USERNAME: 3 TO 16 LETTERS OR NUMBERS", false); return; }
+    if (pw.length < 6) { rbAcctMsg(L, "PASSWORD NEEDS 6 OR MORE CHARACTERS", false); return; }
+    try { gml_Script_s_savegame(_i, _o); } catch (_e) {}          // flush latest progress so the account gets it
+    var save = ""; try { save = localStorage.getItem(RB_SAVE_KEY) || ""; } catch (_e) {}
+    L.busy = true; rbAcctMsg(L, "CREATING ACCOUNT", true);
+    rbSbReq("POST", "/auth/v1/signup", null, { email: u.toLowerCase() + "@" + RB_EMAIL_DOMAIN, password: pw }).then(function (r) {
+        var j = r.json || {};
+        if (!r.ok) {
+            var code = String(j.error_code || j.code || ""), m = String(j.msg || j.message || j.error_description || "").toLowerCase();
+            if (code === "user_already_exists" || m.indexOf("already") >= 0) { rbAcctMsg(L, "THAT USERNAME IS ALREADY TAKEN", false); }
+            else if (code === "weak_password") { rbAcctMsg(L, "PASSWORD IS TOO WEAK", false); }
+            else if (code === "over_request_rate_limit" || code === "over_email_send_rate_limit" || r.status === 429) { rbAcctMsg(L, "TOO MANY TRIES - WAIT A BIT", false); }
+            else { rbAcctMsg(L, "COULD NOT CREATE ACCOUNT (" + (code || r.status) + ")", false); }
+            L.busy = false; return;
+        }
+        if (!j.access_token) { rbAcctMsg(L, "SUPABASE: TURN OFF CONFIRM EMAIL", false); L.busy = false; return; }
+        var sess = rbSbMake(j, u); rbSbSet(sess);
+        return rbSbPush(sess, save).then(function (ok) {
+            if (ok) { L.v.su = ""; L.v.sp = ""; rbAcctMsg(L, "ACCOUNT CREATED AND SAVE LINKED", true); }
+            else { rbSbPending = save; rbAcctMsg(L, "ACCOUNT CREATED BUT SAVE UPLOAD FAILED", false); }
+            L.busy = false;
+        });
+    }, function () { rbAcctMsg(L, "COULD NOT REACH THE SERVER", false); L.busy = false; });
+}
+function rbAcctSignIn(_i, _o) {
+    var L = rbLog; if (!L || L.busy) return;
+    rbLogEnd();
+    var u = String(L.v.lu).trim(), pw = String(L.v.lp);
+    if (!u || !pw) { rbAcctMsg(L, "ENTER A USERNAME AND PASSWORD", false); return; }
+    L.busy = true; rbAcctMsg(L, "SIGNING IN", true);
+    rbSbReq("POST", "/auth/v1/token?grant_type=password", null, { email: u.toLowerCase() + "@" + RB_EMAIL_DOMAIN, password: pw }).then(function (r) {
+        var j = r.json || {};
+        if (!r.ok || !j.access_token) {
+            rbAcctMsg(L, (r.status === 400 || r.status === 401 || r.status === 422) ? "INVALID USERNAME OR PASSWORD" : "COULD NOT SIGN IN (" + r.status + ")", false);
+            L.busy = false; return;
+        }
+        var sess = rbSbMake(j, u);
+        return rbSbPull(sess).then(function (pr) {
+            if (!pr.ok) { rbAcctMsg(L, "COULD NOT LOAD YOUR SAVE", false); L.busy = false; return; }
+            if (!pr.data) {                                           // account has no cloud save yet: link the current one
+                var cur = null; try { cur = localStorage.getItem(RB_SAVE_KEY); } catch (_e) {}
+                rbSbSet(sess);
+                if (cur) { return rbSbPush(sess, cur).then(function () { rbAcctMsg(L, "SIGNED IN - CURRENT SAVE LINKED", true); L.busy = false; }); }
+                rbAcctMsg(L, "SIGNED IN", true); L.busy = false; return;
+            }
+            try {
+                rbAcctLock = true;                                    // don't mirror the incoming save straight back up
+                var old = localStorage.getItem(RB_SAVE_KEY);
+                if (old !== null) { localStorage.setItem("RB_backup_before_login", old); }
+                localStorage.setItem(RB_SAVE_KEY, pr.data);
+                rbSbSet(sess);
+                rbAcctMsg(L, "SIGNED IN - LOADING YOUR SAVE", true);
+                setTimeout(function () { location.reload(); }, 700);
+            } catch (_e) { rbAcctLock = false; rbAcctMsg(L, "COULD NOT LOAD SAVE", false); L.busy = false; }
+        });
+    }, function () { rbAcctMsg(L, "COULD NOT REACH THE SERVER", false); L.busy = false; });
+}
+// ---- Login screen: "LOGIN" header, USERNAME / PASSWORD text boxes (left side) and a SIGN IN button ----
+var rbLog = null;
+function rbLogin(_i,_o){
+    rbLog = { downId: "", edit: "", msg: "", msgOk: false, busy: false, v: { lu: "", lp: "", su: "", sp: "" } };
+    global.rbLogOpen = true;
+}
+function rbLogEnd(){
+    if (!rbLog) return;
+    if (rbLog.edit !== "") { rbLog.v[rbLog.edit] = String(g_pBuiltIn.keyboard_string); }
+    if (rbLog.edit !== "") { g_pBuiltIn.keyboard_string = ""; keyboard_clear(13); try { if (yyGetBool(global.gmlmobile_device)) { keyboard_virtual_hide(); } } catch (_e) {} }
+    rbLog.edit = "";
+}
+function rbLogBegin(_f){
+    rbLogEnd();
+    rbLog.edit = _f;
+    g_pBuiltIn.keyboard_string = rbLog.v[_f];
+    g_pBuiltIn.keyboard_lastkey = (-1);
+    try { if (yyGetBool(global.gmlmobile_device)) { keyboard_virtual_show(0, 4, 1, false); } } catch (_e) {}
+}
+function rbLogClose(){
+    try { rbLogEnd(); } catch (_e) {}
+    rbLog = null; global.rbLogOpen = false; global.rbBjCool = 4;
+}
+function rbLogRects(){
+    var o = rbBjOff();
+    var bw = 71, bh = 32;
+    try { bw = sprite_get_width(126); bh = sprite_get_height(126); } catch (_e) {}
+    var w = 170, h = 24, xl = o.x + 40, xr = o.x + o.w - 40 - w;
+    return {
+        lsub: { cx: xl + w / 2, y: o.y + 60 },
+        lu: { x: xl, y: o.y + 76,  w: w, h: h },
+        lp: { x: xl, y: o.y + 112, w: w, h: h },
+        lbtn: { x: xl + Math.floor((w - bw) / 2), y: o.y + 150, w: bw, h: bh },
+        rsub: { cx: xr + w / 2, y: o.y + 60 },
+        su: { x: xr, y: o.y + 76,  w: w, h: h },
+        sp: { x: xr, y: o.y + 112, w: w, h: h },
+        rbtn: { x: xr + Math.floor((w - bw) / 2), y: o.y + 150, w: bw, h: bh }
+    };
+}
+function rbLogIn(_r, mx, my) { return mx >= _r.x && mx <= _r.x + _r.w && my >= _r.y && my <= _r.y + _r.h; }
+function rbLogStep(_i,_o){
+    var b = rbConBack(), R = rbLogRects();
+    var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0);
+    var hit = rbLogIn(b, mx, my) ? "back" : "", ids = ["lu", "lp", "su", "sp", "lbtn", "rbtn"];
+    for (var k = 0; k < ids.length; k++) { if (hit === "" && rbLogIn(R[ids[k]], mx, my)) { hit = ids[k]; } }
+    if (rbLog.edit !== "") {
+        var ks = String(g_pBuiltIn.keyboard_string);
+        if (ks.length > 24) { g_pBuiltIn.keyboard_string = ks.substring(0, 24); }
+        if (yyGetBool(keyboard_check_pressed(9))) { rbLogBegin({ lu: "lp", lp: "lu", su: "sp", sp: "su" }[rbLog.edit]); return; }
+        if (yyGetBool(keyboard_check_released(13)) || yyGetBool(keyboard_check_pressed(27))) { rbLogEnd(); return; }
+    }
+    if (yyGetBool(mouse_check_button_pressed(1))) { rbLog.downId = hit; }
+    if (yyGetBool(mouse_check_button_released(1))) {
+        var dn = rbLog.downId; rbLog.downId = "";
+        if (hit === "lu" || hit === "lp" || hit === "su" || hit === "sp") { if (dn === hit) { rbBjSound(_i,_o); rbLogBegin(hit); } return; }
+        if (rbLog.edit !== "") { rbLogEnd(); }
+        if (hit === "back" && dn === "back") { rbBjSound(_i,_o); rbLogClose(); return; }
+        if (hit === "lbtn" && dn === "lbtn") { rbBjSound(_i,_o); rbAcctSignIn(_i,_o); return; }
+        if (hit === "rbtn" && dn === "rbtn") { rbBjSound(_i,_o); rbAcctCreate(_i,_o); return; }
+    }
+    if (rbLog.edit === "" && yyGetBool(keyboard_check_pressed(27))) { rbBjSound(_i,_o); rbLogClose(); }
+}
+function rbLogBox(_i,_o,_r,_val,_hint,_mask,_editing){
+    draw_set_alpha(1);
+    draw_set_color(4210752); draw_rectangle(_r.x + 2, _r.y + 2, _r.x + _r.w + 2, _r.y + _r.h + 2, 0);
+    if (_editing) { var sc = gml_Script_s_ui_selected_color(_i,_o); draw_set_color(sc); draw_rectangle(_r.x - 2, _r.y - 2, _r.x + _r.w + 2, _r.y + _r.h + 2, 0); }
+    draw_set_color(16777215); draw_rectangle(_r.x, _r.y, _r.x + _r.w, _r.y + _r.h, 0);
+    draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
+    var shown = _mask ? new Array(_val.length + 1).join("*") : _val;
+    var ty = _r.y + Math.floor(_r.h / 2) - 1, tx = _r.x + 6;
+    if (shown.length === 0 && !_editing) { rbBjT(tx, ty, _hint, 0, 10526880, 1); }
+    else {
+        rbBjT(tx, ty, shown, 0, 0, 1);
+        if (_editing && (Math.floor(g_pBuiltIn.get_current_time() / 400) % 2 === 0)) {
+            var tw = gml_Script_string_hd_width(_i, _o, shown) * 0.5;
+            draw_set_color(0); draw_rectangle(tx + tw + 1, _r.y + 5, tx + tw + 2, _r.y + _r.h - 5, 0);
+        }
+    }
+}
+function rbLogDraw(_i,_o){
+    if (!rbLog) return;
+    try {
+        var o = rbBjOff(), R = rbLogRects();
+        draw_set_alpha(1); draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
+        draw_set_color(global.gmlc_background); draw_rectangle(0, 0, o.w, o.h, 0);
+        // header copied from the Options room title: big font, stars both sides
+        draw_set_font(global.gmlfnt_flex); draw_set_halign(1); draw_set_valign(1); draw_set_color(16777215);
+        var hTxt = "LOGIN";
+        var hX = o.w * 0.5;
+        var hY = 16;
+        var hW = gml_Script_string_hd_width(_i, _o, hTxt) * 0.5 + sprite_get_width(123) + 16;
+        gml_Script_draw_hd_text(_i, _o, hX, hY, hTxt);
+        draw_sprite_ext(_i, 123, 0, hX - hW, hY, 2, 2, 0, 16777215, 1);
+        draw_sprite_ext(_i, 123, 0, hX + hW - 2, hY, -2, 2, 0, 16777215, 1);
+        draw_set_valign(1);
+        var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0);
+        var down = yyGetBool(mouse_check_button(1));
+        // both columns: subheader, USERNAME / PASSWORD boxes, action button
+        var cols = [["lsub", "LOGIN", "lu", "lp", "lbtn", "SIGN IN"], ["rsub", "SIGN UP", "su", "sp", "rbtn", "CREATE"]];
+        for (var q = 0; q < cols.length; q++) {
+            var cd = cols[q];
+            draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
+            rbBjT(R[cd[0]].cx, R[cd[0]].y, cd[1], 1, 16777215, 2);
+            var e1 = rbLog.edit === cd[2], e2 = rbLog.edit === cd[3];
+            rbLogBox(_i, _o, R[cd[2]], e1 ? String(g_pBuiltIn.keyboard_string) : rbLog.v[cd[2]], "USERNAME", false, e1);
+            rbLogBox(_i, _o, R[cd[3]], e2 ? String(g_pBuiltIn.keyboard_string) : rbLog.v[cd[3]], "PASSWORD", true, e2);
+            var c = R[cd[4]];
+            var prS = rbLogIn(c, mx, my) && down && rbLog.downId === cd[4];
+            var tx = c.x + Math.floor(c.w / 2) + 1, ty = c.y + Math.floor(c.h / 2) - 1;
+            draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
+            if (!prS) {
+                draw_sprite(_i, 126, 0, c.x, c.y);
+                draw_sprite_ext(_i, 126, 2, c.x, c.y, 1, 1, 0, global.gmlc_background, 1);
+            } else {
+                draw_sprite(_i, 126, 1, c.x, c.y);
+                draw_sprite_ext(_i, 126, 2, c.x - 2, c.y + 2, 1, 1, 0, global.gmlc_background, 1);
+                tx -= 2; ty += 2;
+            }
+            rbBjT(tx, ty, cd[5], 1, 16777215, 1);
+        }
+        // status line + who is signed in
+        draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
+        if (rbLog.msg) { rbBjT(o.w * 0.5, o.y + 200, rbLog.msg, 1, rbLog.msgOk ? 5753701 : 6579455, 1); }
+        var who = ""; try { var ss = rbSbGet(); who = ss ? String(ss.name || "") : ""; } catch (_e) {}
+        if (who) { rbBjT(o.w * 0.5, o.y + 222, "SIGNED IN AS " + who.toUpperCase(), 1, 16777215, 1); }
+        // back arrow (bottom-left)
+        var b = rbConBack();
+        var pressed = rbLogIn(b, mx, my) && down && rbLog.downId === "back";
+        var bx = b.x, by = b.y;
+        var ix = b.x + Math.floor(b.w / 2) + 1, iy = b.y + Math.floor(b.h / 2) - 1;
+        if (!pressed) {
+            draw_sprite(_i, 129, 0, bx, by);
+            draw_sprite_ext(_i, 129, 2, bx, by, 1, 1, 0, global.gmlc_background, 1);
+        } else {
+            draw_sprite(_i, 129, 1, bx, by);
+            draw_sprite_ext(_i, 129, 2, bx - 2, by + 2, 1, 1, 0, global.gmlc_background, 1);
+            ix -= 2; iy += 2;
+        }
+        draw_sprite(_i, 142, 0, ix, iy);
+        draw_set_halign(0); draw_set_color(16777215); draw_set_alpha(1);
+    } catch (_e) {
+        try { console.error("login draw error", _e); } catch (_x) {}
+        rbLogClose();
+        draw_set_halign(0); draw_set_color(16777215); draw_set_alpha(1);
+    }
+}
 // ---- Console screen: blank screen with a "CONSOLE" header and a back arrow (bottom-left) ----
 var rbCon = null;
 function rbConsole(_i,_o){
@@ -8808,7 +9090,7 @@ function rbBjTotal(h) {
     return t;
 }
 function rbBjIsBJ(h) { return h.length === 2 && rbBjTotal(h) === 21; }
-function rbBjBlocking() { return global.rbBjOpen === true || global.rbConOpen === true || global.rbBjCool > 0; }
+function rbBjBlocking() { return global.rbBjOpen === true || global.rbConOpen === true || global.rbLogOpen === true || global.rbBjCool > 0; }
 function rbBjCredits(_i, _o) { var n = Number(yyInst(_i, _o, 97).gmlcoach_credit); return isFinite(n) ? n : 0; }
 function rbBjGive(_i, _o, n) { yyInst(_i, _o, 97).gmlcoach_credit = Math.min(2000000000, Math.max(0, rbBjCredits(_i, _o) + n)); }
 function rbBjSound(_i, _o) { try { if (yyGetBool(ds_map_find_value(yyInst(_i, _o, 97).gmlmap_options, "op_soundfx"))) { audio_play_sound(5, 1, false); } } catch (_e) {} }
@@ -8969,6 +9251,7 @@ function rbBjStep(_i, _o) {
 
 function rbBjTick(_i, _o) {
     if (global.rbBjCool > 0) { global.rbBjCool--; }
+    if (rbLog) { try { rbLogStep(_i, _o); } catch (_e) { try { console.error("login error", _e); } catch (_x) {} rbLogClose(); } return; }
     if (rbCon) { try { rbConStep(_i, _o); } catch (_e) { try { console.error("console error", _e); } catch (_x) {} rbConClose(); } return; }
     if (!rbBj) return;
     try { rbBjStep(_i, _o); }
@@ -9102,7 +9385,7 @@ function rbBjDraw(_i, _o) {
         draw_set_halign(0); draw_set_color(16777215); draw_set_alpha(1);
     }
 }
-function gml_Object_obj_master_Draw_75(_inst, _other) { rbGameLogRoom(_inst, _other); rbBjDraw(_inst, _other); rbConDraw(_inst, _other); }
+function gml_Object_obj_master_Draw_75(_inst, _other) { rbGameLogRoom(_inst, _other); rbBjDraw(_inst, _other); rbConDraw(_inst, _other); rbLogDraw(_inst, _other); }
 function gml_RoomCC_rm_options_0_PreCreate(_inst,_other){_inst.gmltext=gml_Script_s_str(_inst,_inst,"ui_Options");}function gml_RoomCC_rm_options_1_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_Options_Exit;_inst.gmlimage=159;_inst.gmlgp_mapped_hidden=global.gmlgp_back;}function gml_RoomCC_rm_options_2_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsDriveLeft;}function gml_RoomCC_rm_options_3_PreCreate(_inst,_other){_inst.gmldraw_box=false;
 _inst.gmlhalign=2;_inst.gmlfont=global.gmlfnt_small_flex;}function gml_RoomCC_rm_options_4_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsWeather;}function gml_RoomCC_rm_options_6_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsSoundFX;}function gml_RoomCC_rm_options_7_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsZoom;}function gml_RoomCC_rm_options_8_PreCreate(_inst,_other){_inst.gmltext=gml_Script_s_str(_inst,_inst,
 "ui_Credits");_inst.gmldraw_box=false;}function gml_RoomCC_rm_options_9_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsMatchLength;}function gml_RoomCC_rm_options_11_PreCreate(_inst,_other){_inst.gmlgoogle=true;}function gml_RoomCC_rm_options_12_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsTeamEditor;_inst.gmlimage=148;}function gml_RoomCC_rm_options_13_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsDifficulty;}
