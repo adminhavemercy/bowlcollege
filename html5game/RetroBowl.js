@@ -8839,8 +8839,48 @@ function rbLogBegin(_f){
 }
 function rbLogClose(){
     try { rbLogEnd(); } catch (_e) {}
+    try { if (rbLogInp) { rbLogInp.blur(); } } catch (_e) {}
     rbLog = null; global.rbLogOpen = false; global.rbBjCool = 4;
 }
+// ---- Touch keyboards (iPhone etc.): the game draws on a canvas, which can't open the on-screen keyboard by itself.
+// A real (invisible) <input> has to be focused inside the tap event itself, so we catch the tap natively, work out which box
+// was hit, focus the input, and copy what's typed into the game's keyboard_string. ----
+var rbLogInp = null;
+function rbLogInput() {
+    if (rbLogInp) return rbLogInp;
+    var el = document.createElement("input");
+    el.type = "text"; el.autocomplete = "off"; el.autocapitalize = "none"; el.autocorrect = "off"; el.spellcheck = false;
+    el.setAttribute("autocomplete", "off"); el.setAttribute("autocorrect", "off"); el.setAttribute("autocapitalize", "none");
+    el.style.cssText = "position:fixed;left:0;top:0;width:1px;height:1px;opacity:0.01;font-size:16px;border:0;padding:0;margin:0;background:transparent;color:transparent;pointer-events:none;";
+    el.addEventListener("input", function () {
+        if (!rbLog || !rbLog.edit) return;
+        var v = el.value; if (v.length > 24) { v = v.substring(0, 24); el.value = v; }
+        g_pBuiltIn.keyboard_string = v;
+    });
+    el.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); if (rbLog) { rbLogEnd(); } el.blur(); } });
+    el.addEventListener("blur", function () { if (rbLog && rbLog.edit) { rbLogEnd(); } });
+    document.body.appendChild(el);
+    rbLogInp = el;
+    return el;
+}
+(function () {
+    try {
+        document.addEventListener("touchend", function (e) {
+            if (!rbLog) return;
+            try {
+                var t = e.changedTouches && e.changedTouches[0]; if (!t) return;
+                var cv = document.querySelector("canvas"); if (!cv) return;
+                var r = cv.getBoundingClientRect(), o = rbBjOff();
+                var gx = (t.clientX - r.left) / r.width * o.w, gy = (t.clientY - r.top) / r.height * o.h;
+                var R = rbLogRects(), ids = ["lu", "lp", "su", "sp"], f = "";
+                for (var k = 0; k < ids.length; k++) { if (f === "" && rbLogIn(R[ids[k]], gx, gy)) { f = ids[k]; } }
+                var el = rbLogInput();
+                if (f) { rbLogBegin(f); el.value = rbLog.v[f]; el.focus(); }
+                else if (document.activeElement === el) { el.blur(); }
+            } catch (_e) {}
+        }, true);
+    } catch (_e) {}
+})();
 function rbLogRects(){
     var o = rbBjOff();
     var bw = 71, bh = 32;
