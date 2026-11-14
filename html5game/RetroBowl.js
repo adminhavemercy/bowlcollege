@@ -8842,29 +8842,23 @@ function rbLogClose(){
     rbKbRelease();
     rbLog = null; global.rbLogOpen = false; global.rbBjCool = 4;
 }
-// ---- Touch keyboards (iPhone etc.) for EVERY text box in the game ----
-// The game draws on a canvas, which can't open the on-screen keyboard by itself (its keyboard_virtual_* calls do nothing in a browser).
-// A real <input> must be focused inside the tap event itself. So we catch the tap natively, work out whether it landed on one of the
-// login boxes or one of the game's own obj_input_box text boxes, focus an invisible <input>, and copy what's typed into keyboard_string.
-// The game's window key handler cancels nearly every keydown (which would block typing into the input), so the input swallows its own key events.
-var rbKb = { el: null, mode: "", grace: 0 };
-function rbKbInput() {
-    if (rbKb.el) return rbKb.el;
-    var el = document.createElement("input");
-    el.type = "text"; el.autocomplete = "off"; el.autocapitalize = "none"; el.autocorrect = "off"; el.spellcheck = false;
-    el.setAttribute("autocomplete", "off"); el.setAttribute("autocorrect", "off"); el.setAttribute("autocapitalize", "none");
-    el.style.cssText = "position:fixed;left:0;top:0;width:1px;height:1px;opacity:0.01;font-size:16px;border:0;padding:0;margin:0;background:transparent;color:transparent;pointer-events:none;";
-    el.addEventListener("input", function () {
-        if (rbKb.mode === "") return;
-        var v = el.value; if (v.length > 24) { v = v.substring(0, 24); el.value = v; }
-        g_pBuiltIn.keyboard_string = v;
-    });
-    el.addEventListener("keydown", function (e) { e.stopPropagation(); if (e.key === "Enter") { e.preventDefault(); rbKbDone(); } });
-    el.addEventListener("keyup", function (e) { e.stopPropagation(); });
-    el.addEventListener("blur", function () { if (rbKb.mode !== "") { rbKbDone(); } });
-    document.body.appendChild(el);
-    rbKb.el = el;
-    return el;
+// ---- Touch keyboards (iPhone / Android / iPad) for EVERY text box in the game ----
+// The game draws on a canvas, which can't open the on-screen keyboard (its keyboard_virtual_* calls do nothing in a browser).
+// iOS only opens the keyboard when the user taps a REAL <input>, so on touch devices we float an invisible <input> exactly over every
+// text box (our login boxes and the game's own obj_input_box boxes). Tapping it opens the keyboard; typed text is copied into the game's
+// keyboard_string. The game's window key handler cancels nearly every keydown, so each input swallows its own key events.
+var rbKb = { pool: [], mode: "", grace: 0, touch: null };
+function rbKbIsTouch() {
+    if (rbKb.touch === null) {
+        var ua = ""; try { ua = navigator.userAgent || ""; } catch (_e) {}
+        rbKb.touch = /iPhone|iPad|iPod|Android/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    }
+    return rbKb.touch;
+}
+function rbKbCanvas() {
+    var best = null, ba = 0, cs = document.querySelectorAll("canvas");
+    for (var i = 0; i < cs.length; i++) { var r = cs[i].getBoundingClientRect(), ar = r.width * r.height; if (ar > ba) { ba = ar; best = cs[i]; } }
+    return best;
 }
 function rbKbFakeKey(type, code) {
     try {
@@ -8874,65 +8868,95 @@ function rbKbFakeKey(type, code) {
         window.dispatchEvent(ev);
     } catch (_e) {}
 }
-// finish typing (Return key / keyboard dismissed)
+function rbKbFocused() { for (var i = 0; i < rbKb.pool.length; i++) { if (document.activeElement === rbKb.pool[i]) { return rbKb.pool[i]; } } return null; }
+// finish typing (Return key / keyboard dismissed / box no longer being edited)
 function rbKbDone() {
     var m = rbKb.mode; rbKb.mode = "";
     try {
         if (m === "login") { if (rbLog) { rbLogEnd(); } }
-        else if (m === "game") {                       // tell the game's text box that Return was pressed
+        else if (m === "game") {                       // tell the game's text box that Return was pressed so it commits the text
             g_pBuiltIn.keyboard_lastchar = "\n"; g_pBuiltIn.keyboard_lastkey = 10;
             rbKbFakeKey("keydown", 13); setTimeout(function () { rbKbFakeKey("keyup", 13); }, 50);
         }
     } catch (_e) {}
-    try { if (rbKb.el) { rbKb.el.blur(); } } catch (_e) {}
+    try { var f = rbKbFocused(); if (f) { f.blur(); } } catch (_e) {}
 }
-function rbKbRelease() { rbKb.mode = ""; try { if (rbKb.el) { rbKb.el.blur(); } } catch (_e) {} }
+function rbKbRelease() { rbKb.mode = ""; try { var f = rbKbFocused(); if (f) { f.blur(); } } catch (_e) {} }
+function rbKbMake() {
+    var el = document.createElement("input");
+    el.type = "text"; el.autocomplete = "off"; el.autocapitalize = "none"; el.autocorrect = "off"; el.spellcheck = false;
+    el.setAttribute("autocomplete", "off"); el.setAttribute("autocorrect", "off"); el.setAttribute("autocapitalize", "none");
+    el.style.cssText = "display:none;position:fixed;margin:0;padding:0;border:0;outline:none;border-radius:0;background:transparent;color:transparent;caret-color:transparent;font-size:16px;z-index:2147483000;-webkit-appearance:none;";
+    el.addEventListener("focus", function () {
+        var it = el._it; if (!it) return;
+        if (it.kind === "login") {
+            if (rbLog) { rbLogBegin(it.id); rbKb.mode = "login"; rbKb.grace = 20; el.value = rbLog.v[it.id]; }
+        } else {
+            rbKb.mode = "game"; rbKb.grace = 30; el.value = "";
+            setTimeout(function () {                                   // let a previously edited box commit first
+                if (document.activeElement !== el || rbKb.mode !== "game") return;
+                var b = it.box;
+                if (!yyGetBool(b.gmlediting)) { b.gmlediting = true; try { rbBjSound(b, b); } catch (_e) {} }
+                g_pBuiltIn.keyboard_string = ""; g_pBuiltIn.keyboard_lastkey = (-1); el.value = "";
+            }, 120);
+        }
+    });
+    el.addEventListener("input", function () {
+        if (rbKb.mode === "") return;
+        var v = el.value; if (v.length > 24) { v = v.substring(0, 24); el.value = v; }
+        g_pBuiltIn.keyboard_string = v;
+    });
+    el.addEventListener("keydown", function (e) { e.stopPropagation(); if (e.key === "Enter") { e.preventDefault(); rbKbDone(); } });
+    el.addEventListener("keyup", function (e) { e.stopPropagation(); });
+    el.addEventListener("blur", function () { if (rbKb.mode !== "" && !rbKbFocused()) { rbKbDone(); } });
+    document.body.appendChild(el);
+    return el;
+}
 function rbKbBoxes() { var out = [], arr = GetWithArray(71); for (var k in arr) { if (arr.hasOwnProperty(k)) { out.push(arr[k]); } } return out; }
-function rbKbBoxAt(gx, gy) {
-    var boxes = rbKbBoxes(), msgs = [], hit = null, editing = null, k, b;
-    try { var m = GetWithArray(78); for (var q in m) { if (m.hasOwnProperty(q)) { msgs.push(m[q]); } } } catch (_e) {}
-    for (k = 0; k < boxes.length; k++) { if (yyGetBool(boxes[k].gmlediting)) { editing = boxes[k]; } }
-    for (k = 0; k < boxes.length; k++) {
-        b = boxes[k];
-        if (!yyGetBool(b.gmlactive)) { continue; }
-        if (yyGetBool(b.layer) && !yyGetBool(layer_get_visible(b.layer))) { continue; }
-        var blocked = false; for (var j = 0; j < msgs.length; j++) { if (msgs[j].depth < b.depth) { blocked = true; } }
-        if (blocked) { continue; }
-        if (gx >= b.x && gx <= b.x + b.sprite_width && gy >= b.y && gy <= b.y + b.sprite_height) { hit = b; }
-    }
-    return (hit && (!editing || editing === hit)) ? hit : null;
-}
-// per-frame: close the keyboard once the game's text box is no longer being edited
+// per frame: keep one invisible <input> over each text box that is currently usable
 function rbKbTick() {
-    if (rbKb.mode !== "game") return;
-    if (rbKb.grace > 0) { rbKb.grace--; return; }
-    var any = null, boxes = rbKbBoxes();
-    for (var k = 0; k < boxes.length; k++) { if (yyGetBool(boxes[k].gmlediting)) { any = boxes[k]; } }
-    if (!any) { rbKbRelease(); return; }
-    try { if (rbKb.el && rbKb.el.value.length > any.gmlmax_length) { rbKb.el.value = rbKb.el.value.substring(0, any.gmlmax_length); } } catch (_e) {}
+    if (!rbKbIsTouch()) return;
+    var cv = rbKbCanvas(), items = [], i, k;
+    if (cv) {
+        if (rbLog) {
+            var R = rbLogRects(), ids = ["lu", "lp", "su", "sp"];
+            for (k = 0; k < ids.length; k++) { items.push({ kind: "login", id: ids[k], x: R[ids[k]].x, y: R[ids[k]].y, w: R[ids[k]].w, h: R[ids[k]].h }); }
+        } else {
+            var boxes = rbKbBoxes(), msgs = [];
+            try { var m = GetWithArray(78); for (var q in m) { if (m.hasOwnProperty(q)) { msgs.push(m[q]); } } } catch (_e) {}
+            for (k = 0; k < boxes.length; k++) {
+                var b = boxes[k];
+                if (!yyGetBool(b.gmlactive) || !yyGetBool(b.visible)) { continue; }
+                if (yyGetBool(b.layer) && !yyGetBool(layer_get_visible(b.layer))) { continue; }
+                var blocked = false; for (var j = 0; j < msgs.length; j++) { if (msgs[j].depth < b.depth) { blocked = true; } }
+                if (blocked) { continue; }
+                items.push({ kind: "game", box: b, x: b.x, y: b.y, w: b.sprite_width, h: b.sprite_height });
+            }
+        }
+    }
+    var foc = rbKbFocused();
+    if (cv && items.length) {
+        var r = cv.getBoundingClientRect(), o = rbBjOff(), sx = r.width / o.w, sy = r.height / o.h;
+        for (i = 0; i < items.length; i++) {
+            while (rbKb.pool.length <= i) { rbKb.pool.push(rbKbMake()); }
+            var el = rbKb.pool[i], it = items[i];
+            if (foc === el && el._it && el._it.kind === it.kind && (it.kind === "login" ? el._it.id === it.id : el._it.box === it.box)) { /* keep */ }
+            el._it = it;
+            var st = el.style;
+            st.left = (r.left + it.x * sx) + "px"; st.top = (r.top + it.y * sy) + "px";
+            st.width = (it.w * sx) + "px"; st.height = (it.h * sy) + "px"; st.display = "block";
+        }
+    }
+    for (i = items.length; i < rbKb.pool.length; i++) { if (rbKb.pool[i] !== foc) { rbKb.pool[i].style.display = "none"; } }
+    // close the keyboard once nothing is being edited any more
+    if (rbKb.mode !== "") {
+        if (rbKb.grace > 0) { rbKb.grace--; return; }
+        var active = false;
+        if (rbKb.mode === "login") { active = !!(rbLog && rbLog.edit !== ""); }
+        else { var bx = rbKbBoxes(); for (k = 0; k < bx.length; k++) { if (yyGetBool(bx[k].gmlediting)) { active = true; try { if (foc && foc.value.length > bx[k].gmlmax_length) { foc.value = foc.value.substring(0, bx[k].gmlmax_length); } } catch (_e) {} } } }
+        if (!active) { rbKbRelease(); }
+    }
 }
-(function () {
-    try {
-        document.addEventListener("touchend", function (e) {
-            try {
-                var t = e.changedTouches && e.changedTouches[0]; if (!t) return;
-                var cv = document.querySelector("canvas"); if (!cv) return;
-                var r = cv.getBoundingClientRect(), o = rbBjOff();
-                var gx = (t.clientX - r.left) / r.width * o.w, gy = (t.clientY - r.top) / r.height * o.h;
-                var el = rbKbInput();
-                if (rbLog) {                                                   // our LOGIN / SIGN UP boxes
-                    var R = rbLogRects(), ids = ["lu", "lp", "su", "sp"], f = "";
-                    for (var k = 0; k < ids.length; k++) { if (f === "" && rbLogIn(R[ids[k]], gx, gy)) { f = ids[k]; } }
-                    if (f) { rbLogBegin(f); rbKb.mode = "login"; el.value = rbLog.v[f]; el.focus(); }
-                    else if (rbKb.mode !== "") { rbKbRelease(); }
-                    return;
-                }
-                var box = rbKbBoxAt(gx, gy);                                   // the game's own text boxes
-                if (box) { rbKb.mode = "game"; rbKb.grace = 8; el.value = ""; el.focus(); }
-            } catch (_e) {}
-        }, true);
-    } catch (_e) {}
-})();
 function rbLogRects(){
     var o = rbBjOff();
     var bw = 71, bh = 32;
