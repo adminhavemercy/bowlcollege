@@ -8839,44 +8839,96 @@ function rbLogBegin(_f){
 }
 function rbLogClose(){
     try { rbLogEnd(); } catch (_e) {}
-    try { if (rbLogInp) { rbLogInp.blur(); } } catch (_e) {}
+    rbKbRelease();
     rbLog = null; global.rbLogOpen = false; global.rbBjCool = 4;
 }
-// ---- Touch keyboards (iPhone etc.): the game draws on a canvas, which can't open the on-screen keyboard by itself.
-// A real (invisible) <input> has to be focused inside the tap event itself, so we catch the tap natively, work out which box
-// was hit, focus the input, and copy what's typed into the game's keyboard_string. ----
-var rbLogInp = null;
-function rbLogInput() {
-    if (rbLogInp) return rbLogInp;
+// ---- Touch keyboards (iPhone etc.) for EVERY text box in the game ----
+// The game draws on a canvas, which can't open the on-screen keyboard by itself (its keyboard_virtual_* calls do nothing in a browser).
+// A real <input> must be focused inside the tap event itself. So we catch the tap natively, work out whether it landed on one of the
+// login boxes or one of the game's own obj_input_box text boxes, focus an invisible <input>, and copy what's typed into keyboard_string.
+// The game's window key handler cancels nearly every keydown (which would block typing into the input), so the input swallows its own key events.
+var rbKb = { el: null, mode: "", grace: 0 };
+function rbKbInput() {
+    if (rbKb.el) return rbKb.el;
     var el = document.createElement("input");
     el.type = "text"; el.autocomplete = "off"; el.autocapitalize = "none"; el.autocorrect = "off"; el.spellcheck = false;
     el.setAttribute("autocomplete", "off"); el.setAttribute("autocorrect", "off"); el.setAttribute("autocapitalize", "none");
     el.style.cssText = "position:fixed;left:0;top:0;width:1px;height:1px;opacity:0.01;font-size:16px;border:0;padding:0;margin:0;background:transparent;color:transparent;pointer-events:none;";
     el.addEventListener("input", function () {
-        if (!rbLog || !rbLog.edit) return;
+        if (rbKb.mode === "") return;
         var v = el.value; if (v.length > 24) { v = v.substring(0, 24); el.value = v; }
         g_pBuiltIn.keyboard_string = v;
     });
-    el.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); if (rbLog) { rbLogEnd(); } el.blur(); } });
-    el.addEventListener("blur", function () { if (rbLog && rbLog.edit) { rbLogEnd(); } });
+    el.addEventListener("keydown", function (e) { e.stopPropagation(); if (e.key === "Enter") { e.preventDefault(); rbKbDone(); } });
+    el.addEventListener("keyup", function (e) { e.stopPropagation(); });
+    el.addEventListener("blur", function () { if (rbKb.mode !== "") { rbKbDone(); } });
     document.body.appendChild(el);
-    rbLogInp = el;
+    rbKb.el = el;
     return el;
+}
+function rbKbFakeKey(type, code) {
+    try {
+        var ev = new KeyboardEvent(type, { bubbles: true, cancelable: true, key: "Enter", code: "Enter" });
+        Object.defineProperty(ev, "which", { get: function () { return code; } });
+        Object.defineProperty(ev, "keyCode", { get: function () { return code; } });
+        window.dispatchEvent(ev);
+    } catch (_e) {}
+}
+// finish typing (Return key / keyboard dismissed)
+function rbKbDone() {
+    var m = rbKb.mode; rbKb.mode = "";
+    try {
+        if (m === "login") { if (rbLog) { rbLogEnd(); } }
+        else if (m === "game") {                       // tell the game's text box that Return was pressed
+            g_pBuiltIn.keyboard_lastchar = "\n"; g_pBuiltIn.keyboard_lastkey = 10;
+            rbKbFakeKey("keydown", 13); setTimeout(function () { rbKbFakeKey("keyup", 13); }, 50);
+        }
+    } catch (_e) {}
+    try { if (rbKb.el) { rbKb.el.blur(); } } catch (_e) {}
+}
+function rbKbRelease() { rbKb.mode = ""; try { if (rbKb.el) { rbKb.el.blur(); } } catch (_e) {} }
+function rbKbBoxes() { var out = [], arr = GetWithArray(71); for (var k in arr) { if (arr.hasOwnProperty(k)) { out.push(arr[k]); } } return out; }
+function rbKbBoxAt(gx, gy) {
+    var boxes = rbKbBoxes(), msgs = [], hit = null, editing = null, k, b;
+    try { var m = GetWithArray(78); for (var q in m) { if (m.hasOwnProperty(q)) { msgs.push(m[q]); } } } catch (_e) {}
+    for (k = 0; k < boxes.length; k++) { if (yyGetBool(boxes[k].gmlediting)) { editing = boxes[k]; } }
+    for (k = 0; k < boxes.length; k++) {
+        b = boxes[k];
+        if (!yyGetBool(b.gmlactive)) { continue; }
+        if (yyGetBool(b.layer) && !yyGetBool(layer_get_visible(b.layer))) { continue; }
+        var blocked = false; for (var j = 0; j < msgs.length; j++) { if (msgs[j].depth < b.depth) { blocked = true; } }
+        if (blocked) { continue; }
+        if (gx >= b.x && gx <= b.x + b.sprite_width && gy >= b.y && gy <= b.y + b.sprite_height) { hit = b; }
+    }
+    return (hit && (!editing || editing === hit)) ? hit : null;
+}
+// per-frame: close the keyboard once the game's text box is no longer being edited
+function rbKbTick() {
+    if (rbKb.mode !== "game") return;
+    if (rbKb.grace > 0) { rbKb.grace--; return; }
+    var any = null, boxes = rbKbBoxes();
+    for (var k = 0; k < boxes.length; k++) { if (yyGetBool(boxes[k].gmlediting)) { any = boxes[k]; } }
+    if (!any) { rbKbRelease(); return; }
+    try { if (rbKb.el && rbKb.el.value.length > any.gmlmax_length) { rbKb.el.value = rbKb.el.value.substring(0, any.gmlmax_length); } } catch (_e) {}
 }
 (function () {
     try {
         document.addEventListener("touchend", function (e) {
-            if (!rbLog) return;
             try {
                 var t = e.changedTouches && e.changedTouches[0]; if (!t) return;
                 var cv = document.querySelector("canvas"); if (!cv) return;
                 var r = cv.getBoundingClientRect(), o = rbBjOff();
                 var gx = (t.clientX - r.left) / r.width * o.w, gy = (t.clientY - r.top) / r.height * o.h;
-                var R = rbLogRects(), ids = ["lu", "lp", "su", "sp"], f = "";
-                for (var k = 0; k < ids.length; k++) { if (f === "" && rbLogIn(R[ids[k]], gx, gy)) { f = ids[k]; } }
-                var el = rbLogInput();
-                if (f) { rbLogBegin(f); el.value = rbLog.v[f]; el.focus(); }
-                else if (document.activeElement === el) { el.blur(); }
+                var el = rbKbInput();
+                if (rbLog) {                                                   // our LOGIN / SIGN UP boxes
+                    var R = rbLogRects(), ids = ["lu", "lp", "su", "sp"], f = "";
+                    for (var k = 0; k < ids.length; k++) { if (f === "" && rbLogIn(R[ids[k]], gx, gy)) { f = ids[k]; } }
+                    if (f) { rbLogBegin(f); rbKb.mode = "login"; el.value = rbLog.v[f]; el.focus(); }
+                    else if (rbKb.mode !== "") { rbKbRelease(); }
+                    return;
+                }
+                var box = rbKbBoxAt(gx, gy);                                   // the game's own text boxes
+                if (box) { rbKb.mode = "game"; rbKb.grace = 8; el.value = ""; el.focus(); }
             } catch (_e) {}
         }, true);
     } catch (_e) {}
@@ -9290,6 +9342,7 @@ function rbBjStep(_i, _o) {
 }
 
 function rbBjTick(_i, _o) {
+    try { rbKbTick(); } catch (_e) {}
     if (global.rbBjCool > 0) { global.rbBjCool--; }
     if (rbLog) { try { rbLogStep(_i, _o); } catch (_e) { try { console.error("login error", _e); } catch (_x) {} rbLogClose(); } return; }
     if (rbCon) { try { rbConStep(_i, _o); } catch (_e) { try { console.error("console error", _e); } catch (_x) {} rbConClose(); } return; }
