@@ -2345,9 +2345,9 @@ colour:4294967295},{x:312,y:134,index:49,id:100174,pPreCreateCode:gml_RoomCC_rm_
 imageSpeed:1,imageIndex:0,colour:4294967295},{x:304,y:40,index:66,id:100171,pPreCreateCode:gml_RoomCC_rm_frontoffice_15_PreCreate,rotation:0,scaleX:1,scaleY:1.3984375,imageSpeed:1,imageIndex:0,colour:4294967295},{x:16,y:40,index:88,id:100176,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:412,y:248,index:74,id:100178,pPreCreateCode:gml_RoomCC_rm_frontoffice_17_PreCreate,rotation:0,scaleX:1.1666666269302368,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:448,
 y:240,index:52,id:100179,pPreCreateCode:gml_RoomCC_rm_frontoffice_18_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:376,y:232,index:66,id:100177,pPreCreateCode:gml_RoomCC_rm_frontoffice_19_PreCreate,rotation:0,scaleX:0.6000000238418579,scaleY:0.25,imageSpeed:1,imageIndex:0,colour:4294967295},{x:240,y:-256,index:72,id:100180,pPreCreateCode:gml_RoomCC_rm_frontoffice_20_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:232,
 y:40,index:65,id:100181,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:280,y:232,index:34,id:100182,pPreCreateCode:gml_RoomCC_rm_frontoffice_22_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:184,y:232,index:34,id:100183,pPreCreateCode:gml_RoomCC_rm_frontoffice_23_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:48,y:232,index:44,id:100184,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,
-colour:4294967295},{x:32,y:16,index:75,id:100185,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:88,y:232,index:34,id:100186,pCode:gml_RoomCC_rm_frontoffice_26_Create,pPreCreateCode:gml_RoomCC_rm_frontoffice_26_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:351,y:50,index:49,id:100187,pPreCreateCode:gml_RoomCC_rm_frontoffice_27_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:-16,y:-24,index:133,
-id:100167,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295}],tiles:[],layers:[{pName:"PopUps",id:31,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:0,iinstIDs:[]},{pName:"Instances",id:32,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:29,iinstIDs:[100159,100160,100161,100162,100163,100164,100165,100166,100167,100168,100169,100170,100171,100172,100173,
-100174,100175,100176,100177,100178,100179,100180,100181,100182,100183,100184,100185,100186,100187]},{pName:"Background",id:33,type:1,depth:200,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],bvisible:true,bforeground:false,bindex:-1,bhtiled:false,bvtiled:false,bstretch:false,bblend:-499648,bimage_index:0,bimage_speed:15}]},{pName:"rm_halloffame",width:480,height:270,speed:0,colour:0,LayerCount:3,showColour:false,enableViews:true,viewClearScreen:false,pCode:gml_Room_rm_halloffame_Create,
+colour:4294967295},{x:32,y:16,index:75,id:100185,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:88,y:232,index:34,id:100186,pCode:gml_RoomCC_rm_frontoffice_26_Create,pPreCreateCode:gml_RoomCC_rm_frontoffice_26_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:351,y:50,index:49,id:100187,pPreCreateCode:gml_RoomCC_rm_frontoffice_27_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:48,y:232,index:36,id:109020,pPreCreateCode:gml_RoomCC_rm_frontoffice_28_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:-16,y:-24,index:133,
+id:100167,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295}],tiles:[],layers:[{pName:"PopUps",id:31,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:0,iinstIDs:[]},{pName:"Instances",id:32,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:30,iinstIDs:[100159,100160,100161,100162,100163,100164,100165,100166,100167,100168,100169,100170,100171,100172,100173,
+100174,100175,100176,100177,100178,100179,100180,100181,100182,100183,100184,100185,100186,100187,109020]},{pName:"Background",id:33,type:1,depth:200,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],bvisible:true,bforeground:false,bindex:-1,bhtiled:false,bvtiled:false,bstretch:false,bblend:-499648,bimage_index:0,bimage_speed:15}]},{pName:"rm_halloffame",width:480,height:270,speed:0,colour:0,LayerCount:3,showColour:false,enableViews:true,viewClearScreen:false,pCode:gml_Room_rm_halloffame_Create,
 backgrounds:[],views:[{visible:true,wview:480,hview:270,wport:480,hport:270},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768},{wview:1024,hview:768,wport:1024,hport:768}],pInstances:[{x:232,y:8,index:70,id:100188,pPreCreateCode:gml_RoomCC_rm_halloffame_0_PreCreate,rotation:0,scaleX:1,
 scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:8,y:232,index:36,id:100189,pPreCreateCode:gml_RoomCC_rm_halloffame_1_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:112,y:40,index:90,id:100190,pPreCreateCode:gml_RoomCC_rm_halloffame_2_PreCreate,rotation:0,scaleX:1.5999999046325684,scaleY:1.149999976158142,imageSpeed:1,imageIndex:0,colour:4294967295},{x:384,y:232,index:34,id:100191,pCode:gml_RoomCC_rm_halloffame_3_Create,pPreCreateCode:gml_RoomCC_rm_halloffame_3_PreCreate,
 rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:192,y:232,index:34,id:100192,pPreCreateCode:gml_RoomCC_rm_halloffame_4_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295},{x:512,y:-112,index:94,id:100193,pPreCreateCode:gml_RoomCC_rm_halloffame_5_PreCreate,rotation:0,scaleX:1.2999999523162842,scaleY:0.550000011920929,imageSpeed:1,imageIndex:0,colour:4294967295},{x:512,y:-208,index:93,id:100194,pPreCreateCode:gml_RoomCC_rm_halloffame_6_PreCreate,
@@ -3817,7 +3817,7 @@ _other,97).gmldraft_page.add(1):++yyInst(_inst,_other,97).gmldraft_page),g_yyPre
 if(yyGetBool(gml_Script_s_is_co_mode(_inst,_other))){{gml_Script_s_college_admissions_draft_done(_inst,_other);return;};};var gmlpicks=yyInst(_inst,_other,97).gmldraft_picks[__yy_gml_array_check_index(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,97).gmldraft_round),1),yyInst(_inst,_other,97).gmldraft_picks)];gml_Script_slog(_inst,_other,yyfplus("Picks = ",__yy_gml_errCheck(string(gmlpicks))));if(yyfgreater(gmlpicks,0)){{var gmlvalue=yyftime(__yy_gml_errCheck(gmlpicks),__yy_gml_errCheck(yyfminus(4,
 __yy_gml_errCheck(yyInst(_inst,_other,97).gmldraft_round))));var gmlmsg=gml_Script_s_str(_inst,_other,"msg_SkipDraft");if(yyfequal(gmlpicks,1)){gmlmsg=gml_Script_s_str(_inst,_other,"msg_SkipDraft1");};gmlmsg=string_replace(gmlmsg,"$num",string(gmlpicks));gmlmsg=string_replace(gmlmsg,"$value",string(gmlvalue));gml_Script_s_create_message(_inst,_other,"",gmlmsg,gml_Script_s_str(_inst,_other,"ui_No"),gml_Script_s_str(_inst,_other,"ui_Yes"),kgml_Script_s_msg_clear,kgml_Script_btn_response_skip_draft_yes,
 global.gmlc_background,1);};}else {{gml_Script_s_end_draft_round(_inst,_other,false);};};}}function gml_GlobalScript_btn_click_FreeAgents(_inst,_other){(_inst.gmlbtn_click_FreeAgents=__yy_method(_inst,gml_Script_btn_click_FreeAgents));}function gml_Script_btn_click_FreeAgents(_inst,_other){{room_goto(7);}}function gml_GlobalScript_btn_click_FreeAgentsBack(_inst,_other){(_inst.gmlbtn_click_FreeAgentsBack=__yy_method(_inst,gml_Script_btn_click_FreeAgentsBack));}function gml_Script_btn_click_FreeAgentsBack(_inst,
-_other){{gml_Script_slog(_inst,_other,"btn_click_FreeAgentBack");{var __yy__v480=GetWithArray(97);for(var __yy__v481 in __yy__v480){if(!__yy__v480.hasOwnProperty(__yy__v481))continue;var __yy__v482=__yy__v480[__yy__v481];{gml_Script_slog(__yy__v482,_inst,yyfplus("FreeAgents=",__yy_gml_errCheck(string(ds_list_size(__yy__v482.gmlfreeagentlist)))));gml_Script_slog(__yy__v482,_inst,yyfplus("TradeList=",__yy_gml_errCheck(string(ds_list_size(__yy__v482.gmltradelist)))));if(yyfgreater(ds_list_size(__yy__v482.gmlfreeagentlist),
+_other){{if(global.gmlfa_sel){global.gmlfa_sel=null;gml_Script_s_update_freeagents_page(_inst,_other);return;}gml_Script_slog(_inst,_other,"btn_click_FreeAgentBack");{var __yy__v480=GetWithArray(97);for(var __yy__v481 in __yy__v480){if(!__yy__v480.hasOwnProperty(__yy__v481))continue;var __yy__v482=__yy__v480[__yy__v481];{gml_Script_slog(__yy__v482,_inst,yyfplus("FreeAgents=",__yy_gml_errCheck(string(ds_list_size(__yy__v482.gmlfreeagentlist)))));gml_Script_slog(__yy__v482,_inst,yyfplus("TradeList=",__yy_gml_errCheck(string(ds_list_size(__yy__v482.gmltradelist)))));if(yyfgreater(ds_list_size(__yy__v482.gmlfreeagentlist),
 0)){{var gmlmsg=gml_Script_s_str(__yy__v482,_inst,"msg_ClearFreeAgent");if(yyfgreater(ds_list_size(__yy__v482.gmlfreeagentlist),1)){gmlmsg=gml_Script_s_str(__yy__v482,_inst,"msg_ClearFreeAgents");};gml_Script_s_create_message(__yy__v482,_inst,"",gmlmsg,gml_Script_s_str(__yy__v482,_inst,"ui_No"),gml_Script_s_str(__yy__v482,_inst,"ui_Yes"),kgml_Script_s_msg_clear,kgml_Script_btn_response_clearfreeagents,global.gmlc_background,1);return;};}else {if(yyfgreater(ds_list_size(__yy__v482.gmltradelist),0)){
 {var gmlmsg=gml_Script_s_str(__yy__v482,_inst,"msg_ClearTradeOffer");gml_Script_s_create_message(__yy__v482,_inst,"",gmlmsg,gml_Script_s_str(__yy__v482,_inst,"ui_No"),gml_Script_s_str(__yy__v482,_inst,"ui_Yes"),kgml_Script_s_msg_clear,kgml_Script_btn_response_clearfreeagents,global.gmlc_background,1);return;};};};}}};room_goto(14);}}function gml_GlobalScript_btn_click_RestAll(_inst,_other){(_inst.gmlbtn_click_RestAll=__yy_method(_inst,gml_Script_btn_click_RestAll));}function gml_Script_btn_click_RestAll(_inst,
 _other){{gml_Script_s_rest_all_players(_inst,_other,!yyGetBool(gml_Script_s_all_players_resting(_inst,_other)));room_goto(34);}}function gml_GlobalScript_btn_click_FreeAgentsNext(_inst,_other){(_inst.gmlbtn_click_FreeAgentsNext=__yy_method(_inst,gml_Script_btn_click_FreeAgentsNext));}function gml_Script_btn_click_FreeAgentsNext(_inst,_other){{yyInst(_inst,_other,97).gmlfa_page=2;room_goto(8);}}function gml_GlobalScript_btn_click_FreeAgentsPrev(_inst,_other){(_inst.gmlbtn_click_FreeAgentsPrev=__yy_method(_inst,
@@ -3914,9 +3914,9 @@ var __yy__v560=__yy__v558[__yy__v559];{ds_map_set(__yy__v560.gmlmap_options,"exh
 _other);{var __yy__v561=GetWithArray(97);for(var __yy__v562 in __yy__v561){if(!__yy__v561.hasOwnProperty(__yy__v562))continue;var __yy__v563=__yy__v561[__yy__v562];{var gmlpick=ds_map_find_value(__yy__v563.gmlplayer_profile,"intrade_pick");var gmlfrom_team_id=ds_map_find_value(__yy__v563.gmlplayer_profile,"teamid");__yy__v563.gmldraft_picks=__yy_gml_array_check(__yy__v563.gmldraft_picks,1864205518);(g_yyPrePostObject__=__yy__v563.gmldraft_picks[__yy_gml_array_check_index_set(yyfminus(__yy_gml_errCheck(gmlpick),
 1))],__yy__v563.gmldraft_picks[__yy_gml_array_check_index_set(yyfminus(__yy_gml_errCheck(gmlpick),1))]=(g_yyPrePostObject__ instanceof Long?__yy__v563.gmldraft_picks[__yy_gml_array_check_index_set(yyfminus(__yy_gml_errCheck(gmlpick),1))].subtract(1):--__yy__v563.gmldraft_picks[__yy_gml_array_check_index_set(yyfminus(__yy_gml_errCheck(gmlpick),1))]),g_yyPrePostObject__);ds_map_set(__yy__v563.gmlplayer_profile,"signed_year",yyInst(_inst,_other,97).gmlyear);ds_map_set(__yy__v563.gmlplayer_profile,"teamid",
 yyInst(_inst,_other,97).gmlmyteam_id);ds_map_set(__yy__v563.gmlplayer_profile,"intrade_pick",0);ds_map_set(__yy__v563.gmlplayer_profile,"flash_time",g_pBuiltIn.get_current_time());var gmlmsg=gml_Script_s_str(__yy__v563,_inst,"news_SignTrade");gmlmsg=gml_Script_s_parse_player_message(__yy__v563,_inst,gmlmsg,__yy__v563.gmlplayer_profile);gmlmsg=string_replace(gmlmsg,"$otherteamname",gml_Script_s_get_team_name_by_id(__yy__v563,_inst,gmlfrom_team_id));gml_Script_s_add_news(__yy__v563,_inst,gmlmsg);gml_Script_s_complete_achievement(__yy__v563,
-_inst,"ACH_TRADEIN");ds_list_add(__yy__v563.gmlroster,__yy__v563.gmlplayer_profile);ds_list_delete(__yy__v563.gmltradelist,ds_list_find_index(__yy__v563.gmltradelist,__yy__v563.gmlplayer_profile));gml_Script_s_savegame(__yy__v563,_inst);room_goto(25);}}};}}function gml_GlobalScript_btn_response_out_trade_player_yes(_inst,_other){(_inst.gmlbtn_response_out_trade_player_yes=__yy_method(_inst,gml_Script_btn_response_out_trade_player_yes));}function gml_Script_btn_response_out_trade_player_yes(_inst,_other){
+_inst,"ACH_TRADEIN");rbFalTradeTaken(__yy__v563,_inst,__yy__v563.gmlplayer_profile);ds_list_add(__yy__v563.gmlroster,__yy__v563.gmlplayer_profile);ds_list_delete(__yy__v563.gmltradelist,ds_list_find_index(__yy__v563.gmltradelist,__yy__v563.gmlplayer_profile));gml_Script_s_savegame(__yy__v563,_inst);room_goto(25);}}};}}function gml_GlobalScript_btn_response_out_trade_player_yes(_inst,_other){(_inst.gmlbtn_response_out_trade_player_yes=__yy_method(_inst,gml_Script_btn_response_out_trade_player_yes));}function gml_Script_btn_response_out_trade_player_yes(_inst,_other){
 {gml_Script_s_msg_clear(_inst,_other);{var __yy__v564=GetWithArray(97);for(var __yy__v565 in __yy__v564){if(!__yy__v564.hasOwnProperty(__yy__v565))continue;var __yy__v566=__yy__v564[__yy__v565];{array_set_post(__yy__v566.gmldraft_picks,yyfminus(__yy_gml_errCheck(ds_map_find_value(__yy__v566.gmlplayer_profile,"outtrade_pick")),1),yyfplus(__yy_gml_errCheck(array_get(__yy__v566.gmldraft_picks,yyfminus(__yy_gml_errCheck(ds_map_find_value(__yy__v566.gmlplayer_profile,"outtrade_pick")),1))),1));ds_map_set(__yy__v566.gmlplayer_profile,
-"outtrade_pick",0);var gmlorig_fans=__yy__v566.gmlfans;if(yyfequal(ds_map_find_value(__yy__v566.gmlplayer_profile,"signed_year"),__yy__v566.gmlyear)){{gml_Script_s_adjust_team_morale(__yy__v566,_inst,(-15),(-10));__yy__v566.gmlfans=clamp(yyftime(__yy_gml_errCheck(__yy__v566.gmlfans),0.85),1,100);};};var gmldel=gml_Script_s_remove_player(__yy__v566,_inst,__yy__v566.gmlplayer_profile,"trade");if(yyGetBool(gmldel)){{__yy__v566.gmlplayer_profile=(-1);};};gml_Script_s_complete_achievement(__yy__v566,_inst,
+"outtrade_pick",0);var gmlorig_fans=__yy__v566.gmlfans;if(yyfequal(ds_map_find_value(__yy__v566.gmlplayer_profile,"signed_year"),__yy__v566.gmlyear)){{gml_Script_s_adjust_team_morale(__yy__v566,_inst,(-15),(-10));__yy__v566.gmlfans=clamp(yyftime(__yy_gml_errCheck(__yy__v566.gmlfans),0.85),1,100);};};rbFalTradeGiven(__yy__v566,_inst,__yy__v566.gmlplayer_profile);var gmldel=gml_Script_s_remove_player(__yy__v566,_inst,__yy__v566.gmlplayer_profile,"trade");if(yyGetBool(gmldel)){{__yy__v566.gmlplayer_profile=(-1);};};gml_Script_s_complete_achievement(__yy__v566,_inst,
 "ACH_TRADEOUT");gml_Script_s_savegame(__yy__v566,_inst);if(yyfless(__yy__v566.gmlfans,yyfminus(__yy_gml_errCheck(gmlorig_fans),2))){gml_Script_s_meter_change(__yy__v566,_inst,1,gmlorig_fans,25,"");}else {room_goto(25);};}}};}}function gml_GlobalScript_btn_response_out_trade_player_no(_inst,_other){(_inst.gmlbtn_response_out_trade_player_no=__yy_method(_inst,gml_Script_btn_response_out_trade_player_no));}function gml_Script_btn_response_out_trade_player_no(_inst,_other){{gml_Script_s_msg_clear(_inst,
 _other);room_goto(22);}}function gml_GlobalScript_btn_response_player_meeting_morale_yes(_inst,_other){(_inst.gmlbtn_response_player_meeting_morale_yes=__yy_method(_inst,gml_Script_btn_response_player_meeting_morale_yes));}function gml_Script_btn_response_player_meeting_morale_yes(_inst,_other){{gml_Script_s_msg_clear(_inst,_other);{var __yy__v567=GetWithArray(97);for(var __yy__v568 in __yy__v567){if(!__yy__v567.hasOwnProperty(__yy__v568))continue;var __yy__v569=__yy__v567[__yy__v568];{var gmlmeetcost=gml_Script_s_get_meeting_cost_morale(__yy__v569,
 _inst,__yy__v569.gmlplayer_profile);var gmlpatt=ds_map_find_value(__yy__v569.gmlplayer_profile,"attitude");var gmlold_amount=gmlpatt;__yy__v569.gmlcoach_credit=yyfminus(__yy__v569.gmlcoach_credit,gmlmeetcost);if(yyfless(__yy__v569.gmlcoach_credit,0)){__yy__v569.gmlcoach_credit=0;};ds_map_set(__yy__v569.gmlmap_options,"op_credits_purchased",max(yyfminus(__yy_gml_errCheck(ds_map_find_value(__yy__v569.gmlmap_options,"op_credits_purchased")),__yy_gml_errCheck(gmlmeetcost)),0));gmlpatt=clamp(yyfplus(__yy_gml_errCheck(gmlpatt),
@@ -3962,12 +3962,12 @@ _other);gml_Script_s_clear_freeagents(_inst,_other);room_goto(14);}}function gml
 true);if(yyfless(ds_map_find_value(__yy__v602.gmlplayer_profile,"condition"),40)){ds_map_set(__yy__v602.gmlplayer_profile,"attitude",clamp(yyfplus(__yy_gml_errCheck(ds_map_find_value(__yy__v602.gmlplayer_profile,"attitude")),15),1,100));};}}};room_goto(22);}}function gml_GlobalScript_btn_response_cointoss_kick(_inst,_other){(_inst.gmlbtn_response_cointoss_kick=__yy_method(_inst,gml_Script_btn_response_cointoss_kick));}function gml_Script_btn_response_cointoss_kick(_inst,_other){{yyInst(_inst,_other,
 104).gmlpossession=yyInst(_inst,_other,104).gmlhuman_team;yyInst(_inst,_other,104).gmlcomm_stage=0;gml_Script_s_msg_clear(_inst,_other);}}function gml_GlobalScript_btn_response_cointoss_receive(_inst,_other){(_inst.gmlbtn_response_cointoss_receive=__yy_method(_inst,gml_Script_btn_response_cointoss_receive));}function gml_Script_btn_response_cointoss_receive(_inst,_other){{yyInst(_inst,_other,104).gmlpossession=!yyGetBool(yyInst(_inst,_other,104).gmlhuman_team);yyInst(_inst,_other,104).gmlcomm_stage=0;
 gml_Script_s_msg_clear(_inst,_other);}}function gml_GlobalScript_btn_response_skip_tutorial(_inst,_other){(_inst.gmlbtn_response_skip_tutorial=__yy_method(_inst,gml_Script_btn_response_skip_tutorial));}function gml_Script_btn_response_skip_tutorial(_inst,_other){{gml_Script_slog(_inst,_other,"btn_skip_tutorial");gml_Script_s_msg_clear(_inst,_other);yyInst(_inst,_other,97).gmlintro=0;room_goto(14);}}function gml_GlobalScript_btn_response_confirm_new_team(_inst,_other){(_inst.gmlbtn_response_confirm_new_team=__yy_method(_inst,
-gml_Script_btn_response_confirm_new_team));}function gml_Script_btn_response_confirm_new_team(_inst,_other){{{var __yy__v603=GetWithArray(97);for(var __yy__v604 in __yy__v603){if(!__yy__v603.hasOwnProperty(__yy__v604))continue;var __yy__v605=__yy__v603[__yy__v604];{var gmloldteamname=ds_map_find_value(__yy__v605.gmlmyteam,"name");ds_map_set(__yy__v605.gmlmyteam,"defense",gml_Script_s_get_team_defense(__yy__v605,_inst,__yy__v605.gmlmyteam));ds_map_set(__yy__v605.gmlmyteam,"offense",gml_Script_s_get_team_offense(__yy__v605,
+gml_Script_btn_response_confirm_new_team));}function gml_Script_btn_response_confirm_new_team(_inst,_other){{{var __yy__v603=GetWithArray(97);for(var __yy__v604 in __yy__v603){if(!__yy__v603.hasOwnProperty(__yy__v604))continue;var __yy__v605=__yy__v603[__yy__v604];{var gmloldteamname=ds_map_find_value(__yy__v605.gmlmyteam,"name");try{rbCpuSwapBefore(__yy__v605,_inst);}catch(_e){try{console.error("team swap error",_e);}catch(_x){}}ds_map_set(__yy__v605.gmlmyteam,"defense",gml_Script_s_get_team_defense(__yy__v605,_inst,__yy__v605.gmlmyteam));ds_map_set(__yy__v605.gmlmyteam,"offense",gml_Script_s_get_team_offense(__yy__v605,
 _inst,__yy__v605.gmlmyteam));__yy__v605.gmlmyteam=__yy__v605.gmlnewteam;__yy__v605.gmlnewteam=(-4);__yy__v605.gmlmyteam_id=real(ds_map_find_value(__yy__v605.gmlmyteam,"uid"));__yy__v605.gmlmyconference=real(ds_map_find_value(__yy__v605.gmlmyteam,"conference"));__yy__v605.gmlmydivision=real(ds_map_find_value(__yy__v605.gmlmyteam,"division"));__yy__v605.gmlfacility_stadium=1;__yy__v605.gmlfacility_training=1;__yy__v605.gmlfacility_rehab=1;__yy__v605.gmlfans=yyfplus(10,__yy_gml_errCheck(irandom(10)));
 for(var __yy__v606=0,__yy__v607=yyGetInt32(3);__yy__v606<__yy__v607;__yy__v606++){{var ___sw302___=irandom(3);var ___swc303___=-1;if(yyCompareVal(___sw302___,0,g_GMLMathEpsilon,false)==0){___swc303___=0;}else if(yyCompareVal(___sw302___,1,g_GMLMathEpsilon,false)==0){___swc303___=1;}else if(yyCompareVal(___sw302___,2,g_GMLMathEpsilon,false)==0){___swc303___=2;}else if(yyCompareVal(___sw302___,3,g_GMLMathEpsilon,false)==0){___swc303___=3;}switch(___swc303___){case 0:{(g_yyPrePostObject__=__yy__v605.gmlfacility_stadium,
 __yy__v605.gmlfacility_stadium=(g_yyPrePostObject__ instanceof Long?__yy__v605.gmlfacility_stadium.add(1):++__yy__v605.gmlfacility_stadium),g_yyPrePostObject__);break;}case 1:{(g_yyPrePostObject__=__yy__v605.gmlfacility_training,__yy__v605.gmlfacility_training=(g_yyPrePostObject__ instanceof Long?__yy__v605.gmlfacility_training.add(1):++__yy__v605.gmlfacility_training),g_yyPrePostObject__);break;}case 2:{(g_yyPrePostObject__=__yy__v605.gmlfacility_rehab,__yy__v605.gmlfacility_rehab=(g_yyPrePostObject__ instanceof Long?__yy__v605.gmlfacility_rehab.add(1):++__yy__v605.gmlfacility_rehab),
 g_yyPrePostObject__);break;}case 3:{__yy__v605.gmlfans=yyfplus(__yy__v605.gmlfans,10);break;}};}};__yy__v605.gmldraft_picks=__yy_gml_array_check(__yy__v605.gmldraft_picks,2579435195);__yy__v605.gmldraft_picks[__yy_gml_array_check_index_set(0)]=1;__yy__v605.gmldraft_picks[__yy_gml_array_check_index_set(1)]=1;__yy__v605.gmldraft_picks[__yy_gml_array_check_index_set(2)]=1;__yy__v605.gmlfacility_upgraded_stadium=0;__yy__v605.gmlfacility_upgraded_training=0;__yy__v605.gmlfacility_upgraded_rehab=0;gml_Script_s_create_new_roster_newteam(__yy__v605,
-_inst);gml_Script_s_create_new_stafflist(__yy__v605,_inst);gml_Script_s_set_team_morale(__yy__v605,_inst,15,100);var gmlmsg=gml_Script_s_str(__yy__v605,_inst,yyfplus("news_NewJob",__yy_gml_errCheck(string(yyfplus(1,__yy_gml_errCheck(irandom(2)))))));if(yyfequal(__yy__v605.gmlmyteam_id,__yy__v605.gmlfavourite_team_id)){gmlmsg=yyfplus(gmlmsg,yyfplus("##",__yy_gml_errCheck(gml_Script_s_str(__yy__v605,_inst,yyfplus("news_FavoriteTeam",__yy_gml_errCheck(string(yyfplus(1,__yy_gml_errCheck(irandom(2))))))))));
+_inst);try{rbCpuSwapAfter(__yy__v605,_inst);}catch(_e){try{console.error("team swap error",_e);}catch(_x){}}gml_Script_s_create_new_stafflist(__yy__v605,_inst);gml_Script_s_set_team_morale(__yy__v605,_inst,15,100);var gmlmsg=gml_Script_s_str(__yy__v605,_inst,yyfplus("news_NewJob",__yy_gml_errCheck(string(yyfplus(1,__yy_gml_errCheck(irandom(2)))))));if(yyfequal(__yy__v605.gmlmyteam_id,__yy__v605.gmlfavourite_team_id)){gmlmsg=yyfplus(gmlmsg,yyfplus("##",__yy_gml_errCheck(gml_Script_s_str(__yy__v605,_inst,yyfplus("news_FavoriteTeam",__yy_gml_errCheck(string(yyfplus(1,__yy_gml_errCheck(irandom(2))))))))));
 };gmlmsg=string_replace_all(gmlmsg,"$oldteamname",gmloldteamname);gmlmsg=string_replace_all(gmlmsg,"$newteamname",ds_map_find_value(__yy__v605.gmlmyteam,"name"));gmlmsg=string_replace_all(gmlmsg,"$yourname",yyfplus(yyfplus(__yy_gml_errCheck(__yy__v605.gmlfname)," "),__yy_gml_errCheck(__yy__v605.gmllname)));gmlmsg=string_replace_all(gmlmsg,"$yourlastname",__yy__v605.gmllname);gmlmsg=string_hash_to_newline(gmlmsg);gml_Script_s_add_news(__yy__v605,_inst,gmlmsg);gml_Script_s_complete_achievement(__yy__v605,
 _inst,"ACH_TEAMS2");gml_Script_s_start_new_season(__yy__v605,_inst,true);}}};}}function gml_GlobalScript_s_store_cant_afford(_inst,_other){(_inst.gmls_store_cant_afford=__yy_method(_inst,gml_Script_s_store_cant_afford));}function gml_Script_s_store_cant_afford(_inst,_other){{gml_Script_s_msg_clear(_inst,_other);room_goto(8);}}function gml_GlobalScript_s_tip_continue(_inst,_other){(_inst.gmls_tip_continue=__yy_method(_inst,gml_Script_s_tip_continue));}function gml_Script_s_tip_continue(_inst,_other){
 {gml_Script_s_msg_clear(_inst,_other);gml_Script_s_play(_inst,_other,1);}}function gml_GlobalScript_s_qb_mode_auto_xp(_inst,_other){(_inst.gmls_qb_mode_auto_xp=__yy_method(_inst,gml_Script_s_qb_mode_auto_xp));}function gml_Script_s_qb_mode_auto_xp(_inst,_other,argument0,argument1,argument2,argument3){{while(yyGetBool(yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(argument0),__yy_gml_errCheck(argument1)),__yy_gml_errCheck(argument2)),__yy_gml_errCheck(argument3)))){{var ___sw306___=irandom(3);var ___swc307___=-1;
@@ -4153,12 +4153,12 @@ var gmlwins=0;var gmllosses=0;var gmlties=0;var gmlmap=ds_list_find_value(yyInst
 8)))||(yyGetBool(yyfequal(__yy__v655.gmlpos,9)))))){__yy__v655.gmlpos=irandom_range(1,10);};if((yyfequal(__yy__v655.gmlpos,6))&&(yyGetBool(irandom(1)))){__yy__v655.gmlpos=15;};if((yyfequal(__yy__v655.gmlpos,5))&&(yyGetBool(irandom(1)))){__yy__v655.gmlpos=16;};if(yyfequal(__yy__v655.gmlpos,10)){gmlmax_skill=yyftime(gmlmax_skill,random_range(0.5,0.8));};var gmlpmap=gml_Script_s_create_player(__yy__v655,_inst,__yy__v655.gmlpos,gml_Script_s_rookie_age_internal(__yy__v655,_inst),2,round(gmlmax_skill));if((yyGetBool(yyfequal(__yy__v655.gmlpos,1)))&&(yyGetBool(yyfgreater(ds_map_find_value(gmlpmap,"strength"),4)))){{ds_map_set(gmlpmap,"strength",4);ds_map_set(gmlpmap,"salary",
 gml_Script_s_get_new_salary(__yy__v655,_inst,gmlpmap));if(yyGetBool(gml_Script_s_is_co_mode(__yy__v655,_inst))){{ds_map_set(gmlpmap,"rc_cost",gml_Script_s_create_player_get_RC_cost(__yy__v655,_inst,gmlpmap));};};};};if(yyGetBool(gml_Script_s_is_co_mode(__yy__v655,_inst))){{if(yyfless(ds_map_find_value(gmlpmap,"percent_grade"),79)){{ds_map_set(gmlpmap,"percent_grade",79);gml_Script_s_refresh_suspended(__yy__v655,_inst,gmlpmap,false);};};};};ds_list_add(__yy__v655.gmldraftlist,gmlpmap);}};__yy__v655.gmldraftlist=gml_Script_s_sort_players(__yy__v655,
 _inst,__yy__v655.gmldraftlist,2);gml_Script_s_savegame(__yy__v655,_inst);}}};}}function gml_GlobalScript_s_sound_audience_tck(_inst,_other){(_inst.gmls_sound_audience_tck=__yy_method(_inst,gml_Script_s_sound_audience_tck));}function gml_Script_s_sound_audience_tck(_inst,_other){{if((yyGetBool(!yyGetBool(ds_map_find_value(yyInst(_inst,_other,97).gmlmap_options,"op_soundfx"))))||(yyGetBool(yyInst(_inst,_other,97).gmlgamepractice))){return;};var gmlsnd=audio_play_sound(0,1,false);audio_sound_gain(gmlsnd,
-0.5,0);}}function gml_GlobalScript_s_create_freeagentlist(_inst,_other){(_inst.gmls_create_freeagentlist=__yy_method(_inst,gml_Script_s_create_freeagentlist));}function gml_Script_s_create_freeagentlist(_inst,_other,argument0){{{var __yy__v656=GetWithArray(97);for(var __yy__v657 in __yy__v656){if(!__yy__v656.hasOwnProperty(__yy__v657))continue;var __yy__v658=__yy__v656[__yy__v657];{while(yyfless(ds_list_size(__yy__v658.gmlfreeagentlist),argument0)){ds_list_add(__yy__v658.gmlfreeagentlist,gml_Script_s_create_freeagent(__yy__v658,
+0.5,0);}}function gml_GlobalScript_s_create_freeagentlist(_inst,_other){(_inst.gmls_create_freeagentlist=__yy_method(_inst,gml_Script_s_create_freeagentlist));}function gml_Script_s_create_freeagentlist(_inst,_other,argument0){{return;{var __yy__v656=GetWithArray(97);for(var __yy__v657 in __yy__v656){if(!__yy__v656.hasOwnProperty(__yy__v657))continue;var __yy__v658=__yy__v656[__yy__v657];{while(yyfless(ds_list_size(__yy__v658.gmlfreeagentlist),argument0)){ds_list_add(__yy__v658.gmlfreeagentlist,gml_Script_s_create_freeagent(__yy__v658,
 _inst))};__yy__v658.gmlfreeagentlist=gml_Script_s_sort_players(__yy__v658,_inst,__yy__v658.gmlfreeagentlist,2);}}};}}function gml_GlobalScript_s_create_freeagent(_inst,_other){(_inst.gmls_create_freeagent=__yy_method(_inst,gml_Script_s_create_freeagent));}function gml_Script_s_create_freeagent(_inst,_other){{var ___sw366___=irandom(2);var ___swc367___=-1;if(yyCompareVal(___sw366___,0,g_GMLMathEpsilon,false)==0){___swc367___=0;}else if(yyCompareVal(___sw366___,1,g_GMLMathEpsilon,false)==0){___swc367___=1;
 }else if(yyCompareVal(___sw366___,2,g_GMLMathEpsilon,false)==0){___swc367___=2;}switch(___swc367___){case 0:{var gmlpmap=gml_Script_s_create_player(_inst,_other,gml_Script_s_get_required_position(_inst,_other,false),gml_Script_s_rookie_age_internal(_inst,_other),1,2);ds_map_set(gmlpmap,"attitude",irandom_range(15,90));return gmlpmap;break;}case 1:{var gmlpmap=gml_Script_s_create_player(_inst,_other,gml_Script_s_get_required_position(_inst,_other,false),irandom_range(33,40),1,3);ds_map_set(gmlpmap,"stamina",
 1);ds_map_set(gmlpmap,"max_stamina",1);return gmlpmap;break;}case 2:{var gmlpmap=gml_Script_s_create_player(_inst,_other,gml_Script_s_get_required_position(_inst,_other,false),0,1,4);ds_map_set(gmlpmap,"attitude",irandom_range(5,15));return gmlpmap;break;}};}}function gml_GlobalScript_s_create_tradelist(_inst,_other,argument0){(_inst.gmls_create_tradelist=__yy_method(_inst,gml_Script_s_create_tradelist));}function gml_Script_s_create_tradelist(_inst,_other,argument0){{{var __yy__v659=GetWithArray(97);for(var __yy__v660 in __yy__v659){
 if(!__yy__v659.hasOwnProperty(__yy__v660))continue;var __yy__v661=__yy__v659[__yy__v660];{while(yyfless(ds_list_size(__yy__v661.gmltradelist),argument0)){{var gmlpmap=gml_Script_s_create_player(__yy__v661,_inst,gml_Script_s_get_required_position(__yy__v661,_inst,false),irandom_range(yyfplus(__yy_gml_errCheck(gml_Script_s_rookie_age_internal(__yy__v661,_inst)),1),40),1,10);do {{ds_map_set(gmlpmap,"teamid",gml_Script_s_get_random_team_id(__yy__v661,_inst));}}while(!(yyfnotequal(ds_map_find_value(gmlpmap,
-"teamid"),yyInst(_inst,_other,97).gmlmyteam_id)));ds_list_add(__yy__v661.gmltradelist,gmlpmap);}};__yy__v661.gmltradelist=gml_Script_s_sort_players(__yy__v661,_inst,__yy__v661.gmltradelist,2);}}};}}function gml_GlobalScript_s_create_storelist(_inst,_other){(_inst.gmls_create_storelist=__yy_method(_inst,gml_Script_s_create_storelist));}function gml_Script_s_create_storelist(_inst,_other,argument0){{gml_Script_slog(_inst,_other,"s_create_storelist");{var __yy__v662=GetWithArray(97);for(var __yy__v663 in __yy__v662){
+"teamid"),yyInst(_inst,_other,97).gmlmyteam_id)));rbFalTradeSwap(__yy__v661,_inst,gmlpmap);ds_list_add(__yy__v661.gmltradelist,gmlpmap);}};__yy__v661.gmltradelist=gml_Script_s_sort_players(__yy__v661,_inst,__yy__v661.gmltradelist,2);}}};}}function gml_GlobalScript_s_create_storelist(_inst,_other){(_inst.gmls_create_storelist=__yy_method(_inst,gml_Script_s_create_storelist));}function gml_Script_s_create_storelist(_inst,_other,argument0){{gml_Script_slog(_inst,_other,"s_create_storelist");{var __yy__v662=GetWithArray(97);for(var __yy__v663 in __yy__v662){
 if(!__yy__v662.hasOwnProperty(__yy__v663))continue;var __yy__v664=__yy__v662[__yy__v663];{var gmlsize=ds_list_size(__yy__v664.gmlstorelist);if(yyfgreater(argument0,0)){{for(var __yy__v665=0,__yy__v666=yyGetInt32(argument0);__yy__v665<__yy__v666;__yy__v665++){{if(yyfgreater(gmlsize,0)){{var gmli=irandom(yyfminus(__yy_gml_errCheck(gmlsize),1));ds_map_destroy(ds_list_find_value(__yy__v664.gmlstorelist,gmli));ds_list_set(__yy__v664.gmlstorelist,gmli,(-1));ds_list_delete(__yy__v664.gmlstorelist,gmli);gmlsize=yyfminus(gmlsize,
 1);};};}};};};var gmll=0;for(;yyfless(gmll,2);(g_yyPrePostObject__=gmll,gmll=(g_yyPrePostObject__ instanceof Long?gmll.add(1):++gmll),g_yyPrePostObject__)){{var gmli=1;for(;yyflessequal(gmli,16);(g_yyPrePostObject__=gmli,gmli=(g_yyPrePostObject__ instanceof Long?gmli.add(1):++gmli),g_yyPrePostObject__)){{if((gmli<=10||gmli==15||gmli==16)&&yyfless(gml_Script_s_count_players_by_position_store(__yy__v664,_inst,gmli),2)){{var gmllower_rating=false;if((yyGetBool(argument0))||(yyGetBool(yyfequal(gmll,1)))){gmllower_rating=true;
 };ds_list_add(__yy__v664.gmlstorelist,gml_Script_s_create_player_storelist(__yy__v664,_inst,gmli,gmllower_rating));};};}};}};gml_Script_slog(__yy__v664,_inst,yyfplus("Storelist size = ",__yy_gml_errCheck(string(ds_list_size(__yy__v664.gmlstorelist)))));__yy__v664.gmlstorelist=gml_Script_s_sort_hirelist(__yy__v664,_inst,__yy__v664.gmlstorelist);}}};}}function gml_GlobalScript_s_create_player_storelist(_inst,_other){(_inst.gmls_create_player_storelist=__yy_method(_inst,gml_Script_s_create_player_storelist));
@@ -4178,7 +4178,7 @@ _other){{global.gmlpoki_done_post_match_reward=true;gml_Script_poki_CoinBoost_No
 var __yy__v681=__yy__v679[__yy__v680];instance_destroy(__yy__v681);}};var gmlrx=48;var gmlry=48;var gmlfirst=yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,97).gmldraft_page),1)),10);var gmllast=min(yyfplus(__yy_gml_errCheck(gmlfirst),10),ds_list_size(yyInst(_inst,_other,97).gmldraftlist));var gmlcount=0;var gmlr=gmlfirst;for(;yyfless(gmlr,gmllast);(g_yyPrePostObject__=gmlr,gmlr=(g_yyPrePostObject__ instanceof Long?gmlr.add(1):++gmlr),g_yyPrePostObject__)){{_inst.gmlprofile=__yy_gml_array_check(_inst.gmlprofile,
 4083195518);_inst.gmlprofile[__yy_gml_array_check_index_set(gmlcount)]=instance_create_layer(gmlrx,gmlry,"Instances",49);gmlrx=yyfplus(gmlrx,80);yyInst(_inst,_other,_inst.gmlprofile[__yy_gml_array_check_index(gmlcount,_inst.gmlprofile)]).gmlpmap=ds_list_find_value(yyInst(_inst,_other,97).gmldraftlist,gmlr);if(yyfequal((g_yyPrePostObject__=gmlcount,gmlcount=(g_yyPrePostObject__ instanceof Long?gmlcount.add(1):++gmlcount),g_yyPrePostObject__),4)){{gmlrx=48;gmlry=yyfplus(gmlry,88);};};}};var gmlpg=yyfplus(yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gml_Script_s_str(_inst,
 _other,"ui_Page"))," "),__yy_gml_errCheck(string(yyInst(_inst,_other,97).gmldraft_page))),"/"),__yy_gml_errCheck(string(_inst.gmlpage_max)));if(yyflessequal(_inst.gmlpage_max,1)){gmlpg=yyfplus(yyfplus(__yy_gml_errCheck(gml_Script_s_str(_inst,_other,"ui_Page"))," "),__yy_gml_errCheck(string(yyInst(_inst,_other,97).gmldraft_page)));};yyInst(_inst,_other,100064).gmltext=gmlpg;yyInst(_inst,_other,100062).visible=true;yyInst(_inst,_other,100063).visible=true;if(yyfequal(yyInst(_inst,_other,97).gmldraft_page,
-1)){yyInst(_inst,_other,100062).visible=false;};if(yyfequal(yyInst(_inst,_other,97).gmldraft_page,_inst.gmlpage_max)){yyInst(_inst,_other,100063).visible=false;};}}function gml_GlobalScript_s_update_freeagents_page(_inst,_other){(_inst.gmls_update_freeagents_page=__yy_method(_inst,gml_Script_s_update_freeagents_page));}function gml_Script_s_update_freeagents_page(_inst,_other){{gml_Script_slog(_inst,_other,"s_update_freeagents");{var __yy__v682=GetWithArray(49);for(var __yy__v683 in __yy__v682){if(!__yy__v682.hasOwnProperty(__yy__v683))continue;
+1)){yyInst(_inst,_other,100062).visible=false;};if(yyfequal(yyInst(_inst,_other,97).gmldraft_page,_inst.gmlpage_max)){yyInst(_inst,_other,100063).visible=false;};}}function gml_GlobalScript_s_update_freeagents_page(_inst,_other){(_inst.gmls_update_freeagents_page=__yy_method(_inst,gml_Script_s_update_freeagents_page));}function gml_Script_s_update_freeagents_page(_inst,_other){{gml_Script_slog(_inst,_other,"s_update_freeagents");try{rbFaClear(_inst,_other);}catch(_e){}try{if(rbFaPage(_inst,_other)){return;}}catch(_e){try{console.error("free agent page error",_e);}catch(_x){}}{var __yy__v682=GetWithArray(49);for(var __yy__v683 in __yy__v682){if(!__yy__v682.hasOwnProperty(__yy__v683))continue;
 var __yy__v684=__yy__v682[__yy__v683];instance_destroy(__yy__v684);}};var gmllist=yyInst(_inst,_other,97).gmlfreeagentlist;var gmlsize=ds_list_size(gmllist);if(yyfless(gmlsize,1)){{gml_Script_slog(_inst,_other,"tradeoffer");gmllist=yyInst(_inst,_other,97).gmltradelist;gmlsize=ds_list_size(gmllist);yyInst(_inst,_other,100123).gmltext=gml_Script_s_str(_inst,_other,"ui_TradeOffer");};};var gmlgap=4;var gmlmax_roster=10;if(yyfgreater(gmlsize,10)){gmlmax_roster=12;};var gmlcards_per_row=yyfdivide(__yy_gml_errCheck(gmlmax_roster),
 2);if(yyflessequal(gmlsize,10)){{gmlcards_per_row=5;gmlgap=8;};};if(yyflessequal(gmlsize,8)){gmlcards_per_row=4;};if(yyflessequal(gmlsize,6)){gmlcards_per_row=3;};var gmlpx=round(yyftime(__yy_gml_errCheck(g_pBuiltIn.room_width),0.5));var gmlpy=round(yyftime(__yy_gml_errCheck(g_pBuiltIn.room_height),0.49));var gmlpw=yyfplus(__yy_gml_errCheck(sprite_get_width(172)),__yy_gml_errCheck(gmlgap));if(yyfgreater(gmlsize,gmlcards_per_row)){{gmlpy=yyfminus(gmlpy,44);gmlpx=yyfminus(gmlpx,yyftime(yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlcards_per_row),
 1)),__yy_gml_errCheck(gmlpw)),0.5));};}else {{gmlpx=yyfminus(gmlpx,yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlsize),1)),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlpw),0.5))));};};var gmli=0;for(;yyfless(gmli,gmlsize);(g_yyPrePostObject__=gmli,gmli=(g_yyPrePostObject__ instanceof Long?gmli.add(1):++gmli),g_yyPrePostObject__)){{_inst.gmlprofile=__yy_gml_array_check(_inst.gmlprofile,4083195518);_inst.gmlprofile[__yy_gml_array_check_index_set(gmli)]=instance_create_layer(0,0,"Instances",
@@ -4221,7 +4221,7 @@ gmli,(-1));}};ds_list_clear(__yy__v702.gmlstorelist);}}};}}function gml_GlobalSc
 var __yy__v705=__yy__v703[__yy__v704];{var ___sw378___=__yy__v705.gmldraft_round;var ___swc379___=-1;if(yyCompareVal(___sw378___,1,g_GMLMathEpsilon,false)==0){___swc379___=0;}else if(yyCompareVal(___sw378___,2,g_GMLMathEpsilon,false)==0){___swc379___=1;}else if(yyCompareVal(___sw378___,3,g_GMLMathEpsilon,false)==0){___swc379___=2;}switch(___swc379___){case 0:{while(yyfgreater(ds_list_size(__yy__v705.gmldraftlist),35)){{var gmli=irandom(5);ds_map_destroy(ds_list_find_value(__yy__v705.gmldraftlist,gmli));
 ds_list_set(__yy__v705.gmldraftlist,gmli,(-1));ds_list_delete(__yy__v705.gmldraftlist,gmli);}};break;}case 1:{while(yyfgreater(ds_list_size(__yy__v705.gmldraftlist),20)){{var gmli=irandom(5);ds_map_destroy(ds_list_find_value(__yy__v705.gmldraftlist,gmli));ds_list_set(__yy__v705.gmldraftlist,gmli,(-1));ds_list_delete(__yy__v705.gmldraftlist,gmli);}};break;}case 2:{var gmlsize=ds_list_size(__yy__v705.gmldraftlist);if(yyfgreater(gmlsize,yyftime(__yy_gml_errCheck(__yy__v705.gmldraft_picks[__yy_gml_array_check_index(2,
 __yy__v705.gmldraft_picks)]),2))){{var gmli=irandom(yyfminus(__yy_gml_errCheck(gmlsize),1));ds_map_destroy(ds_list_find_value(__yy__v705.gmldraftlist,gmli));ds_list_set(__yy__v705.gmldraftlist,gmli,(-1));ds_list_delete(__yy__v705.gmldraftlist,gmli);};};break;}};__yy__v705.gmldraft_picks=__yy_gml_array_check(__yy__v705.gmldraft_picks,214948398);__yy__v705.gmldraft_picks[__yy_gml_array_check_index_set(yyfminus(__yy_gml_errCheck(__yy__v705.gmldraft_round),1))]=0;(g_yyPrePostObject__=__yy__v705.gmldraft_round,
-__yy__v705.gmldraft_round=(g_yyPrePostObject__ instanceof Long?__yy__v705.gmldraft_round.add(1):++__yy__v705.gmldraft_round),g_yyPrePostObject__);__yy__v705.gmldraft_page=1;if(yyGetBool(argument0)){__yy__v705.gmldraft_round=4;};if(yyfgreater(__yy__v705.gmldraft_round,3)){{gml_Script_s_destroy_draftlist(__yy__v705,_inst);gml_Script_s_add_news(__yy__v705,_inst,gml_Script_s_str(__yy__v705,_inst,"news_DraftEnded"));__yy__v705.gmlstage=1;room_goto(14);};}else {if(!yyGetBool(__yy__v705.gmlqb_mode)){{__yy__v705.gmldodraftbanner=true;
+__yy__v705.gmldraft_round=(g_yyPrePostObject__ instanceof Long?__yy__v705.gmldraft_round.add(1):++__yy__v705.gmldraft_round),g_yyPrePostObject__);__yy__v705.gmldraft_page=1;if(yyGetBool(argument0)){__yy__v705.gmldraft_round=4;};if(yyfgreater(__yy__v705.gmldraft_round,3)){{gml_Script_s_destroy_draftlist(__yy__v705,_inst);gml_Script_s_add_news(__yy__v705,_inst,gml_Script_s_str(__yy__v705,_inst,"news_DraftEnded"));__yy__v705.gmlstage=1;rbCpuDraftStart(__yy__v705,_inst);};}else {if(!yyGetBool(__yy__v705.gmlqb_mode)){{__yy__v705.gmldodraftbanner=true;
 room_goto(5);};};};}}};}}function gml_Script_s_destroy_draftlist(_inst,_other){{{var __yy__v706=GetWithArray(97);for(var __yy__v707 in __yy__v706){if(!__yy__v706.hasOwnProperty(__yy__v707))continue;var __yy__v708=__yy__v706[__yy__v707];{var gmli=0;for(;yyfless(gmli,ds_list_size(__yy__v708.gmldraftlist));(g_yyPrePostObject__=gmli,gmli=(g_yyPrePostObject__ instanceof Long?gmli.add(1):++gmli),g_yyPrePostObject__)){{ds_map_destroy(ds_list_find_value(__yy__v708.gmldraftlist,gmli));ds_list_set(__yy__v708.gmldraftlist,
 gmli,(-1));}};ds_list_clear(__yy__v708.gmldraftlist);}}};gml_Script_s_reset_draft_picks(_inst,_other);}}function gml_GlobalScript_s_received_AI_kickoff(_inst,_other){(_inst.gmls_received_AI_kickoff=__yy_method(_inst,gml_Script_s_received_AI_kickoff));}function gml_Script_s_received_AI_kickoff(_inst,_other){{var gmlball=global.gmlmaster_ball;_inst.gmljforce=1;if(yyfequal(_inst.gmlfacing,(-1))){_inst.gmljdir=180;}else {_inst.gmljdir=0;};if(yyfequal(yyInst(_inst,_other,gmlball).gmlholder,_inst.id)){{if(yyGetBool(global.gmlgamepad)){
 {if(!yyGetBool(gml_Script_s_get_op_autorun(_inst,_other))){_inst.gmljforce=0;};};};return;};};if(yyfequal(_inst.gmloffense,yyInst(_inst,_other,yyInst(_inst,_other,gmlball).gmlholder).gmloffense)){{if(yyfless(_inst.gmlnearest_opp_dist,100)){{gml_Script_s_aim_for_nearest_opponent(_inst,_other);_inst.gmljforce=1;};}else {{var gmlf=_inst.gmlfacing;if(yyfless(yyInst(_inst,_other,yyInst(_inst,_other,gmlball).gmlholder).gmlgoaldist,1200)){gmlf=yyftime(__yy_gml_errCheck(real(!yyGetBool(_inst.gmlfacing))),
@@ -4261,8 +4261,8 @@ gmlsalary=yyftime(gmlsalary,0.85);};};};};};return round(gmlsalary);}}function g
 {var gmli=0;for(;yyfless(gmli,ds_list_size(__yy__v717.gmlfreeagentlist));(g_yyPrePostObject__=gmli,gmli=(g_yyPrePostObject__ instanceof Long?gmli.add(1):++gmli),g_yyPrePostObject__)){{var gmlpmap=ds_list_find_value(__yy__v717.gmlfreeagentlist,gmli);if(yyfnotequal(ds_map_find_value(gmlpmap,"signed_year"),0)){{var gmlmsg=gml_Script_s_str(__yy__v717,_inst,"msg_OutOfContractPlayers");if(yyfequal(ds_list_size(__yy__v717.gmlfreeagentlist),1)){{gmlmsg=gml_Script_s_str(__yy__v717,_inst,"msg_OutOfContractPlayer");
 gmlmsg=string_replace(gmlmsg,"$position",gml_Script_s_get_string_position_full(__yy__v717,_inst,ds_map_find_value(gmlpmap,"position")));gmlmsg=string_replace(gmlmsg,"$playername",yyfplus(yyfplus(__yy_gml_errCheck(ds_map_find_value(gmlpmap,"fname"))," "),__yy_gml_errCheck(ds_map_find_value(gmlpmap,"lname"))));};};gml_Script_s_create_message(__yy__v717,_inst,"",gmlmsg,gml_Script_s_str(__yy__v717,_inst,"ui_Continue"),"",kgml_Script_s_msg_clear,"",global.gmlc_background,1);__yy__v717.gmlexpiredcontract_msg_done=true;
 return;};};}};};};}}};}}function gml_GlobalScript_s_get_salary_cap_space(_inst,_other){(_inst.gmls_get_salary_cap_space=__yy_method(_inst,gml_Script_s_get_salary_cap_space));}function gml_Script_s_get_salary_cap_space(_inst,_other){{{var __yy__v718=GetWithArray(97);for(var __yy__v719 in __yy__v718){if(!__yy__v718.hasOwnProperty(__yy__v719))continue;var __yy__v720=__yy__v718[__yy__v719];{return yyfminus(yyfplus(__yy_gml_errCheck(__yy__v720.gmlsalary_cap),__yy_gml_errCheck(__yy__v720.gmlboost_salary_cap)),
-__yy_gml_errCheck(gml_Script_s_get_salary_total(__yy__v720,_inst)));}}};}}function gml_GlobalScript_s_create_new_save(_inst,_other){(_inst.gmls_create_new_save=__yy_method(_inst,gml_Script_s_create_new_save));(_inst.gmls_regen_clean_save_mode_dependent_data=__yy_method(_inst,gml_Script_s_regen_clean_save_mode_dependent_data));(_inst.gmls_load_co_mode_files=__yy_method(_inst,gml_Script_s_load_co_mode_files));}function gml_Script_s_create_new_save(_inst,_other){{gml_Script_slog(_inst,_other,"s_create_new_save");
-{var __yy__v721=GetWithArray(97);for(var __yy__v722 in __yy__v721){if(!__yy__v721.hasOwnProperty(__yy__v722))continue;var __yy__v723=__yy__v721[__yy__v722];{__yy__v723.gmlnewslist=ds_list_create();__yy__v723.gmllist_news_dyn=ds_list_create();__yy__v723.gmldilemma_tags=ds_list_create();__yy__v723.gmlnews_tags=ds_list_create();__yy__v723.gmlteamlist=gml_Script_s_load_teams(__yy__v723,_inst);gml_Script_s_set_teams_min_max_ids(__yy__v723,_inst);__yy__v723.gmlachievements=gml_Script_s_load_map_file(__yy__v723,
+__yy_gml_errCheck(gml_Script_s_get_salary_total(__yy__v720,_inst)));}}};}}function gml_GlobalScript_s_create_new_save(_inst,_other){(_inst.gmls_create_new_save=__yy_method(_inst,gml_Script_s_create_new_save));(_inst.gmls_regen_clean_save_mode_dependent_data=__yy_method(_inst,gml_Script_s_regen_clean_save_mode_dependent_data));(_inst.gmls_load_co_mode_files=__yy_method(_inst,gml_Script_s_load_co_mode_files));}function gml_Script_s_create_new_save(_inst,_other){{gml_Script_slog(_inst,_other,"s_create_new_save");rbFalMem="";
+{var __yy__v721=GetWithArray(97);for(var __yy__v722 in __yy__v721){if(!__yy__v721.hasOwnProperty(__yy__v722))continue;var __yy__v723=__yy__v721[__yy__v722];{if(!yyGetBool(gml_Script_s_is_co_mode(__yy__v723,_inst))){__yy__v723.gmlsalary_cap=450;__yy__v723.gmlop_difficulty=4;__yy__v723.gmlop_impossible=0;ds_map_set(__yy__v723.gmlmap_options,"op_zoom",1);};__yy__v723.gmlnewslist=ds_list_create();__yy__v723.gmllist_news_dyn=ds_list_create();__yy__v723.gmldilemma_tags=ds_list_create();__yy__v723.gmlnews_tags=ds_list_create();__yy__v723.gmlteamlist=gml_Script_s_load_teams(__yy__v723,_inst);gml_Script_s_set_teams_min_max_ids(__yy__v723,_inst);__yy__v723.gmlachievements=gml_Script_s_load_map_file(__yy__v723,
 _inst,"Achievements.txt");__yy__v723.gmlrecords=gml_Script_s_load_map_file(__yy__v723,_inst,"PlayerRecords.txt");__yy__v723.gmlhistory=ds_list_create();__yy__v723.gmlschedule=gml_Script_s_load_schedule(__yy__v723,_inst);__yy__v723.gmlfixturelist=gml_Script_s_create_my_fixture_list(__yy__v723,_inst);__yy__v723.gmlplayoffs=ds_list_create();__yy__v723.gmldraftlist=ds_list_create();__yy__v723.gmlhirelist=ds_list_create();__yy__v723.gmlstorelist=ds_list_create();__yy__v723.gmltradelist=ds_list_create();
 __yy__v723.gmlfreeagentlist=ds_list_create();__yy__v723.gmlroster=ds_list_create();__yy__v723.gmlstafflist=ds_list_create();__yy__v723.gmlhoflist=ds_list_create();__yy__v723.gmlrbhistorylist=ds_list_create();__yy__v723.gmlshoppinglist=gml_Script_s_load_map_file(__yy__v723,_inst,"Shopping.txt");__yy__v723.gmllist_teams_rejected=ds_list_create();__yy__v723.gmlface_grid_L=ds_grid_create(8,3);__yy__v723.gmlface_grid_M=ds_grid_create(8,1);__yy__v723.gmlface_grid_D=ds_grid_create(8,8);__yy__v723.gmlface_grid_C=ds_grid_create(9,
 4);ds_grid_clear(__yy__v723.gmlface_grid_L,0);ds_grid_clear(__yy__v723.gmlface_grid_M,0);ds_grid_clear(__yy__v723.gmlface_grid_D,0);ds_grid_clear(__yy__v723.gmlface_grid_C,0);gml_Script_s_create_new_roster(__yy__v723,_inst);gml_Script_s_create_new_stafflist(__yy__v723,_inst);__yy__v723.gmlcap_breach_flag=(-1);__yy__v723.gmldo_welcome_msg=true;}}};}}function gml_Script_s_regen_clean_save_mode_dependent_data(_inst,_other){{{var __yy__v724=GetWithArray(97);for(var __yy__v725 in __yy__v724){if(!__yy__v724.hasOwnProperty(__yy__v725))continue;
@@ -4272,7 +4272,7 @@ _other){{{var __yy__v727=GetWithArray(97);for(var __yy__v728 in __yy__v727){if(!
 (-1))))){{__yy__v729.gmlmajorminor=gml_Script_s_load_map_file(__yy__v729,_inst,"MajorMinor_CO.txt");};};if((yyGetBool(yyfequal(variable_instance_exists(__yy__v729.id,"cities"),false)))||(yyGetBool(yyfequal(__yy__v729.gmlcities,(-1))))){{__yy__v729.gmlcities=gml_Script_s_load_map_file(__yy__v729,_inst,"Cities_CO.txt");};};if((yyGetBool(yyfequal(variable_instance_exists(__yy__v729.id,"traits"),false)))||(yyGetBool(yyfequal(__yy__v729.gmltraits,(-1))))){{__yy__v729.gmltraits=gml_Script_s_load_map_file(__yy__v729,
 _inst,"Traits_CO.txt");};};if((yyGetBool(yyfequal(variable_instance_exists(__yy__v729.id,"epilogue"),false)))||(yyGetBool(yyfequal(__yy__v729.gmlepilogue,(-1))))){{__yy__v729.gmlepilogue=gml_Script_s_load_map_file(__yy__v729,_inst,"EpilogueValues_CO.txt");};};}}};}}function gml_GlobalScript_s_loadgame(_inst,_other){(_inst.gmls_loadgame=__yy_method(_inst,gml_Script_s_loadgame));(_inst.gmls_cap_breach_refresh=__yy_method(_inst,gml_Script_s_cap_breach_refresh));(_inst.gmls_cap_breach_str=__yy_method(_inst,
 gml_Script_s_cap_breach_str));(_inst.gmls_is_player_pmap_corrupt=__yy_method(_inst,gml_Script_s_is_player_pmap_corrupt));(_inst.gmls_check_for_return_stats=__yy_method(_inst,gml_Script_s_check_for_return_stats));(_inst.gmls_check_longest_records=__yy_method(_inst,gml_Script_s_check_longest_records));(_inst.gmls_update_ui_colours=__yy_method(_inst,gml_Script_s_update_ui_colours));(_inst.gmls_get_college_primary_col=__yy_method(_inst,gml_Script_s_get_college_primary_col));(_inst.gmls_update_game_title=__yy_method(_inst,
-gml_Script_s_update_game_title));}function gml_Script_s_loadgame(_inst,_other,argument0){{{var __yy__v730=GetWithArray(97);for(var __yy__v731 in __yy__v730){if(!__yy__v730.hasOwnProperty(__yy__v731))continue;var __yy__v732=__yy__v730[__yy__v731];{gml_Script_slog(__yy__v732,_inst,yyfplus("loading save data: ",__yy_gml_errCheck(argument0)));ini_open(argument0);__yy__v732.gmlstart_year=ini_read_real("savegame","start_year",2023);__yy__v732.gmlyear_stagger=ini_read_real("savegame","year_stagger",irandom(12));
+gml_Script_s_update_game_title));}function gml_Script_s_loadgame(_inst,_other,argument0){{{var __yy__v730=GetWithArray(97);for(var __yy__v731 in __yy__v730){if(!__yy__v730.hasOwnProperty(__yy__v731))continue;var __yy__v732=__yy__v730[__yy__v731];{gml_Script_slog(__yy__v732,_inst,yyfplus("loading save data: ",__yy_gml_errCheck(argument0)));ini_open(argument0);rbFalMem=rbFalDecode(ini_read_string("savegame","rb_cpu",""));__yy__v732.gmlstart_year=ini_read_real("savegame","start_year",2023);__yy__v732.gmlyear_stagger=ini_read_real("savegame","year_stagger",irandom(12));
 __yy__v732.gmllast_week_regular=ini_read_real("savegame","last_week_regular",17);__yy__v732.gmlfirst_week_playoffs=ini_read_real("savegame","first_week_playoffs",18);__yy__v732.gmlyear=ini_read_real("savegame","year",1);__yy__v732.gmlweek=ini_read_real("savegame","week",1);__yy__v732.gmlstage=ini_read_real("savegame","stage",1);__yy__v732.gmlintro=ini_read_real("savegame","intro",1);__yy__v732.gmlfname=ini_read_string("savegame","fname","");__yy__v732.gmllname=ini_read_string("savegame","lname",
 "");__yy__v732.gmlqb_mode=ini_read_real("savegame","qb_mode",0);__yy__v732.gmlco_mode=ini_read_real("savegame","co_mode",0);__yy__v732.gmlfr_mode=ini_read_real("savegame","fr_mode",1);__yy__v732.gmlfname_coach=ini_read_string("savegame","fname_coach","");__yy__v732.gmllname_coach=ini_read_string("savegame","lname_coach","");__yy__v732.gmlstarrating=ini_read_real("savegame","starrating",0);__yy__v732.gmlrelationship_boss=ini_read_real("savegame","relationship_boss",50);__yy__v732.gmlqb_salary=ini_read_real("savegame",
 "qb_salary",1);__yy__v732.gmlqb_tdbonus=ini_read_real("savegame","qb_tdbonus",1);__yy__v732.gmlqb_training_hiscore=ini_read_real("savegame","qb_training_hiscore",0);__yy__v732.gmlqb_nrg=ini_read_real("savegame","qb_nrg",1);__yy__v732.gmlmyteam_id=ini_read_real("savegame","myteam_id",0);__yy__v732.gmlmyface_x=ini_read_real("savegame","myface_x",(-1));__yy__v732.gmlmyface_y=ini_read_real("savegame","myface_y",(-1));__yy__v732.gmlfavourite_team_id=ini_read_real("savegame","favourite_team_id",0);__yy__v732.gmlsuppress_difficulty=ini_read_real("savegame",
@@ -4369,7 +4369,7 @@ yyfplus("hoflist_",__yy_gml_errCheck(string(gmlr))),gmlstr);}};var gmli=gmlsize;
 g_yyPrePostObject__)){{var gmlstr=ds_map_write(ds_list_find_value(__yy__v735.gmlrbhistorylist,gmlr));gml_Script_slog(__yy__v735,_inst,gmlstr);ini_write_string("savegame",yyfplus("rbhistorylist_",__yy_gml_errCheck(string(gmlr))),gmlstr);}};ini_write_string("savegame","face_grid_L",ds_grid_write(__yy__v735.gmlface_grid_L));ini_write_string("savegame","face_grid_M",ds_grid_write(__yy__v735.gmlface_grid_M));ini_write_string("savegame","face_grid_D",ds_grid_write(__yy__v735.gmlface_grid_D));ini_write_string("savegame",
 "face_grid_C",ds_grid_write(__yy__v735.gmlface_grid_C));var gmlsize=ds_list_size(__yy__v735.gmlshoppinglist);ini_write_real("savegame","shoppinglist",gmlsize);var gmlm=0;for(;yyfless(gmlm,gmlsize);(g_yyPrePostObject__=gmlm,gmlm=(g_yyPrePostObject__ instanceof Long?gmlm.add(1):++gmlm),g_yyPrePostObject__)){{var gmlval=ds_list_find_value(__yy__v735.gmlshoppinglist,gmlm);ini_write_string("savegame",yyfplus("shoppinglist_",__yy_gml_errCheck(string(gmlm))),ds_map_write(gmlval));}};var gmlsize=ds_list_size(__yy__v735.gmllist_teams_rejected);
 ini_write_real("savegame","list_teams_rejected",gmlsize);var gmlm=0;for(;yyfless(gmlm,gmlsize);(g_yyPrePostObject__=gmlm,gmlm=(g_yyPrePostObject__ instanceof Long?gmlm.add(1):++gmlm),g_yyPrePostObject__)){{var gmlval=ds_list_find_value(__yy__v735.gmllist_teams_rejected,gmlm);ini_write_real("savegame",yyfplus("list_teams_rejected_",__yy_gml_errCheck(string(gmlm))),gmlval);}};if(yyGetBool(gml_Script_s_is_co_mode(__yy__v735,_inst))){{ini_write_real("savegame","recruitment_credits",__yy__v735.gmlrecruitment_credits);
-ini_write_real("savegame","recruitment_credits_cap",__yy__v735.gmlrecruitment_credits_cap);ini_write_real("savegame","boost_recruitment_credits_cap",__yy__v735.gmlboost_recruitment_credits_cap);ini_write_real("savegame","college_admissions_draft_round",__yy__v735.gmlcollege_admissions_draft_round);ini_write_real("savegame","college_admissions_warn_once",__yy__v735.gmlcollege_admissions_warn_once);};};ini_write_real("savegame","cap_breach_flag",__yy__v735.gmlcap_breach_flag);ini_close();}}};gml_Script_s_nx_commit(_inst,
+ini_write_real("savegame","recruitment_credits_cap",__yy__v735.gmlrecruitment_credits_cap);ini_write_real("savegame","boost_recruitment_credits_cap",__yy__v735.gmlboost_recruitment_credits_cap);ini_write_real("savegame","college_admissions_draft_round",__yy__v735.gmlcollege_admissions_draft_round);ini_write_real("savegame","college_admissions_warn_once",__yy__v735.gmlcollege_admissions_warn_once);};};ini_write_real("savegame","cap_breach_flag",__yy__v735.gmlcap_breach_flag);ini_write_string("savegame","rb_cpu",rbFalEncode(rbFalMem));ini_close();}}};gml_Script_s_nx_commit(_inst,
 _other);}}function gml_GlobalScript_s_create_map_options(_inst,_other){(_inst.gmls_create_map_options=__yy_method(_inst,gml_Script_s_create_map_options));}function gml_Script_s_create_map_options(_inst,_other){{gml_Script_slog(_inst,_other,"creating options map...");{var __yy__v736=GetWithArray(97);for(var __yy__v737 in __yy__v736){if(!__yy__v736.hasOwnProperty(__yy__v737))continue;var __yy__v738=__yy__v736[__yy__v737];{__yy__v738.gmlmap_options=ds_map_create();ds_map_set(__yy__v738.gmlmap_options,"my_version",
 0);ds_map_set(__yy__v738.gmlmap_options,"fullversion",0);if((yyGetBool(global.gmlconsole_build))||(yyGetBool(0))||(yyGetBool(global.gmlbrowser))){ds_map_set(__yy__v738.gmlmap_options,"fullversion",1);};ds_map_set(__yy__v738.gmlmap_options,"op_drivedir",0);ds_map_set(__yy__v738.gmlmap_options,"op_scanlines",0);ds_map_set(__yy__v738.gmlmap_options,"op_weather",ds_map_find_value(__yy__v738.gmlmap_options,"fullversion"));ds_map_set(__yy__v738.gmlmap_options,"op_soundfx",2);ds_map_set(__yy__v738.gmlmap_options,
 "done_review_reward",0);ds_map_set(__yy__v738.gmlmap_options,"op_zoom",1);ds_map_set(__yy__v738.gmlmap_options,"op_music",1);ds_map_set(__yy__v738.gmlmap_options,"op_credits_purchased",0);ds_map_set(__yy__v738.gmlmap_options,"saveslot",(-1));ds_map_set(__yy__v738.gmlmap_options,"op_replays",1);ds_map_set(__yy__v738.gmlmap_options,"done_ad_retrogoal",0);ds_map_set(__yy__v738.gmlmap_options,"op_kickoffs",ds_map_find_value(__yy__v738.gmlmap_options,"fullversion"));ds_map_set(__yy__v738.gmlmap_options,
@@ -4535,7 +4535,7 @@ _inst);var gmlr_no_ties=irandom(2);if(yyGetBool(gml_Script_s_is_co_mode(__yy__v7
 gmlupset_chance=round(yyftime(__yy_gml_errCheck(gmlupset_chance),0.25));if(yyfgreater(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){{if(yyfless(gmlteam_strengthAway,gmlteam_strengthHome)){gmldo_swap=irandom(gmlupset_chance);};};}else {{if(yyfgreater(gmlteam_strengthAway,gmlteam_strengthHome)){gmldo_swap=irandom(gmlupset_chance);};};};if(yyGetBool(gmldo_swap)){{var gmltemp_map=ds_map_create();ds_map_copy(gmltemp_map,gmlscoredataAway);ds_map_copy(gmlscoredataAway,
 gmlscoredataHome);ds_map_copy(gmlscoredataHome,gmltemp_map);ds_map_destroy(gmltemp_map);gmltemp_map=(-1);};};if(!yyGetBool(argument0)){{if(yyfequal(gmlteam_idAway,yyInst(_inst,_other,97).gmlmyteam_id)){{ds_map_set(gmlscoredataAway,"points",yyInst(_inst,_other,97).gmltscore[__yy_gml_array_check_index(0,yyInst(_inst,_other,97).gmltscore)]);ds_map_set(gmlscoredataHome,"points",yyInst(_inst,_other,97).gmltscore[__yy_gml_array_check_index(1,yyInst(_inst,_other,97).gmltscore)]);if(yyfgreater(ds_map_find_value(gmlscoredataAway,
 "points"),ds_map_find_value(gmlscoredataHome,"points"))){gmlmyresult=1;};if(yyfless(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){gmlmyresult=(-1);};};}else {if(yyfequal(gmlteam_idHome,yyInst(_inst,_other,97).gmlmyteam_id)){{ds_map_set(gmlscoredataHome,"points",yyInst(_inst,_other,97).gmltscore[__yy_gml_array_check_index(1,yyInst(_inst,_other,97).gmltscore)]);ds_map_set(gmlscoredataAway,"points",yyInst(_inst,_other,97).gmltscore[__yy_gml_array_check_index(0,
-yyInst(_inst,_other,97).gmltscore)]);if(yyfless(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){gmlmyresult=1;};if(yyfgreater(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){gmlmyresult=(-1);};};};};};}else {{};};ds_map_set(gmlfix,"away_score",ds_map_find_value(gmlscoredataAway,"points"));ds_map_set(gmlfix,"home_score",ds_map_find_value(gmlscoredataHome,"points"));if(yyfgreater(ds_map_find_value(gmlscoredataAway,
+yyInst(_inst,_other,97).gmltscore)]);if(yyfless(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){gmlmyresult=1;};if(yyfgreater(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){gmlmyresult=(-1);};};};};};}else {{};};ds_map_set(gmlfix,"away_score",ds_map_find_value(gmlscoredataAway,"points"));ds_map_set(gmlfix,"home_score",ds_map_find_value(gmlscoredataHome,"points"));try{rbCpuMoraleQ(_inst,_other,gmlteam_idAway,gmlteam_idHome,Number(ds_map_find_value(gmlscoredataAway,"points")),Number(ds_map_find_value(gmlscoredataHome,"points")));}catch(_e){}if(yyfgreater(ds_map_find_value(gmlscoredataAway,
 "points"),ds_map_find_value(gmlscoredataHome,"points"))){{ds_map_set(gmlteam_mapAway,"wins",yyfplus(__yy_gml_errCheck(real(ds_map_find_value(gmlteam_mapAway,"wins"))),1));ds_map_set(gmlteam_mapHome,"losses",yyfplus(__yy_gml_errCheck(real(ds_map_find_value(gmlteam_mapHome,"losses"))),1));};}else {if(yyfless(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){{ds_map_set(gmlteam_mapAway,"losses",yyfplus(__yy_gml_errCheck(real(ds_map_find_value(gmlteam_mapAway,
 "losses"))),1));ds_map_set(gmlteam_mapHome,"wins",yyfplus(__yy_gml_errCheck(real(ds_map_find_value(gmlteam_mapHome,"wins"))),1));};}else {{ds_map_set(gmlteam_mapAway,"ties",yyfplus(__yy_gml_errCheck(real(ds_map_find_value(gmlteam_mapAway,"ties"))),1));ds_map_set(gmlteam_mapHome,"ties",yyfplus(__yy_gml_errCheck(real(ds_map_find_value(gmlteam_mapHome,"ties"))),1));};};};ds_map_destroy(gmlscoredataAway);ds_map_destroy(gmlscoredataHome);gmlscoredataAway=(-1);gmlscoredataHome=(-1);gml_Script_s_co_update_fix_rank(__yy__v777,
 _inst,gmlfix);};};}};}}};{var __yy__v778=GetWithArray(97);for(var __yy__v779 in __yy__v778){if(!__yy__v778.hasOwnProperty(__yy__v779))continue;var __yy__v780=__yy__v778[__yy__v779];{if(yyfequal(__yy__v780.gmlweek,yyInst(_inst,_other,97).gmllast_week_regular)){{if(yyfgreater(ds_map_find_value(__yy__v780.gmlmyteam,"wins"),ds_map_find_value(__yy__v780.gmlmyteam,"losses"))){gml_Script_s_complete_achievement(__yy__v780,_inst,"ACH_WINNING_SEASON");};if(yyfequal(ds_map_find_value(__yy__v780.gmlmyteam,"wins"),
@@ -4565,7 +4565,7 @@ _inst);gmlfix=gml_Script_s_get_playoff_fixture_by_week(__yy__v786,_inst,__yy__v7
 gmlteam_idHome);var gmlteam_strengthAway=real(ds_map_find_value(gmlteam_mapAway,"offense"));gmlteam_strengthAway=yyfplus(gmlteam_strengthAway,real(ds_map_find_value(gmlteam_mapAway,"defense")));var gmlteam_strengthHome=real(ds_map_find_value(gmlteam_mapHome,"offense"));gmlteam_strengthHome=yyfplus(gmlteam_strengthHome,real(ds_map_find_value(gmlteam_mapHome,"defense")));gmlteam_strengthHome=yyfplus(gmlteam_strengthHome,1);var gmlscoredataAway=gml_Script_s_get_random_scoredata(__yy__v786,_inst);var gmlscoredataHome=gml_Script_s_get_random_scoredata(__yy__v786,
 _inst);if(yyfequal(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){{ds_map_set(gmlscoredataHome,"points",yyfplus(__yy_gml_errCheck(ds_map_find_value(gmlscoredataHome,"points")),3));};};if((yyGetBool(!yyGetBool(irandom(4))))&&(yyGetBool(yyfgreater(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))))&&(yyGetBool(yyfless(gmlteam_strengthAway,gmlteam_strengthHome)))){{var gmltemp_map=ds_map_create();ds_map_copy(gmltemp_map,
 gmlscoredataAway);ds_map_copy(gmlscoredataAway,gmlscoredataHome);ds_map_copy(gmlscoredataHome,gmltemp_map);ds_map_destroy(gmltemp_map);gmltemp_map=(-1);};};if((yyGetBool(yyfequal(gmlteam_idAway,yyInst(_inst,_other,97).gmlmyteam_id)))||(yyGetBool(yyfequal(gmlteam_idHome,yyInst(_inst,_other,97).gmlmyteam_id)))){{ds_map_set(gmlscoredataAway,"points",yyInst(_inst,_other,97).gmltscore[__yy_gml_array_check_index(0,yyInst(_inst,_other,97).gmltscore)]);ds_map_set(gmlscoredataHome,"points",yyInst(_inst,_other,
-97).gmltscore[__yy_gml_array_check_index(1,yyInst(_inst,_other,97).gmltscore)]);};};ds_map_set(gmlfix,"away_score",ds_map_find_value(gmlscoredataAway,"points"));ds_map_set(gmlfix,"home_score",ds_map_find_value(gmlscoredataHome,"points"));var gmlwinning_team=gmlteam_mapAway;var gmllosing_team=gmlteam_mapHome;if(yyfless(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){{gmlwinning_team=gmlteam_mapHome;gmllosing_team=gmlteam_mapAway;};};var gmlscr1=real(ds_map_find_value(gmlfix,
+97).gmltscore[__yy_gml_array_check_index(1,yyInst(_inst,_other,97).gmltscore)]);};};ds_map_set(gmlfix,"away_score",ds_map_find_value(gmlscoredataAway,"points"));ds_map_set(gmlfix,"home_score",ds_map_find_value(gmlscoredataHome,"points"));try{rbCpuMoraleQ(_inst,_other,gmlteam_idAway,gmlteam_idHome,Number(ds_map_find_value(gmlscoredataAway,"points")),Number(ds_map_find_value(gmlscoredataHome,"points")));}catch(_e){}var gmlwinning_team=gmlteam_mapAway;var gmllosing_team=gmlteam_mapHome;if(yyfless(ds_map_find_value(gmlscoredataAway,"points"),ds_map_find_value(gmlscoredataHome,"points"))){{gmlwinning_team=gmlteam_mapHome;gmllosing_team=gmlteam_mapAway;};};var gmlscr1=real(ds_map_find_value(gmlfix,
 "away_score"));var gmlscr2=real(ds_map_find_value(gmlfix,"home_score"));if(yyfgreater(gmlscr2,gmlscr1)){{gmlscr2=real(ds_map_find_value(gmlfix,"away_score"));gmlscr1=real(ds_map_find_value(gmlfix,"home_score"));};};if(yyfequal(__yy__v786.gmlweek,gmlweek_superbowl)){{gml_Script_s_add_news(__yy__v786,_inst,gml_Script_s_parse_news(__yy__v786,_inst,"msg_SuperBowlWinner",gmlwinning_team,gmllosing_team,ds_map_find_value(gmlfix,"away_score"),ds_map_find_value(gmlfix,"home_score")));var gmlmap=ds_map_create();
 ds_map_set(gmlmap,"year",yyfplus(__yy_gml_errCheck(__yy__v786.gmlstart_year),__yy_gml_errCheck(__yy__v786.gmlyear)));ds_map_set(gmlmap,"winner",ds_map_find_value(gmlwinning_team,"name"));ds_map_set(gmlmap,"score",yyfplus(yyfplus(__yy_gml_errCheck(string(gmlscr1)),"-"),__yy_gml_errCheck(string(gmlscr2))));ds_map_set(gmlmap,"loser",ds_map_find_value(gmllosing_team,"tla"));ds_map_set(gmlmap,"human",0);if((yyGetBool(yyfequal(gmlteam_idAway,yyInst(_inst,_other,97).gmlmyteam_id)))||(yyGetBool(yyfequal(gmlteam_idHome,
 yyInst(_inst,_other,97).gmlmyteam_id)))){{if(yyfequal(gmlwinning_team,yyInst(_inst,_other,97).gmlmyteam)){{yyInst(_inst,_other,97).gmlretrobowlwinner=1;ds_map_set(gmlmap,"human",1);gml_Script_s_get_retrobowl_mvp_winner(__yy__v786,_inst);};}else {{yyInst(_inst,_other,97).gmlretrobowlwinner=(-1);ds_map_set(gmlmap,"human",(-1));};};};}else {{gml_Script_s_do_player_awards(__yy__v786,_inst);};};ds_list_add(__yy__v786.gmlrbhistorylist,gmlmap);};}else {{gml_Script_s_add_news(__yy__v786,_inst,gml_Script_s_parse_news(__yy__v786,
@@ -5038,7 +5038,7 @@ _other,gmlweek);if((yyGetBool(gmlfix))&&(yyGetBool(yyfnotequal(ds_map_find_value
 };}else {if(yyfless(gmlweek,yyInst(_inst,_other,97).gmlfirst_week_postseason)){{gml_Script_slogf(_inst,_other,"*** Enter: Bye week");gml_Script_s_do_bye_week(_inst,_other);};}else {if((yyGetBool(yyfgreaterequal(gmlweek,yyInst(_inst,_other,97).gmlfirst_week_postseason)))&&(yyGetBool(yyflessequal(gmlweek,gml_Script_s_get_last_schedule_week(_inst,_other))))){{gml_Script_slogf(_inst,_other,"*** Enter: Postseason (non player)");room_goto(54);};}else {if((yyGetBool(!yyGetBool(yyInst(_inst,_other,97).gmldone_season_review)))&&(yyGetBool(yyfgreater(yyInst(_inst,
 _other,97).gmlyear,1)))){{gml_Script_slogf(_inst,_other,"*** Enter: Season review");yyInst(_inst,_other,97).gmlstage=1;yyInst(_inst,_other,97).gmldone_season_review=true;room_goto(38);};}else {if(yyGetBool(gml_Script_s_is_co_mode(_inst,_other))){{gml_Script_slogf(_inst,_other,"*** Enter: Pro draft");yyInst(_inst,_other,97).gmlstage=(-11);gml_Script_s_create_message(_inst,_other,"",gml_Script_s_str(_inst,_other,"msg_TimeForProDraft"),"",gml_Script_s_str(_inst,_other,"ui_Continue"),"",kgml_Script_s_continue_time_for_draft_msg,
 global.gmlc_background,1);};}else {if(yyfgreater(gml_Script_s_count_joboffers(_inst,_other),0)){{gml_Script_slogf(_inst,_other,"*** Enter: Job offers");room_goto(3);};}else {{gml_Script_slogf(_inst,_other,"*** Enter: New season");gml_Script_s_start_new_season(_inst,_other,false);};};};};};};};}}function gml_GlobalScript_s_player_profile_qb_mode(_inst,_other){(_inst.gmls_player_profile_qb_mode=__yy_method(_inst,gml_Script_s_player_profile_qb_mode));}function gml_Script_s_player_profile_qb_mode(_inst,
-_other){{yyInst(_inst,_other,100418).gmltext=string(yyInst(_inst,_other,97).gmlqb_nrg);if(yyfgreater(gml_Script_s_get_qb_energy(_inst,_other),99)){yyInst(_inst,_other,100421).gmlactive=false;};}}function gml_GlobalScript_s_do_next_week(_inst,_other){(_inst.gmls_do_next_week=__yy_method(_inst,gml_Script_s_do_next_week));}function gml_Script_s_do_next_week(_inst,_other){{gml_Script_slog(_inst,_other,"s_do_next_week");var gmlfacilities_week=9;var gmlcontracts_week=16;if(yyGetBool(gml_Script_s_is_co_mode(_inst,
+_other){{yyInst(_inst,_other,100418).gmltext=string(yyInst(_inst,_other,97).gmlqb_nrg);if(yyfgreater(gml_Script_s_get_qb_energy(_inst,_other),99)){yyInst(_inst,_other,100421).gmlactive=false;};}}function gml_GlobalScript_s_do_next_week(_inst,_other){(_inst.gmls_do_next_week=__yy_method(_inst,gml_Script_s_do_next_week));}function gml_Script_s_do_next_week(_inst,_other){{gml_Script_slog(_inst,_other,"s_do_next_week");try{rbCpuMoraleFlush(_inst,_other);}catch(_e){}var gmlfacilities_week=9;var gmlcontracts_week=16;if(yyGetBool(gml_Script_s_is_co_mode(_inst,
 _other))){{};};{var __yy__v907=GetWithArray(97);for(var __yy__v908 in __yy__v907){if(!__yy__v907.hasOwnProperty(__yy__v908))continue;var __yy__v909=__yy__v907[__yy__v908];{(g_yyPrePostObject__=__yy__v909.gmlweek,__yy__v909.gmlweek=(g_yyPrePostObject__ instanceof Long?__yy__v909.gmlweek.add(1):++__yy__v909.gmlweek),g_yyPrePostObject__);__yy__v909.gmloffers_done=false;__yy__v909.gmlfans_done_update=false;__yy__v909.gmlprematch_dilemma_done=false;__yy__v909.gmlprematch_dilemma_shown_count=0;ds_list_clear(__yy__v909.gmlprematch_dilemma_chosen_players);
 __yy__v909.gmlboost_morale_done=false;__yy__v909.gmlboost_condition_done=false;__yy__v909.gmlboost_gpa_done=false;if(yyGetBool(__yy__v909.gmlqb_mode)){{gml_Script_s_degrade_shop_items(__yy__v909,_inst);gml_Script_s_qb_mode_update_resting(__yy__v909,_inst);};};gml_Script_s_clear_trade_offers(__yy__v909,_inst);gml_Script_s_reset_player_meetings(__yy__v909,_inst);gml_Script_s_do_result_news(__yy__v909,_inst);gml_Script_s_post_match_gpa_refresh(__yy__v909,_inst);if(yyfequal(__yy__v909.gmlweek,gmlfacilities_week)){
 gml_Script_s_decline_facilities(__yy__v909,_inst);};if((yyGetBool(yyfequal(__yy__v909.gmlweek,yyInst(_inst,_other,97).gmlfirst_week_playoffs)))&&(yyGetBool(!yyGetBool(gml_Script_s_is_co_real(__yy__v909,_inst))))){gml_Script_s_create_playoffs2(__yy__v909,_inst);};if(yyGetBool(gml_Script_s_is_co_real(__yy__v909,_inst))){gml_Script_s_schedule_updates(__yy__v909,_inst);};gml_Script_s_create_hirelist(__yy__v909,_inst,true,false);gml_Script_s_create_storelist(__yy__v909,_inst,yyfplus(1,__yy_gml_errCheck(irandom(2))));
@@ -6071,7 +6071,7 @@ gml_Script_s_check_draft_QB));(_inst.gmls_do_qb_draft_round=__yy_method(_inst,gm
 (_inst.gmls_goto_room_contract=__yy_method(_inst,gml_Script_s_goto_room_contract));(_inst.gmlbtn_qb_mode_interested_teams=__yy_method(_inst,gml_Script_btn_qb_mode_interested_teams));}function gml_Script_s_check_draft_QB(_inst,_other){{if((yyGetBool(yyfgreater(_inst.gmlintro,0)))||(yyGetBool(yyfequal(_inst.gmlyear,1)))){{};}else {if(yyfless(ds_map_find_value(gml_Script_s_get_qb_pmap(_inst,_other),"contract"),1)){{gml_Script_s_create_message(_inst,_other,"",gml_Script_s_str(_inst,_other,"news_QB_contract_expired"),
 gml_Script_s_str(_inst,_other,"ui_Continue"),"",kgml_Script_s_goto_room_contract,(-1),global.gmlc_background,1);_inst.gmlstage=1;return;};}else {if((yyGetBool(yyfequal(_inst.gmlweek,1)))&&(yyGetBool(yyfequal(_inst.gmldraft_round,1)))){{gml_Script_s_do_qb_draft_round(_inst,_other);gml_Script_s_end_draft_round(_inst,_other,false);gml_Script_s_do_qb_draft_round(_inst,_other);gml_Script_s_end_draft_round(_inst,_other,false);gml_Script_s_do_qb_draft_round(_inst,_other);gml_Script_s_end_draft_round(_inst,
 _other,false);return;};};};};if((yyGetBool(!yyGetBool(yyInst(_inst,_other,97).gmlprematch_dilemma_done)))&&(yyGetBool(!yyGetBool(gml_Script_s_is_bye_week(_inst,_other,yyInst(_inst,_other,97).gmlweek))))&&(yyGetBool(yyfless(yyInst(_inst,_other,97).gmlweek,yyInst(_inst,_other,97).gmllast_week_regular)))&&(yyGetBool((yyGetBool(yyfgreater(yyInst(_inst,_other,97).gmlyear,1)))||(yyGetBool(yyInst(_inst,_other,97).gmlqb_mode))))){{if(yyGetBool(gml_Script_s_do_prematch_dilemma_qb(_inst,_other))){return;}
-;};};yyInst(_inst,_other,97).gmlprematch_dilemma_done=true;gml_Script_s_savegame(_inst,_other);gml_Script_s_play(_inst,_other,1);}}function gml_Script_s_do_qb_draft_round(_inst,_other){{if(yyfless(ds_list_size(yyInst(_inst,_other,97).gmldraftlist),50)){gml_Script_s_create_draftlist(_inst,_other);};var gmlnew_pmap=(-4);var gmlremove_pmap=(-4);var gmlmax_roster=(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,350)?30:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,275)?20:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,200)?16:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,150)?12:10))));if(yyfless(ds_list_size(yyInst(_inst,_other,97).gmlroster),gmlmax_roster)){{if(yyfless(gml_Script_s_count_players_by_position(_inst,
+;};};yyInst(_inst,_other,97).gmlprematch_dilemma_done=true;gml_Script_s_savegame(_inst,_other);gml_Script_s_play(_inst,_other,1);}}function gml_Script_s_do_qb_draft_round(_inst,_other){{if(yyfless(ds_list_size(yyInst(_inst,_other,97).gmldraftlist),50)){gml_Script_s_create_draftlist(_inst,_other);};var gmlnew_pmap=(-4);var gmlremove_pmap=(-4);var gmlmax_roster=30;if(yyfless(ds_list_size(yyInst(_inst,_other,97).gmlroster),gmlmax_roster)){{if(yyfless(gml_Script_s_count_players_by_position(_inst,
 _other,4),1)){gmlnew_pmap=gml_Script_s_find_draft_player_by_position(_inst,_other,4,0);}else {if(yyfless(gml_Script_s_count_players_by_position(_inst,_other,2),1)){gmlnew_pmap=gml_Script_s_find_draft_player_by_position(_inst,_other,2,0);}else {if(yyfless(gml_Script_s_count_players_by_position(_inst,_other,4),2)){gmlnew_pmap=gml_Script_s_find_draft_player_by_position(_inst,_other,4,7);};};};if(yyfequal(gmlnew_pmap,(-4))){{var gmlcurrent_rb=gml_Script_s_get_player_by_position_for_qb_draft(_inst,_other,
 2,1);if(yyGetBool(gmlcurrent_rb)){{var gmlrating=gml_Script_s_get_player_rating(_inst,_other,gmlcurrent_rb);gmlnew_pmap=gml_Script_s_find_draft_player_by_position(_inst,_other,2,yyfplus(__yy_gml_errCheck(gmlrating),1));if(yyGetBool(gmlnew_pmap)){gmlremove_pmap=gmlcurrent_rb;};};};};};if((yyGetBool(yyfequal(gmlnew_pmap,(-4))))&&(yyGetBool(yyfless(gml_Script_s_count_players_by_position(_inst,_other,4),2)))){gmlnew_pmap=gml_Script_s_find_draft_player_by_position(_inst,_other,4,5);};if((yyGetBool(yyfequal(gmlnew_pmap,
 (-4))))&&(yyGetBool(yyfless(gml_Script_s_count_players_by_position(_inst,_other,3),1)))){gmlnew_pmap=gml_Script_s_find_draft_player_by_position(_inst,_other,3,5);};if((yyGetBool(yyfequal(gmlnew_pmap,(-4))))&&(yyGetBool(yyfless(gml_Script_s_count_players_by_position(_inst,_other,4),2)))){gmlnew_pmap=gml_Script_s_find_draft_player_by_position(_inst,_other,4,0);};if((yyGetBool(yyfequal(gmlnew_pmap,(-4))))&&(yyGetBool(yyfless(gml_Script_s_count_players_by_position(_inst,_other,3),1)))){gmlnew_pmap=gml_Script_s_find_draft_player_by_position(_inst,
@@ -6802,9 +6802,9 @@ gmlteam);};};};}};gmlteams_conf=gml_Script_s_sort_teams(__yy__v1674,_inst,gmltea
 _other))?gml_Script_s_get_team_by_seed(_inst,_other,argument0,argument1):gml_Script_s_get_team_by_seed_co(_inst,_other,argument0,argument1));return ds_map_find_value(gmlteam,"uid");}}function gml_GlobalScript_s_get_team_name_by_seed(_inst,_other,argument0,argument1,argument2){(_inst.gmls_get_team_name_by_seed=__yy_method(_inst,gml_Script_s_get_team_name_by_seed));}function gml_Script_s_get_team_name_by_seed(_inst,_other,argument0,argument1,argument2){{gml_Script_slog(_inst,_other,"s_get_team_name_by_seed");
 var gmlconf=argument0;var gmlseed=argument1;var gmltla=argument2;var gmlteam=gml_Script_s_get_team_by_seed(_inst,_other,gmlconf,gmlseed);var ___sw1366___=gmltla;var ___swc1367___=-1;if(yyCompareVal(___sw1366___,false,g_GMLMathEpsilon,false)==0){___swc1367___=0;}else if(yyCompareVal(___sw1366___,true,g_GMLMathEpsilon,false)==0){___swc1367___=1;}switch(___swc1367___){case 0:{return ds_map_find_value(gmlteam,"name");break;}case 1:{return ds_map_find_value(gmlteam,"tla");break;}};}}function gml_GlobalScript_s_get_team_offense(_inst,
 _other){(_inst.gmls_get_team_offense=__yy_method(_inst,gml_Script_s_get_team_offense));(_inst.gmls_get_team_offense_exh=__yy_method(_inst,gml_Script_s_get_team_offense_exh));(_inst.gmls_get_team_offense_from_roster=__yy_method(_inst,gml_Script_s_get_team_offense_from_roster));}function gml_Script_s_get_team_offense(_inst,_other,argument0){{{var __yy__v1675=GetWithArray(97);for(var __yy__v1676 in __yy__v1675){if(!__yy__v1675.hasOwnProperty(__yy__v1676))continue;var __yy__v1677=__yy__v1675[__yy__v1676];
-{if((yyGetBool(yyfequal(ds_map_find_value(argument0,"uid"),__yy__v1677.gmlmyteam_id)))&&(yyGetBool(!yyGetBool(global.gmlexhibition)))){{var gmlrating=gml_Script_s_get_team_offense_from_roster(__yy__v1677,_inst,__yy__v1677.gmlroster);var gmlcoordinator=gml_Script_s_get_staff(__yy__v1677,_inst,102);if(yyGetBool(gmlcoordinator)){gmlrating=yyfplus(gmlrating,ds_map_find_value(gmlcoordinator,"rating"));};gmlrating=round(yyftime(__yy_gml_errCheck(gmlrating),0.225*(10/(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,350)?30:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,275)?20:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,200)?16:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,150)?12:10)))))));gmlrating=clamp(gmlrating,1,10);ds_map_set(argument0,
+{if((yyGetBool(yyfequal(ds_map_find_value(argument0,"uid"),__yy__v1677.gmlmyteam_id)))&&(yyGetBool(!yyGetBool(global.gmlexhibition)))){{var gmlrating=gml_Script_s_get_team_offense_from_roster(__yy__v1677,_inst,__yy__v1677.gmlroster);var gmlcoordinator=gml_Script_s_get_staff(__yy__v1677,_inst,102);if(yyGetBool(gmlcoordinator)){gmlrating=yyfplus(gmlrating,ds_map_find_value(gmlcoordinator,"rating"));};gmlrating=round(yyftime(__yy_gml_errCheck(gmlrating),0.225*(10/30)));gmlrating=clamp(gmlrating,1,10);ds_map_set(argument0,
 "offense",gmlrating);return gmlrating;};}else {{{{var __rv=ds_map_find_value(argument0,"offense");return (typeof __rv==="number"&&!isNaN(__rv))?__rv:5;};};};};}}};}}function gml_Script_s_get_team_offense_exh(_inst,_other,argument0,argument1){{{var __yy__v1678=GetWithArray(97);for(var __yy__v1679 in __yy__v1678){if(!__yy__v1678.hasOwnProperty(__yy__v1679))continue;var __yy__v1680=__yy__v1678[__yy__v1679];{if(yyfequal(argument1,(-4))){{gml_Script_slog(__yy__v1680,_inst,"s_get_team_offense_exh. no cur_roster");
-};};if((yyGetBool(yyfnotequal(argument1,(-4))))&&(yyGetBool(ds_list_size(yyfgreater(argument1,0))))){{var gmlrating=gml_Script_s_get_team_offense_from_roster(__yy__v1680,_inst,argument1);gmlrating=round(yyftime(__yy_gml_errCheck(gmlrating),0.225*(10/(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,350)?30:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,275)?20:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,200)?16:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,150)?12:10)))))));gmlrating=clamp(gmlrating,1,10);ds_map_set(argument0,"offense",gmlrating);return gmlrating;};}else {{{{var __rv=ds_map_find_value(argument0,"offense");return (typeof __rv==="number"&&!isNaN(__rv))?__rv:5;};};};};}}};}}function gml_Script_s_get_team_offense_from_roster(_inst,
+};};if((yyGetBool(yyfnotequal(argument1,(-4))))&&(yyGetBool(ds_list_size(yyfgreater(argument1,0))))){{var gmlrating=gml_Script_s_get_team_offense_from_roster(__yy__v1680,_inst,argument1);gmlrating=round(yyftime(__yy_gml_errCheck(gmlrating),0.225*(10/30)));gmlrating=clamp(gmlrating,1,10);ds_map_set(argument0,"offense",gmlrating);return gmlrating;};}else {{{{var __rv=ds_map_find_value(argument0,"offense");return (typeof __rv==="number"&&!isNaN(__rv))?__rv:5;};};};};}}};}}function gml_Script_s_get_team_offense_from_roster(_inst,
 _other,argument0){{var gmlrating=0;var gmlpcount=1;var gmli=0;for(;yyfless(gmli,ds_list_size(argument0));(g_yyPrePostObject__=gmli,gmli=(g_yyPrePostObject__ instanceof Long?gmli.add(1):++gmli),g_yyPrePostObject__)){{var gmlpmap=ds_list_find_value(argument0,gmli);if((yyGetBool(ds_map_exists(gmlpmap,"backup")))&&(yyGetBool(yyfequal(ds_map_find_value(gmlpmap,"backup"),true)))){continue;};if((yyGetBool(yyfgreater(ds_map_find_value(gmlpmap,"condition"),0)))&&(yyGetBool(!yyGetBool(gml_Script_s_player_benched(_inst,
 _other,gmlpmap))))){{var ___sw1370___=ds_map_find_value(gmlpmap,"position");var ___swc1371___=-1;if(yyCompareVal(___sw1370___,1,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1370___,2,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1370___,3,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1370___,4,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1370___,5,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1370___,16,g_GMLMathEpsilon,false)==0){___swc1371___=0;}switch(___swc1371___){case 0:{(g_yyPrePostObject__=gmlpcount,gmlpcount=(g_yyPrePostObject__ instanceof Long?gmlpcount.add(1):++gmlpcount),
 g_yyPrePostObject__);gmlrating=yyfplus(gmlrating,gml_Script_s_get_player_rating(_inst,_other,gmlpmap));break;}default :{break;}};};};}};return gmlrating;}}function gml_GlobalScript_s_get_defense_attribute(_inst,_other){(_inst.gmls_get_defense_attribute=__yy_method(_inst,gml_Script_s_get_defense_attribute));(_inst.gmls_get_attribute=__yy_method(_inst,gml_Script_s_get_attribute));(_inst.gmls_attribute_buff=__yy_method(_inst,gml_Script_s_attribute_buff));}function gml_Script_s_get_defense_attribute(_inst,
@@ -6815,8 +6815,8 @@ false)==0){___swc1377___=0;}switch(___swc1377___){case 0:{return min(yyfplus(__y
 _other))){return 0;};var ___sw1378___=argument1;var ___swc1379___=-1;if(yyCompareVal(___sw1378___,"skill",g_GMLMathEpsilon,false)==0){___swc1379___=0;}else if(yyCompareVal(___sw1378___,"speed",g_GMLMathEpsilon,false)==0){___swc1379___=1;}else if(yyCompareVal(___sw1378___,"strength",g_GMLMathEpsilon,false)==0){___swc1379___=2;}else if(yyCompareVal(___sw1378___,"stamina",g_GMLMathEpsilon,false)==0){___swc1379___=3;}switch(___swc1379___){case 0:{if(yyfgreater(ds_map_find_value(argument0,"attitude"),90)){return 1;
 };break;}case 1:{if(yyfgreater(ds_map_find_value(argument0,"condition"),99)){return 1;};break;}case 2:{if(yyflessequal(ds_map_find_value(argument0,"attitude"),30)){return 1;};break;}case 3:{if(yyflessequal(ds_map_find_value(argument0,"attitude"),15)){return 1;};break;}};return 0;}}function gml_GlobalScript_s_get_team_defense(_inst,_other){(_inst.gmls_get_team_defense=__yy_method(_inst,gml_Script_s_get_team_defense));(_inst.gmls_get_team_defense_exh=__yy_method(_inst,gml_Script_s_get_team_defense_exh));(_inst.gmls_get_team_defense_from_roster=__yy_method(_inst,
 gml_Script_s_get_team_defense_from_roster));}function gml_Script_s_get_team_defense(_inst,_other,argument0){{{var __yy__v1684=GetWithArray(97);for(var __yy__v1685 in __yy__v1684){if(!__yy__v1684.hasOwnProperty(__yy__v1685))continue;var __yy__v1686=__yy__v1684[__yy__v1685];{if((yyGetBool(yyfequal(ds_map_find_value(argument0,"uid"),__yy__v1686.gmlmyteam_id)))&&(yyGetBool(!yyGetBool(global.gmlexhibition)))){{var gmlrating=gml_Script_s_get_team_defense_from_roster(__yy__v1686,_inst,__yy__v1686.gmlroster);var gmlcoordinator=gml_Script_s_get_staff(__yy__v1686,
-_inst,101);if(yyGetBool(gmlcoordinator)){gmlrating=yyfplus(gmlrating,ds_map_find_value(gmlcoordinator,"rating"));};gmlrating=round(yyftime(__yy_gml_errCheck(gmlrating),0.25*(10/(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,350)?30:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,275)?20:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,200)?16:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,150)?12:10)))))));gmlrating=clamp(gmlrating,1,10);ds_map_set(argument0,"defense",gmlrating);return gmlrating;};}else {{{{var __rv=ds_map_find_value(argument0,"defense");return (typeof __rv==="number"&&!isNaN(__rv))?__rv:5;};};};};}}};}}function gml_Script_s_get_team_defense_exh(_inst,_other,argument0,argument1){{{var __yy__v1687=GetWithArray(97);
-for(var __yy__v1688 in __yy__v1687){if(!__yy__v1687.hasOwnProperty(__yy__v1688))continue;var __yy__v1689=__yy__v1687[__yy__v1688];{if(yyfequal(argument1,(-4))){{gml_Script_slog(__yy__v1689,_inst,"s_get_team_defense_exh. no cur_roster");};};if((yyGetBool(yyfnotequal(argument1,(-4))))&&(yyGetBool(ds_list_size(yyfgreater(argument1,0))))){{var gmlrating=gml_Script_s_get_team_defense_from_roster(__yy__v1689,_inst,argument1);gmlrating=round(yyftime(__yy_gml_errCheck(gmlrating),0.25*(10/(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,350)?30:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,275)?20:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,200)?16:(yyfgreater(yyInst(_inst,_other,97).gmlsalary_cap,150)?12:10)))))));gmlrating=clamp(gmlrating,
+_inst,101);if(yyGetBool(gmlcoordinator)){gmlrating=yyfplus(gmlrating,ds_map_find_value(gmlcoordinator,"rating"));};gmlrating=round(yyftime(__yy_gml_errCheck(gmlrating),0.25*(10/30)));gmlrating=clamp(gmlrating,1,10);ds_map_set(argument0,"defense",gmlrating);return gmlrating;};}else {{{{var __rv=ds_map_find_value(argument0,"defense");return (typeof __rv==="number"&&!isNaN(__rv))?__rv:5;};};};};}}};}}function gml_Script_s_get_team_defense_exh(_inst,_other,argument0,argument1){{{var __yy__v1687=GetWithArray(97);
+for(var __yy__v1688 in __yy__v1687){if(!__yy__v1687.hasOwnProperty(__yy__v1688))continue;var __yy__v1689=__yy__v1687[__yy__v1688];{if(yyfequal(argument1,(-4))){{gml_Script_slog(__yy__v1689,_inst,"s_get_team_defense_exh. no cur_roster");};};if((yyGetBool(yyfnotequal(argument1,(-4))))&&(yyGetBool(ds_list_size(yyfgreater(argument1,0))))){{var gmlrating=gml_Script_s_get_team_defense_from_roster(__yy__v1689,_inst,argument1);gmlrating=round(yyftime(__yy_gml_errCheck(gmlrating),0.25*(10/30)));gmlrating=clamp(gmlrating,
 1,10);ds_map_set(argument0,"defense",gmlrating);return gmlrating;};}else {{{{var __rv=ds_map_find_value(argument0,"defense");return (typeof __rv==="number"&&!isNaN(__rv))?__rv:5;};};};};}}};}}function gml_Script_s_get_team_defense_from_roster(_inst,_other,argument0){{var gmlrating=0;var gmlpcount=1;var gmli=0;for(;yyfless(gmli,ds_list_size(argument0));(g_yyPrePostObject__=gmli,gmli=(g_yyPrePostObject__ instanceof Long?gmli.add(1):++gmli),g_yyPrePostObject__)){{var gmlpmap=ds_list_find_value(argument0,
 gmli);if((yyGetBool(yyfgreater(ds_map_find_value(gmlpmap,"condition"),0)))&&(yyGetBool(!yyGetBool(gml_Script_s_player_benched(_inst,_other,gmlpmap))))){{var ___sw1382___=ds_map_find_value(gmlpmap,"position");var ___swc1383___=-1;if(yyCompareVal(___sw1382___,6,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1382___,15,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1382___,7,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1382___,8,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw1382___,9,g_GMLMathEpsilon,false)==0){___swc1383___=0;}switch(___swc1383___){case 0:{
 (g_yyPrePostObject__=gmlpcount,gmlpcount=(g_yyPrePostObject__ instanceof Long?gmlpcount.add(1):++gmlpcount),g_yyPrePostObject__);gmlrating=yyfplus(gmlrating,gml_Script_s_get_player_rating(_inst,_other,gmlpmap));break;}default :{break;}};};};}};return gmlrating;}}function gml_GlobalScript_s_get_salary_total(_inst,_other){(_inst.gmls_get_salary_total=__yy_method(_inst,gml_Script_s_get_salary_total));}function gml_Script_s_get_salary_total(_inst,_other){{var gmltotal=0;var gmlr=0;for(;yyfless(gmlr,ds_list_size(yyInst(_inst,
@@ -7416,7 +7416,7 @@ if(yyGetBool(global.gmlgamepad)){{if((yyGetBool(yyfequal(yyInst(_inst,_other,glo
 _other,global.gmlgp).gmlui_selected,_inst.id)))&&(yyGetBool(gamepad_button_check_released(yyInst(_inst,_other,global.gmlgp).gmlslot,32772)))){{if((yyGetBool(_inst.gmlonHoldAction))&&(yyGetBool(_inst.gmlpmap))){{if(yyGetBool(ds_map_find_value(yyInst(_inst,_other,97).gmlmap_options,"op_soundfx"))){audio_play_sound(5,1,false);};yyInst(_inst,_other,97).gmlplayer_profile=_inst.gmlpmap;script_execute(_inst,_other,_inst.gmlonHoldAction);};};};};};};}else {{if((yyGetBool(gml_Script_s_is_touch_allowed(_inst,
 _other)))&&(yyGetBool(point_in_rectangle(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),_inst.x,_inst.y,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.sprite_width)),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(_inst.sprite_height)))))){{_inst.gmlhover=true;};};if(yyGetBool(_inst.gmlhover)){{if(yyGetBool(mouse_check_button(1))){{if(!yyGetBool(_inst.gmlclicked)){_inst.gmlclicked=g_pBuiltIn.get_current_time();}else {if((yyGetBool(_inst.gmlonHoldAction))&&(yyGetBool(_inst.gmlpmap))&&(yyGetBool(yyfgreater(yyfminus(__yy_gml_errCheck(g_pBuiltIn.get_current_time()),
 __yy_gml_errCheck(_inst.gmlclicked)),3000)))&&(yyGetBool(yyfnotequal(g_pBuiltIn.get_os_type(),21)))){{_inst.gmlclicked=0;yyInst(_inst,_other,97).gmlplayer_profile=_inst.gmlpmap;script_execute(_inst,_other,_inst.gmlonHoldAction);};};};};};if((yyGetBool(_inst.gmlclicked))&&(yyGetBool(mouse_check_button_released(1)))){{if(yyGetBool(ds_map_find_value(yyInst(_inst,_other,97).gmlmap_options,"op_soundfx"))){audio_play_sound(5,1,false);};script_execute(_inst,_other,_inst.gmlonClickAction);_inst.gmlclicked=0;
-};};};}else {{_inst.gmlclicked=0;};};};};}function gml_Object_obj_player_profile_Draw_0(_inst,_other){}function gml_Object_obj_player_profile_Draw_64(_inst,_other){rbPhDraw(_inst,_other);var gmlsx=_inst.image_xscale;var gmlsy=_inst.image_yscale;if(gmlsx>=1||gmlsx<=0){gml_Object_obj_player_profile_Draw_64_full(_inst,_other);return;}_inst.image_xscale=1;_inst.image_yscale=1;matrix_set(2,matrix_build(_inst.x*(1-gmlsx),_inst.y*(1-gmlsx),0,0,0,0,gmlsx,gmlsx,1));gml_Object_obj_player_profile_Draw_64_full(_inst,_other);matrix_set(2,matrix_build(0,0,0,0,0,0,1,1,1));_inst.image_xscale=gmlsx;_inst.image_yscale=gmlsy;}function gml_Object_obj_player_profile_Draw_64_full(_inst,_other){if(!yyGetBool(_inst.gmlpmap)){{if(!yyGetBool(variable_instance_exists(_inst.id,"_face_hunt_error_shown"))){gml_Script_slog(_inst,_other,"FACEHUNT: No pmap set for obj_player_profile!");};_inst.gml_face_hunt_error_shown=true;return;};};if((yyGetBool(_inst.gmlflash))||(yyGetBool(yyfless(g_pBuiltIn.get_current_time(),yyfplus(__yy_gml_errCheck(real(ds_map_find_value(_inst.gmlpmap,
+};};};}else {{_inst.gmlclicked=0;};};};};}function gml_Object_obj_player_profile_Draw_0(_inst,_other){}function gml_Object_obj_player_profile_Draw_64(_inst,_other){if(rbFaDraw(_inst,_other)){return;}rbPhDraw(_inst,_other);var gmlsx=_inst.image_xscale;var gmlsy=_inst.image_yscale;if(gmlsx>=1||gmlsx<=0){gml_Object_obj_player_profile_Draw_64_full(_inst,_other);return;}_inst.image_xscale=1;_inst.image_yscale=1;matrix_set(2,matrix_build(_inst.x*(1-gmlsx),_inst.y*(1-gmlsx),0,0,0,0,gmlsx,gmlsx,1));gml_Object_obj_player_profile_Draw_64_full(_inst,_other);matrix_set(2,matrix_build(0,0,0,0,0,0,1,1,1));_inst.image_xscale=gmlsx;_inst.image_yscale=gmlsy;}function gml_Object_obj_player_profile_Draw_64_full(_inst,_other){if(!yyGetBool(_inst.gmlpmap)){{if(!yyGetBool(variable_instance_exists(_inst.id,"_face_hunt_error_shown"))){gml_Script_slog(_inst,_other,"FACEHUNT: No pmap set for obj_player_profile!");};_inst.gml_face_hunt_error_shown=true;return;};};if((yyGetBool(_inst.gmlflash))||(yyGetBool(yyfless(g_pBuiltIn.get_current_time(),yyfplus(__yy_gml_errCheck(real(ds_map_find_value(_inst.gmlpmap,
 "flash_time"))),2550))))){{if(!yyGetBool(global.gmlgamepad)){{var gmlf=sin(yyfdivide(__yy_gml_errCheck(g_pBuiltIn.get_current_time()),120));if(yyfless(gmlf,0.1)){return;};};};};};var gmlpos=real(ds_map_find_value(_inst.gmlpmap,"position"));var gmlbx=yyfplus(__yy_gml_errCheck(_inst.x),2);var gmlby=yyfminus(__yy_gml_errCheck(_inst.y),2);if((yyGetBool(_inst.gmlclicked))||(yyGetBool(!yyGetBool(_inst.gmlactive)))){{gmlbx=_inst.x;gmlby=_inst.y;};};draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,
 _inst.x,_inst.y,1,1,0,4210752,1);var gmlpos_col=gml_Script_s_get_position_colour(_inst,_other,gmlpos);if((yyGetBool(ds_map_exists(_inst.gmlpmap,"resting")))&&(yyGetBool(ds_map_find_value(_inst.gmlpmap,"resting")))){gmlpos_col=8421504;}else {if((yyGetBool(ds_map_exists(_inst.gmlpmap,"condition")))&&(yyGetBool(yyfless(ds_map_find_value(_inst.gmlpmap,"condition"),0)))){gmlpos_col=8421504;}else {if(yyGetBool(gml_Script_s_is_backup(_inst,_other,_inst.gmlpmap))){gmlpos_col=8421504;}else {if((yyGetBool(gml_Script_s_is_co_mode(_inst,
 _other)))&&(yyGetBool(ds_map_exists(_inst.gmlpmap,"suspended")))&&(yyGetBool(ds_map_find_value(_inst.gmlpmap,"suspended")))){gmlpos_col=8421504;};};};};if(yyfequal(g_pBuiltIn.get_current_room(),12)){gmlpos_col=global.gmlc_primary;};draw_rectangle_color(yyfplus(__yy_gml_errCheck(gmlbx),2),yyfplus(__yy_gml_errCheck(gmlby),2),yyfminus(yyfplus(__yy_gml_errCheck(gmlbx),__yy_gml_errCheck(_inst.sprite_width)),3),yyfplus(__yy_gml_errCheck(gmlby),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(_inst.sprite_height),
@@ -8553,7 +8553,7 @@ draw_rectangle((-1),(-1),yyfplus(__yy_gml_errCheck(g_pBuiltIn.room_width),1),yyf
 if(yyfequal(yyInst(_inst,_other,97).gmlco_mode,0)){{if(yyfequal(gmlpicks,0)){{gml_Script_s_end_draft_round(__yy__v2274,_inst,false);return;};};};};__yy__v2274.gmldraftlist=gml_Script_s_sort_players(__yy__v2274,_inst,__yy__v2274.gmldraftlist,2);var ___sw2034___=__yy__v2274.gmldraft_info_done;var ___swc2035___=-1;if(yyCompareVal(___sw2034___,0,g_GMLMathEpsilon,false)==0){___swc2035___=0;}else if(yyCompareVal(___sw2034___,1,g_GMLMathEpsilon,false)==0){___swc2035___=1;}else if(yyCompareVal(___sw2034___,
 2,g_GMLMathEpsilon,false)==0){___swc2035___=2;}switch(___swc2035___){case 0:{gml_Script_s_do_info(__yy__v2274,_inst,"info_Draft");__yy__v2274.gmldraft_info_done=2;break;}case 1:{gml_Script_s_do_info(__yy__v2274,_inst,"info_Draft2");__yy__v2274.gmldraft_info_done=2;break;}case 2:{break;}};}}};yyInst(_inst,_other,100059).gmltext=string_replace(gml_Script_s_str(_inst,_other,"ui_DraftRound"),"$num",string(yyInst(_inst,_other,97).gmldraft_round));yyInst(_inst,_other,100061).gmltext=gml_Script_s_str(_inst,
 _other,"ui_Picks");if(yyGetBool(gml_Script_s_is_co_mode(_inst,_other))){{yyInst(_inst,_other,100061).visible=false;};};_inst.gmlpage_max=ceil(yyfdivide(__yy_gml_errCheck(ds_list_size(yyInst(_inst,_other,97).gmldraftlist)),10));if(yyfless(_inst.gmlpage_max,1)){_inst.gmlpage_max=1;};yyInst(_inst,_other,97).gmldraft_page=clamp(yyInst(_inst,_other,97).gmldraft_page,1,_inst.gmlpage_max);gml_Script_s_update_draft_page(_inst,_other);if(yyGetBool(yyInst(_inst,_other,97).gmldodraftbanner)){gml_Script_s_do_banner_draft(_inst,
-_other);};}function gml_Object_obj_draft_PreCreate_0(_inst,_other){event_inherited(_inst,_other);_inst.gmlprofile=__yy_gml_array_check(_inst.gmlprofile,4083195518);_inst.gmlprofile[__yy_gml_array_check_index_set(5)]=49;}function gml_Object_obj_freeagents_Create_0(_inst,_other){gml_Script_s_update_freeagents_page(_inst,_other);gml_Script_s_check_expired_contract_message(_inst,_other);}function gml_Object_obj_freeagents_PreCreate_0(_inst,_other){event_inherited(_inst,_other);_inst.gmlprofile=__yy_gml_array_check(_inst.gmlprofile,
+_other);};}function gml_Object_obj_draft_PreCreate_0(_inst,_other){event_inherited(_inst,_other);_inst.gmlprofile=__yy_gml_array_check(_inst.gmlprofile,4083195518);_inst.gmlprofile[__yy_gml_array_check_index_set(5)]=49;}function gml_Object_obj_freeagents_Create_0(_inst,_other){global.gmlfa_sel=null;gml_Script_s_update_freeagents_page(_inst,_other);gml_Script_s_check_expired_contract_message(_inst,_other);}function gml_Object_obj_freeagents_PreCreate_0(_inst,_other){event_inherited(_inst,_other);_inst.gmlprofile=__yy_gml_array_check(_inst.gmlprofile,
 4083195518);_inst.gmlprofile[__yy_gml_array_check_index_set(5)]=49;_inst.gmlsortby=2;}function gml_Object_obj_meter_starrating_Create_0(_inst,_other){_inst.gmlold_percent=yyInst(_inst,_other,97).gmlstarrating;_inst.gmltitle=yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gml_Script_s_str(_inst,_other,"ui_StarRating"))," "),__yy_gml_errCheck(string(round(_inst.gmlold_percent)))),"%");_inst.gmlcolour=global.gmlc_primary;}function gml_Object_obj_meter_starrating_Step_0(_inst,_other){_inst.gmltitle=yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gml_Script_s_str(_inst,
 _other,"ui_StarRating"))," "),__yy_gml_errCheck(string(round(_inst.gmlold_percent)))),"%");_inst.gmlold_percent=lerp(_inst.gmlold_percent,yyInst(_inst,_other,97).gmlstarrating,0.1);}function gml_Room_rm_master_Create(_inst,_other){}function gml_RoomCC_rm_master_2_Create(_inst,_other){{{var __yy__v2275=GetWithArray((-3));for(var __yy__v2276 in __yy__v2275){if(!__yy__v2275.hasOwnProperty(__yy__v2276))continue;var __yy__v2277=__yy__v2275[__yy__v2276];{if((yyGetBool(__yy__v2277.layer))&&(yyGetBool(yyfnotequal(layer_get_name(__yy__v2277.layer),
 "PopUps")))){__yy__v2277.x=yyfminus(__yy__v2277.x,56);};}}};};{};}function gml_RoomCC_rm_master_2_PreCreate(_inst,_other){_inst.gmlty=16;_inst.gmltext=gml_Script_s_str(_inst,_inst,"ui_RetroBowl");_inst.gmlonClickAction=kgml_Script_s_show_backups;}function gml_RoomCC_rm_master_3_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_LoadSlot1;_inst.gmltext=gml_Script_s_str(_inst,_inst,"ui_Load");}function gml_RoomCC_rm_master_4_PreCreate(_inst,_other){_inst.gmltitle="";_inst.gmlfill_bg=true;
@@ -8635,7 +8635,8 @@ function gml_RoomCC_rm_options_51_PreCreate(_inst,_other){
                 gml_Script_s_create_message(_i,_o,"","NO SAVE DATA FOUND",gml_Script_s_str(_i,_o,"ui_Ok"),"",kgml_Script_s_msg_clear,"",global.gmlc_background,1);
                 return;
             }
-            var _b=new Blob([_d],{type:"text/plain"});
+            var _fx="";try{_fx=localStorage.getItem("RB_falcons")||"";}catch(_x){}
+            var _b=new Blob([_fx?(_d+"\n#RB_FALCONS="+encodeURIComponent(_fx)):_d],{type:"text/plain"});
             var _u=URL.createObjectURL(_b);
             var _a=document.createElement("a");
             _a.href=_u;
@@ -8661,10 +8662,13 @@ function gml_RoomCC_rm_options_53_PreCreate(_inst,_other){
                 if(!_file){return;}
                 var _r=new FileReader();
                 _r.onload=function(){
-                    var _t=String(_r.result||"");
+                    var _t=String(_r.result||""),_fal="";
+                    var _mm=/\r?\n?#RB_FALCONS=([^\r\n]*)\s*$/.exec(_t);
+                    if(_mm){_t=_t.slice(0,_mm.index);try{_fal=decodeURIComponent(_mm[1]);JSON.parse(_fal);}catch(_x){_fal="";}}
                     if(_t.length===0){alert("That file is empty. Nothing was imported.");return;}
                     if(!confirm("This will overwrite your current save with the imported file. Continue?")){return;}
                     localStorage.setItem("RetroBowl.0.savedata.ini",_t);
+                    if(_fal){localStorage.setItem("RB_falcons",_fal);}
                     alert("Import complete. The game will now reload.");
                     location.reload();
                 };
@@ -8694,7 +8698,7 @@ var RB_SB_KEY = "sb_publishable_xkaAnZTOgQDUoNGBzXGNHA_nX-_lScT";   // publishab
 var RB_EMAIL_DOMAIN = "retrobowl.app";
 var RB_SAVE_KEY = "RetroBowl.0.savedata.ini", RB_SESSION_KEY = "RB_session";
 var RB_SYNC_KEY = "RB_synced_at", RB_DIRTY_KEY = "RB_dirty", rbBootT0 = Date.now();
-var rbAcctLock = false, rbSbTimer = null, rbSbPending = null;
+var rbAcctLock = false, rbSbTimer = null, rbSbPending = null, rbSbNoExtra = false;
 function rbSbGet() { try { var s = JSON.parse(localStorage.getItem(RB_SESSION_KEY) || "null"); return (s && s.access_token) ? s : null; } catch (_e) { return null; } }
 function rbSbSet(s) { try { if (s) { localStorage.setItem(RB_SESSION_KEY, JSON.stringify(s)); } else { localStorage.removeItem(RB_SESSION_KEY); } } catch (_e) {} }
 function rbSbMake(j, name) {
@@ -8720,18 +8724,21 @@ function rbSbToken() {
     }, function () { return null; });
 }
 function rbSbPush(s, data, keepalive) {
-    var ts = new Date().toISOString();
-    return rbSbReq("POST", "/rest/v1/saves?on_conflict=user_id", s.access_token,
-        { user_id: s.uid, data: data, updated_at: ts },
+    var ts = new Date().toISOString(), body = { user_id: s.uid, data: data, updated_at: ts };
+    if (!rbSbNoExtra) { try { body.extra = localStorage.getItem(RB_FAL_KEY) || ""; } catch (_e) { body.extra = ""; } }
+    return rbSbReq("POST", "/rest/v1/saves?on_conflict=user_id", s.access_token, body,
         { "Prefer": "resolution=merge-duplicates,return=minimal" }, keepalive).then(function (r) {
+            if (!r.ok && !rbSbNoExtra && r.json && /extra/i.test(JSON.stringify(r.json))) { rbSbNoExtra = true; return rbSbPush(s, data, keepalive); }   // column not added yet
             if (r.ok) { try { localStorage.setItem(RB_SYNC_KEY, ts); } catch (_e) {} }
             return r.ok;
         }, function () { return false; });
 }
 function rbSbPull(s) {
-    return rbSbReq("GET", "/rest/v1/saves?select=data,updated_at&user_id=eq." + encodeURIComponent(s.uid), s.access_token).then(function (r) {
+    return rbSbReq("GET", "/rest/v1/saves?select=data,updated_at" + (rbSbNoExtra ? "" : ",extra") + "&user_id=eq." + encodeURIComponent(s.uid), s.access_token).then(function (r) {
+        if (!r.ok && !rbSbNoExtra) { rbSbNoExtra = true; return rbSbPull(s); }                      // column not added yet
         if (!r.ok) { return { ok: false }; }
-        return { ok: true, data: (r.json && r.json[0] && typeof r.json[0].data === "string") ? r.json[0].data : "", updated: (r.json && r.json[0]) ? r.json[0].updated_at : null };
+        return { ok: true, data: (r.json && r.json[0] && typeof r.json[0].data === "string") ? r.json[0].data : "", updated: (r.json && r.json[0]) ? r.json[0].updated_at : null,
+                 extra: (r.json && r.json[0] && typeof r.json[0].extra === "string") ? r.json[0].extra : "" };
     }, function () { return { ok: false }; });
 }
 // mirror game saves to the signed-in account (debounced)
@@ -8783,7 +8790,7 @@ function rbSbBoot() {
                 var cur = localStorage.getItem(RB_SAVE_KEY);
                 if (localStorage.getItem(RB_DIRTY_KEY) === "1") { if (cur !== null) { rbAcctSync(cur); } return; }   // un-uploaded local progress wins
                 if (cloudT === mine || !pr.data) return;
-                if (cur === pr.data) { localStorage.setItem(RB_SYNC_KEY, pr.updated); return; }
+                if (cur === pr.data) { localStorage.setItem(RB_SYNC_KEY, pr.updated); if (pr.extra) { localStorage.setItem(RB_FAL_KEY, pr.extra); } return; }
                 if (Date.now() - rbBootT0 > 30000) return;                                       // too late: don't yank the game mid-play
                 var g = 0; try { g = Number(sessionStorage.getItem("RB_boot_apply") || 0); } catch (_e) {}
                 if (Date.now() - g < 15000) return;                                              // never loop
@@ -8791,6 +8798,7 @@ function rbSbBoot() {
                 if (cur !== null) { localStorage.setItem("RB_backup_before_login", cur); }
                 localStorage.setItem(RB_SAVE_KEY, pr.data);
                 localStorage.setItem(RB_SYNC_KEY, pr.updated);
+                if (pr.extra) { localStorage.setItem(RB_FAL_KEY, pr.extra); }
                 try { sessionStorage.setItem("RB_boot_apply", String(Date.now())); } catch (_e) {}
                 location.reload();
             });
@@ -8855,6 +8863,7 @@ function rbAcctSignIn(_i, _o) {
                 if (old !== null) { localStorage.setItem("RB_backup_before_login", old); }
                 localStorage.setItem(RB_SAVE_KEY, pr.data);
                 if (pr.updated) { localStorage.setItem(RB_SYNC_KEY, pr.updated); }
+                if (pr.extra) { localStorage.setItem(RB_FAL_KEY, pr.extra); }
                 localStorage.removeItem(RB_DIRTY_KEY);
                 rbSbSet(sess);
                 rbAcctMsg(L, "SIGNED IN - LOADING YOUR SAVE", true);
@@ -8876,6 +8885,1271 @@ function rbAcctSignOut() {
     };
     var v = rbSbPending;                                              // upload any save that hasn't gone up yet, then sign out
     if (v !== null) { rbSbToken().then(function (t) { return t ? rbSbPush(t, v) : false; }).then(finish, finish); } else { finish(); }
+}
+// ---- Front Office "R" button -> blank TEAMS screen ----
+function gml_RoomCC_rm_frontoffice_28_PreCreate(_inst,_other){
+    _inst.gmltext="R";
+    _inst.gmlimage=(-4);
+    _inst.gmlonClickAction=function(_i,_o){rbTeams(_i,_o);};
+}
+var rbTm = null;
+// ---- Atlanta Falcons roster (shown on the Teams screen unless you coach the Falcons) ----
+// Generated once with the game's own player generator, saved in localStorage, kept the same every season; ages advance with the game's year.
+var RB_FAL_KEY = "RB_falcons";   // (old browser-storage key, no longer used: CPU rosters now live inside the save file)
+// CPU team rosters are part of the save: loaded from the .ini by s_loadgame, written into it by s_savegame, reset by a new game, gone when the save is deleted
+var rbFalMem = "", rbFalBatch = false;
+// a CPU roster holds at most 26 players; its salary cap is the game's cap per roster spot (cap / the game's own max roster for that cap) times 26
+var RB_CPU_MAXR = 26;
+function rbFalCap(_i,_o){
+    // CPU teams always play under a flat 450 cap, whatever cap the player picked
+    return 450;
+}
+// after the first generation a CPU team's strength comes from its actual roster: recalculate offense / defense from the saved players and store them on the game's team
+// (the same numbers the game uses when it simulates that team); called after drafts and trades
+function rbFalSyncTeam(_i,_o,ti){
+    var was = rbFalBatch; rbFalBatch = true;
+    try {
+        var tm = rbFalTeamMapOf(_i,_o,ti); if (!tm || rbFalIsMine(_i,_o,ti)) { return; }
+        var list = rbFalLoad(_i,_o,ti), t = rbFalTeam(_i,_o,list);
+        rbFalFree(list);
+        ds_map_set(tm, "offense", t.off); ds_map_set(tm, "defense", t.def);
+    } catch (_e) { try { console.error("team rating sync error", _e); } catch (_x) {} }
+    finally { rbFalBatch = was; }
+}
+// CPU teams that have no saved roster yet (never the one you coach)
+function rbFalMissing(_i,_o){
+    var root = null; try { root = JSON.parse(rbFalGet() || "null"); } catch (_e) { root = null; }
+    var out = [];
+    for (var ti = 0; ti < RB_TEAMS.length; ti++) {
+        if (rbFalIsMine(_i,_o,ti)) { continue; }
+        var d = root ? ((ti === 0) ? root : (root.teams ? root.teams[ti] : null)) : null;
+        if (!d || !d.players || !d.players.length || d.c !== 5) { out.push(ti); }
+    }
+    return out;
+}
+// generates every CPU team in one go (one save at the end instead of one per team); does nothing once they all exist
+function rbFalGenAll(_i,_o){
+    var root = null; try { root = JSON.parse(rbFalGet() || "null"); } catch (_e) { root = null; }
+    var need = false;
+    for (var ti = 0; ti < RB_TEAMS.length && !need; ti++) {
+        if (rbFalIsMine(_i,_o,ti)) { continue; }
+        var d = root ? ((ti === 0) ? root : (root.teams ? root.teams[ti] : null)) : null;
+        if (!d || !d.players || !d.players.length || d.c !== 5) { need = true; }
+    }
+    if (!need) { return; }
+    rbFalBatch = true;
+    try { for (var k = 0; k < RB_TEAMS.length; k++) { if (!rbFalIsMine(_i,_o,k)) { try { rbFalFree(rbFalLoad(_i,_o,k)); } catch (_e) { try { console.error("team generation error", _e); } catch (_x) {} } } } }
+    finally { rbFalBatch = false; }
+    try { gml_Script_s_savegame(_i, _o); } catch (_e) {}
+}
+function rbFalGet(){ return rbFalMem ? rbFalMem : null; }
+function rbFalPut(str){ rbFalMem = String(str); }
+function rbFalEncode(str){ try { return str ? btoa(unescape(encodeURIComponent(str))) : ""; } catch (_e) { return ""; } }
+function rbFalDecode(b64){ try { return b64 ? decodeURIComponent(escape(atob(b64))) : ""; } catch (_e) { return ""; } }
+var RB_FAL_RMIN = 5, RB_FAL_RMAX = 8, RB_FAL_SMIN = 9, RB_FAL_SMAX = 10, RB_FAL_VER = 3;   // normal players roll 5-8 stars, the few standouts 9-11; bump RB_FAL_VER to re-roll everyone
+var RB_FAL_SPEC = [[1, 1, "QB"], [2, 1, "RB"], [3, 1, "TE"], [4, 3, "WR"], [5, 5, "OL"], [6, 4, "DL"], [7, 3, "LB"], [8, 2, "CB"], [9, 2, "S"], [10, 1, "K"]];
+var RB_FAL_STK = ["skill", "speed", "strength", "stamina", "max_skill", "max_speed", "max_strength", "max_stamina", "attitude", "salary", "contract"];
+function rbFalStats(pm){
+    var st = {};
+    for (var k = 0; k < RB_FAL_STK.length; k++) {
+        try { if (yyGetBool(ds_map_exists(pm, RB_FAL_STK[k]))) { var v = rbN(ds_map_find_value(pm, RB_FAL_STK[k])); if (isFinite(v)) st[RB_FAL_STK[k]] = v; } } catch (_e) {}
+    }
+    return st;
+}
+// Teams in cycling order: [display name, regex keyword for "you coach this team", helmet, jersey, pants]
+var RB_TEAMS = [
+ ["ATLANTA FALCONS","FALCON",0x101820,0xC8102E,0xA5ACAF],["CAROLINA PANTHERS","PANTHER",0x101820,0x0085CA,0x101820],["NEW ORLEANS SAINTS","SAINT",0xD3BC8D,0x101820,0xD3BC8D],["TAMPA BAY BUCCANEERS","BUCCANEER",0x8A8D8F,0xD50A0A,0x8A8D8F],
+ ["PHILADELPHIA EAGLES","EAGLE",0x004C54,0x004C54,0xA5ACAF],["DALLAS COWBOYS","COWBOY",0xB0B7BC,0x003594,0xB0B7BC],["NEW YORK GIANTS","GIANT",0x0B2265,0x0B2265,0xB0B7BC],["WASHINGTON COMMANDERS","COMMANDER",0x5A1414,0x5A1414,0xFFB612],
+ ["LOS ANGELES RAMS","\\bRAM",0x003594,0x003594,0xFFA300],["SAN FRANCISCO 49ERS","49ER",0xB3995D,0xAA0000,0xB3995D],["SEATTLE SEAHAWKS","SEAHAWK",0x002244,0x002244,0x69BE28],["ARIZONA CARDINALS","CARDINAL",0x97233F,0x97233F,0xFFFFFF],
+ ["DETROIT LIONS","LION",0xB0B7BC,0x0076B6,0xB0B7BC],["GREEN BAY PACKERS","PACKER",0x203731,0x203731,0xFFB612],["CHICAGO BEARS","\\bBEAR",0x0B162A,0x0B162A,0xC83803],["MINNESOTA VIKINGS","VIKING",0x4F2683,0x4F2683,0xFFC62F],
+ ["KANSAS CITY CHIEFS","CHIEF",0xE31837,0xE31837,0xFFFFFF],["LAS VEGAS RAIDERS","RAIDER",0xA5ACAF,0x101820,0xA5ACAF],["LOS ANGELES CHARGERS","CHARGER",0x0080C6,0x0080C6,0xFFC20E],["DENVER BRONCOS","BRONCO",0x002244,0xFB4F14,0x002244],
+ ["BUFFALO BILLS","\\bBILL",0xFFFFFF,0x00338D,0xFFFFFF],["NEW ENGLAND PATRIOTS","PATRIOT",0x002244,0x002244,0xB0B7BC],["MIAMI DOLPHINS","DOLPHIN",0xFFFFFF,0x008E97,0xFC4C02],["NEW YORK JETS","\\bJETS",0x125740,0x125740,0xFFFFFF],
+ ["JACKSONVILLE JAGUARS","JAGUAR",0x9F792C,0x006778,0x101820],["TENNESSEE TITANS","TITAN",0x0C2340,0x4B92DB,0x0C2340],["INDIANAPOLIS COLTS","COLT",0xFFFFFF,0x002C5F,0xFFFFFF],["HOUSTON TEXANS","TEXAN",0x03202F,0x03202F,0xA71930],
+ ["CINCINNATI BENGALS","BENGAL",0xFB4F14,0xFB4F14,0x101820],["BALTIMORE RAVENS","RAVEN",0x241773,0x241773,0x101820],["CLEVELAND BROWNS","BROWN",0xFF3C00,0x311D00,0xFF3C00],["PITTSBURGH STEELERS","STEELER",0x101820,0x101820,0xFFB612]
+];
+function rbFalHex(h){ return [(h & 255) / 256, ((h >> 8) & 255) / 256, ((h >> 16) & 255) / 256]; }   // shader colours are [blue, green, red] / 256
+function rbFalCols(_i){ var t = RB_TEAMS[rbTm ? rbTm.ti : 0]; _i.gmlhelmet = rbFalHex(t[2]); _i.gmlshirt = rbFalHex(t[3]); _i.gmlpants = rbFalHex(t[4]); }
+function rbFalIsMine(_i,_o,ti){
+    try { var n = String(ds_map_find_value(yyInst(_i,_o,97).gmlmyteam, "name")).toUpperCase(); return new RegExp(RB_TEAMS[ti][1]).test(n) || (ti === 0 && n.indexOf("ATLANTA") >= 0); } catch (_e) { return false; }
+}
+function rbFalYear(_i,_o){ try { var y = Number(yyInst(_i,_o,97).gmlyear); return isFinite(y) ? y : 0; } catch (_e) { return 0; } }
+function rbFalNum(pos, used){
+    var r = { 1: [1, 19], 2: [20, 39], 3: [80, 89], 4: [80, 89], 5: [60, 79], 6: [90, 99], 7: [50, 59], 8: [20, 39], 9: [20, 49], 10: [1, 9] }[pos] || [1, 99];
+    for (var t = 0; t < 200; t++) { var n = r[0] + Math.floor(Math.random() * (r[1] - r[0] + 1)); if (!used[n]) { used[n] = true; return n; } }
+    for (var m = 1; m < 100; m++) { if (!used[m]) { used[m] = true; return m; } }
+    return 0;
+}
+// picks which players are standouts: usually 2-3 (sometimes 1 or 4), never the kicker
+function rbFalStars(codes){
+    var cand = [], out = {}, n = 2 + (Math.random() < 0.5 ? 1 : 0) + (Math.random() < 0.2 ? 1 : 0) - (Math.random() < 0.15 ? 1 : 0);
+    for (var i = 0; i < codes.length; i++) { if (codes[i] !== 10) { cand.push(i); } }
+    for (var k = 0; k < n && cand.length; k++) { var j = Math.floor(Math.random() * cand.length); out[cand[j]] = true; cand.splice(j, 1); }
+    return out;
+}
+// raises the lowest stats (up to 10) until the player reaches the wanted rating
+function rbFalBoost(_i,_o,pm,tgt){
+    var ks = ["skill", "speed", "strength", "stamina"];
+    for (var n = 0; n < 40; n++) {
+        if (Number(gml_Script_s_get_player_rating(_i, _o, pm)) >= tgt) { break; }
+        var lo = null;
+        for (var k = 0; k < ks.length; k++) { var v = Number(ds_map_find_value(pm, ks[k])); if (v < 10 && (lo === null || v < Number(ds_map_find_value(pm, lo)))) { lo = ks[k]; } }
+        if (lo === null) { break; }
+        ds_map_set(pm, lo, Number(ds_map_find_value(pm, lo)) + 1);
+    }
+    for (var m = 0; m < ks.length; m++) { var mk = "max_" + ks[m]; if (yyGetBool(ds_map_exists(pm, mk)) && Number(ds_map_find_value(pm, mk)) < Number(ds_map_find_value(pm, ks[m]))) { ds_map_set(pm, mk, Number(ds_map_find_value(pm, ks[m]))); } }
+}
+function rbFalGen(_i,_o,ti){
+    var out = [], used = {}, plan = [];
+    for (var k = 0; k < RB_FAL_SPEC.length; k++) {
+        var cnt = RB_FAL_SPEC[k][1], tg = RB_FAL_SPEC[k][2];
+        if (tg === "WR") { cnt = 2 + Math.floor(Math.random() * 3); }       // 2-4 WR
+        else if (tg === "TE") { cnt = Math.floor(Math.random() * 3); }      // 0-2 TE
+        for (var c = 0; c < cnt; c++) {
+            var pos = RB_FAL_SPEC[k][0];
+            plan.push({ pos: pos, tag: RB_FAL_SPEC[k][2], code: (pos === 6 && Math.random() < 0.5) ? 15 : ((pos === 5 && Math.random() < 0.5) ? 16 : pos) });
+        }
+    }
+    var stars = rbFalStars(plan.map(function (q) { return q.code; }));
+    // each team has a 0.5% chance of one 6-star player and a separate 0.5% chance of one 5.5-star player (stat caps only let some positions reach 6 stars)
+    var i12 = -1, i11 = -1, c12 = [], c11 = [];
+    for (var pi = 0; pi < plan.length; pi++) { if ([2, 3, 4, 7, 8, 9].indexOf(plan[pi].code) >= 0) { c12.push(pi); } if (plan[pi].code !== 10) { c11.push(pi); } }
+    if (Math.random() < 0.005 && c12.length) { i12 = c12[Math.floor(Math.random() * c12.length)]; }
+    if (Math.random() < 0.005) { c11 = c11.filter(function (z) { return z !== i12; }); if (c11.length) { i11 = c11[Math.floor(Math.random() * c11.length)]; } }
+    // the roster is built around the game's own offense / defense rating (1-10) for this team: a 10/10 team gets 4-5 star starters, a 3/10 team gets 1-2 star ones
+    var rr = null; try { rr = rbRealRtg(_i, _o, ti); } catch (_e) { rr = null; }
+    var avgO = rr ? rr.off / 1.125 : 0, avgD = rr ? rr.def / 1.25 : 0;
+    for (var n = 0; n < plan.length; n++) {
+        var code = plan[n].code, pos = plan[n].pos, tgt = (n === i12) ? 12 : ((n === i11) ? 11 : 0);
+        var lo = stars[n] ? RB_FAL_SMIN : RB_FAL_RMIN, hi = stars[n] ? RB_FAL_SMAX : RB_FAL_RMAX;
+        if (rr && code !== 10) {
+            var av = ([1, 2, 3, 4, 5, 16].indexOf(code) >= 0) ? avgO : avgD;
+            lo = stars[n] ? Math.round(av + 1) : Math.round(av - 1.2); hi = stars[n] ? Math.round(av + 2.5) : Math.round(av + 1.2);
+            lo = Math.max(2, Math.min(10, lo)); hi = Math.max(lo, Math.min(10, hi));
+        }
+        var pm = gml_Script_s_create_player(_i, _o, code, 21 + Math.floor(Math.pow(Math.random(), 1.35) * 14), tgt || lo, tgt || hi);
+        if (tgt) { rbFalBoost(_i, _o, pm, tgt); } else if (rr && code !== 10) { rbFalBoost(_i, _o, pm, lo); }
+        var rt = 6; try { rt = Number(gml_Script_s_get_player_rating(_i, _o, pm)); if (!(rt >= 1)) rt = 6; } catch (_e) {}
+        out.push({ pos: pos, code: code, tag: plan[n].tag, num: rbFalNum(pos, used), age0: Number(ds_map_find_value(pm, "age")), rating: rt, st: rbFalStats(pm),
+                   fname: String(ds_map_find_value(pm, "fname")), lname: String(ds_map_find_value(pm, "lname")),
+                   skin: ds_map_find_value(pm, "skin"), face_set: ds_map_find_value(pm, "face_set"),
+                   face_x: ds_map_find_value(pm, "face_x"), face_y: ds_map_find_value(pm, "face_y") });
+        try { ds_map_destroy(pm); } catch (_e) {}
+    }
+    return out;
+}
+function rbFalLoad(_i,_o,ti){
+    var yr = rbFalYear(_i,_o), root = null;
+    try { root = JSON.parse(rbFalGet() || "null"); } catch (_e) {}
+    if (!root || typeof root !== "object") { root = {}; }
+    var save = function () { try { rbFalPut(JSON.stringify(root)); if (!rbFalBatch) { gml_Script_s_savegame(_i, _o); } } catch (_e) {} };
+    var d = (ti === 0) ? root : (root.teams ? root.teams[ti] : null);
+    if (!d || !d.players || !d.players.length) {
+        if (ti === 0) { root.y0 = yr; root.v = RB_FAL_VER; root.players = rbFalGen(_i,_o,ti); d = root; }
+        else { root.teams = root.teams || {}; d = root.teams[ti] = { y0: yr, v: RB_FAL_VER, players: rbFalGen(_i,_o,ti) }; }
+        save();
+    }
+    if (d.c !== 5) { d.players = rbFalGen(_i,_o,ti); d.c = 5; d.v = RB_FAL_VER; save(); }   // one-time re-roll so every team gets its own WR / TE counts
+    if (yr < d.y0) { d.y0 = yr; save(); }   // new career: don't age backwards
+    // retirement: players age every season, so anyone past the game's max age (35, QBs / kickers 40) retires and is replaced by a fresh 21-23 year old rookie at the same spot
+    var retired = false, usedN = {};
+    for (var un = 0; un < d.players.length; un++) { usedN[d.players[un].num] = true; }
+    for (var rn = 0; rn < d.players.length; rn++) {
+        var op = d.players[rn];
+        if ((Number(op.age0) + (yr - d.y0)) < ((op.code === 1 || op.code === 10) ? 40 : 35)) { continue; }
+        try {
+            var rpm = gml_Script_s_create_player(_i, _o, op.code, 21 + Math.floor(Math.random() * 3), RB_FAL_RMIN, RB_FAL_RMAX), rrt = 6;
+            try { rrt = Number(gml_Script_s_get_player_rating(_i, _o, rpm)); if (!(rrt >= 1)) rrt = 6; } catch (_e) {}
+            d.players[rn] = { pos: op.pos, code: op.code, tag: op.tag, num: rbFalNum(op.pos, usedN), age0: Number(ds_map_find_value(rpm, "age")) - (yr - d.y0), rating: rrt, st: rbFalStats(rpm),
+                              fname: String(ds_map_find_value(rpm, "fname")), lname: String(ds_map_find_value(rpm, "lname")),
+                              skin: ds_map_find_value(rpm, "skin"), face_set: ds_map_find_value(rpm, "face_set"), face_x: ds_map_find_value(rpm, "face_x"), face_y: ds_map_find_value(rpm, "face_y") };
+            try { ds_map_destroy(rpm); } catch (_e) {}
+            retired = true;
+        } catch (_e) {}
+    }
+    if (retired) { save(); }
+    var list = [], rtChanged = false, needV = (d.v !== RB_FAL_VER);
+    var starSet = rbFalStars(d.players.map(function (q) { return q.code; }));
+    for (var i = 0; i < d.players.length; i++) {
+        var p = d.players[i], m = ds_map_create();
+        if (!p.st || needV) {   // saved before profiles / before the generation buff: roll stats for this player once and keep them
+            try { var pm2 = gml_Script_s_create_player(_i, _o, p.code, Math.max(21, Number(p.age0) || 24), starSet[i] ? RB_FAL_SMIN : RB_FAL_RMIN, starSet[i] ? RB_FAL_SMAX : RB_FAL_RMAX); p.st = rbFalStats(pm2); try { p.rating = Number(gml_Script_s_get_player_rating(_i, _o, pm2)); } catch (_e) {} try { ds_map_destroy(pm2); } catch (_e) {} rtChanged = true; } catch (_e) { p.st = {}; }
+        }
+        ds_map_set(m, "position", p.code); ds_map_set(m, "skin", p.skin); ds_map_set(m, "face_set", p.face_set);
+        ds_map_set(m, "face_x", p.face_x); ds_map_set(m, "face_y", p.face_y); ds_map_set(m, "teamid", (-1));
+        ds_map_set(m, "fname", p.fname); ds_map_set(m, "lname", p.lname);
+        var age = p.age0 + (yr - d.y0);
+        for (var sk in p.st) { ds_map_set(m, sk, p.st[sk]); }
+        ds_map_set(m, "age", age); ds_map_set(m, "condition", 100); ds_map_set(m, "resting", 0);
+        if (!(Number(p.morale) >= 0)) { var at0 = Number((p.st || {}).attitude); p.morale = isFinite(at0) ? Math.max(0, Math.min(100, at0)) : 70; }
+        ds_map_set(m, "morale", Math.round(p.morale));
+        var rt2 = Number(p.rating) >= 1 ? Number(p.rating) : 6; try { var rr = Number(gml_Script_s_get_player_rating(_i, _o, m)); if (rr >= 1) rt2 = rr; } catch (_e) {}
+        list.push({ m: m, num: p.num, tag: p.tag, code: p.code, rating: rt2, name: p.lname, fname: p.fname, age: age });
+    }
+    if (needV) { d.v = RB_FAL_VER; rtChanged = true; }
+    if (rtChanged) { save(); }
+    // too many at a position: the lowest-rated extras go on the bench (listed last)
+    var lim = { 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 4, 7: 3, 8: 2, 9: 2, 10: 1 }, grp = {};
+    for (var b = 0; b < list.length; b++) { var bp = (list[b].code === 15) ? 6 : ((list[b].code === 16) ? 5 : list[b].code); list[b].bp = bp; (grp[bp] = grp[bp] || []).push(list[b]); }
+    for (var gk in grp) {
+        var gl = grp[gk].slice().sort(function (x, y) { return y.rating - x.rating; }), startN = 0, otN = 0, dtN = 0;
+        for (var bi = 0; bi < gl.length; bi++) {
+            var isOT = (gl[bi].code === 16);   // the game's "OT": only 2 tackles can start, any extra tackle sits on the bench
+            var isDT = (gl[bi].code === 6);    // interior DL ("DL" in the game, the other DL spots are "ED"): max 2 DTs start
+            if (startN < (lim[gk] || 99) && !(isOT && otN >= 2) && !(isDT && dtN >= 2)) { startN++; if (isOT) { otN++; } if (isDT) { dtN++; } } else { gl[bi].bench = true; }
+        }
+    }
+    // depth chart: starters (best-rated at each spot) first, grouped by position with the highest rating first, then the bench - so a traded-in player slots straight in
+    var byDepth = function (x, y) { return (x.bp - y.bp) || (y.rating - x.rating); };
+    list = list.filter(function (x) { return !x.bench; }).sort(byDepth).concat(list.filter(function (x) { return x.bench; }).sort(byDepth));
+    return list;
+}
+// Team offense / defense exactly as the game rates a roster: sum of the starters' star ratings (offense = QB, RB, WR, TE, OL; defense = DL, LB, CB, S),
+// scaled by the league's salary cap and clamped to 1-10 each. Overall is offense + defense out of 20.
+function rbFalTeam(_i,_o,list){
+    // the game's own formula sums a small roster (6-15 players) and scales by roster size, so a full 22-man CPU roster would always max out;
+    // here the average star rating of the starters is put on the same 1-10 scale instead (offense = QB, RB, TE, WR, OL; defense = DL, LB, CB, S)
+    var o = 0, on = 0, d = 0, dn = 0;
+    for (var i = 0; i < list.length; i++) {
+        var x = list[i], c = x.code;
+        if (x.bench || c === 10) { continue; }
+        if (c === 1 || c === 2 || c === 3 || c === 4 || c === 5 || c === 16) { o += x.rating; on++; } else { d += x.rating; dn++; }
+    }
+    var off = Math.max(1, Math.min(10, Math.round((on ? o / on : 0) * 1.125))), def = Math.max(1, Math.min(10, Math.round((dn ? d / dn : 0) * 1.25)));
+    return { off: off, def: def, ovr: off + def };
+}
+function rbFalFree(list){ if (!list) return; for (var i = 0; i < list.length; i++) { try { ds_map_destroy(list[i].m); } catch (_e) {} } }
+// One roster card, drawn exactly like the game's own roster cards (obj_player_profile): shadow, position-colour band, card, face, position, name, stars.
+// ---- the game's own trade offers (CPU asks for one of my players / offers me one of theirs) now use the saved CPU rosters ----
+function rbFalTiOfName(nm){
+    nm = String(nm).toUpperCase();
+    for (var k = 0; k < RB_TEAMS.length; k++) { if (new RegExp(RB_TEAMS[k][1]).test(nm) || (k === 0 && nm.indexOf("ATLANTA") >= 0)) { return k; } }
+    return -1;
+}
+function rbFalTeamMapOf(_i,_o,ti){
+    try {
+        var tl = yyInst(_i,_o,97).gmlteamlist, n = ds_list_size(tl);
+        for (var k = 0; k < n; k++) { var t = ds_list_find_value(tl, k); if (rbFalTiOfName(ds_map_find_value(t, "name")) === ti) { return t; } }
+    } catch (_e) {}
+    return null;
+}
+// saved data of one CPU team (generated first if it has never been opened): { root, d }
+function rbFalSaved(_i,_o,ti){
+    try { rbFalFree(rbFalLoad(_i,_o,ti)); } catch (_e) {}
+    var root = null; try { root = JSON.parse(rbFalGet() || "null"); } catch (_e) { root = null; }
+    var d = root ? ((ti === 0) ? root : (root.teams ? root.teams[ti] : null)) : null;
+    return (d && d.players) ? { root: root, d: d } : null;
+}
+function rbFalBase(code){ return (code === 15) ? 6 : ((code === 16) ? 5 : code); }
+// the game just made a random player for a trade offer: turn him into a real player from a CPU team's roster (same position the game asked for)
+function rbFalTradeSwap(_i,_o,pm){
+    try {
+        var want = Number(ds_map_find_value(pm, "position")), yr = rbFalYear(_i,_o), order = [];
+        for (var k = 0; k < RB_TEAMS.length; k++) { if (!rbFalIsMine(_i,_o,k) && rbFalTeamMapOf(_i,_o,k)) { order.push(k); } }
+        for (var a = order.length - 1; a > 0; a--) { var b = Math.floor(Math.random() * (a + 1)), tmp = order[a]; order[a] = order[b]; order[b] = tmp; }
+        for (var o2 = 0; o2 < order.length; o2++) {
+            var ti = order[o2], sv = rbFalSaved(_i,_o,ti);
+            if (!sv) { continue; }
+            var pool = sv.d.players.filter(function (z) { return z.code === want; });
+            if (!pool.length) { pool = sv.d.players.filter(function (z) { return rbFalBase(z.code) === rbFalBase(want); }); }
+            if (!pool.length) { continue; }
+            var pin = pool[Math.floor(Math.random() * pool.length)];
+            ds_map_set(pm, "position", pin.code); ds_map_set(pm, "fname", pin.fname); ds_map_set(pm, "lname", pin.lname);
+            ds_map_set(pm, "skin", pin.skin); ds_map_set(pm, "face_set", pin.face_set); ds_map_set(pm, "face_x", pin.face_x); ds_map_set(pm, "face_y", pin.face_y);
+            for (var sk in (pin.st || {})) { ds_map_set(pm, sk, pin.st[sk]); }
+            ds_map_set(pm, "age", Number(pin.age0) + (yr - sv.d.y0)); ds_map_set(pm, "condition", 100); ds_map_set(pm, "resting", 0);
+            ds_map_set(pm, "teamid", ds_map_find_value(rbFalTeamMapOf(_i,_o,ti), "uid"));
+            ds_map_set(pm, "rb_ti", ti); ds_map_set(pm, "rb_num", pin.num); ds_map_set(pm, "rb_code", pin.code);
+            return;
+        }
+    } catch (_e) { try { console.error("trade swap error", _e); } catch (_x) {} }
+}
+// I accepted a CPU team's offer: that player leaves their saved roster
+function rbFalTradeTaken(_i,_o,pm){
+    try {
+        if (!yyGetBool(ds_map_exists(pm, "rb_ti"))) { return; }
+        var ti = Number(ds_map_find_value(pm, "rb_ti")); if (!(ti >= 0)) { return; }
+        var sv = rbFalSaved(_i,_o,ti); if (!sv) { return; }
+        var fn = String(ds_map_find_value(pm, "fname")), ln = String(ds_map_find_value(pm, "lname")), num = ds_map_find_value(pm, "rb_num"), code = Number(ds_map_find_value(pm, "rb_code"));
+        for (var k = 0; k < sv.d.players.length; k++) { var q = sv.d.players[k]; if (q.code === code && q.fname === fn && q.lname === ln && q.num === num) { sv.d.players.splice(k, 1); break; } }
+        rbFalPut(JSON.stringify(sv.root));
+        rbFalSyncTeam(_i, _o, ti);
+        ds_map_set(pm, "rb_ti", -1);
+    } catch (_e) { try { console.error("trade taken error", _e); } catch (_x) {} }
+}
+// I accepted a trade of my player to a CPU team: he joins their saved roster
+function rbFalTradeGiven(_i,_o,m){
+    try {
+        var ti = rbFalTiOfName(ds_map_find_value(gml_Script_s_get_offer_team(_i, _o, m), "name"));
+        if (ti < 0 || rbFalIsMine(_i,_o,ti)) { return; }
+        var sv = rbFalSaved(_i,_o,ti); if (!sv) { return; }
+        var yr = rbFalYear(_i,_o), code = Number(ds_map_find_value(m, "position")), pos = rbFalBase(code), used = {}, rt = 6;
+        var TAGS = { 1: "QB", 2: "RB", 3: "TE", 4: "WR", 5: "OL", 6: "DL", 7: "LB", 8: "CB", 9: "S", 10: "K" };
+        for (var u = 0; u < sv.d.players.length; u++) { used[sv.d.players[u].num] = true; }
+        try { rt = Number(gml_Script_s_get_player_rating(_i, _o, m)); if (!(rt >= 1)) { rt = 6; } } catch (_e) { rt = 6; }
+        sv.d.players.push({ pos: pos, code: code, tag: TAGS[pos] || "", num: rbFalNum(pos, used), age0: Number(ds_map_find_value(m, "age")) - (yr - sv.d.y0), rating: rt, st: rbFalStats(m),
+                            fname: String(ds_map_find_value(m, "fname")), lname: String(ds_map_find_value(m, "lname")),
+                            skin: ds_map_find_value(m, "skin"), face_set: ds_map_find_value(m, "face_set"), face_x: ds_map_find_value(m, "face_x"), face_y: ds_map_find_value(m, "face_y") });
+        rbFalPut(JSON.stringify(sv.root));
+        rbFalSyncTeam(_i, _o, ti);
+    } catch (_e) { try { console.error("trade given error", _e); } catch (_x) {} }
+}
+// ---- CPU drafts: when the draft ends a "GENERATING CPU DRAFTS" page runs every CPU team's draft, then continues to the next screen ----
+var rbCd = null;
+function rbCpuDraftTeam(_i,_o,d,yr){
+    var LIM = { 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 4, 7: 3, 8: 2, 9: 2, 10: 1 }, MAXR = RB_CPU_MAXR, TAGS = { 1: "QB", 2: "RB", 3: "TE", 4: "WR", 5: "OL", 6: "DL", 7: "LB", 8: "CB", 9: "S", 10: "K" };
+    var used = {}; for (var u = 0; u < d.players.length; u++) { used[d.players[u].num] = true; }
+    // a new player (draftee / free agent) joins; over the roster limit the weakest player beyond a position's starting spots is cut (lowest rated overall if there are none)
+    var addPlayer = function (pm, code, pos, rt) {
+        d.players.push({ pos: pos, code: code, tag: TAGS[pos] || "", num: rbFalNum(pos, used), age0: Number(ds_map_find_value(pm, "age")) - (yr - d.y0), rating: rt, st: rbFalStats(pm),
+                         fname: String(ds_map_find_value(pm, "fname")), lname: String(ds_map_find_value(pm, "lname")),
+                         skin: ds_map_find_value(pm, "skin"), face_set: ds_map_find_value(pm, "face_set"), face_x: ds_map_find_value(pm, "face_x"), face_y: ds_map_find_value(pm, "face_y") });
+        while (d.players.length > MAXR) {
+            var g2 = {}; for (var z = 0; z < d.players.length; z++) { var zb = rbFalBase(d.players[z].code); g2[zb] = (g2[zb] || 0) + 1; }
+            var cut = -1;
+            for (var y = 0; y < d.players.length; y++) { var yb = rbFalBase(d.players[y].code); if ((g2[yb] || 0) > (LIM[yb] || 0) && (cut < 0 || d.players[y].rating < d.players[cut].rating)) { cut = y; } }
+            if (cut < 0) { for (var y2 = 0; y2 < d.players.length; y2++) { if (cut < 0 || d.players[y2].rating < d.players[cut].rating) { cut = y2; } } }
+            d.players.splice(cut, 1);
+        }
+    };
+    var counts = function () {
+        var c = { cnt: {}, weak: {}, ot: 0, dt: 0 };
+        for (var k = 0; k < d.players.length; k++) {
+            var q = d.players[k], bp = rbFalBase(q.code);
+            c.cnt[bp] = (c.cnt[bp] || 0) + 1; c.weak[bp] = (c.weak[bp] === undefined) ? q.rating : Math.min(c.weak[bp], q.rating);
+            if (q.code === 16) { c.ot++; } if (q.code === 6) { c.dt++; }
+        }
+        return c;
+    };
+    // 1. contracts: everyone's goes down a year; when one runs out the player re-signs (better and younger players are more likely to) or walks
+    for (var ci = d.players.length - 1; ci >= 0; ci--) {
+        var cp = d.players[ci]; cp.st = cp.st || {};
+        var yrs = Number(cp.st.contract); if (!(yrs >= 0)) { yrs = 1 + Math.floor(Math.random() * 3); }
+        yrs -= 1;
+        if (yrs >= 1) { cp.st.contract = yrs; continue; }
+        var age = Number(cp.age0) + (yr - d.y0), pStay = 0.35 + 0.06 * cp.rating - (age >= 32 ? 0.2 : (age >= 30 ? 0.1 : 0));
+        pStay = Math.max(0.2, Math.min(0.95, pStay));
+        if (Math.random() < pStay) { cp.st.contract = 1 + Math.floor(Math.random() * 3); } else { d.players.splice(ci, 1); }
+    }
+    // 1b. yearly progression: young players grow toward their max_ stats, prime players level off, players from 30 on decline (speed / stamina fastest);
+    //     good morale helps development a little, bad morale holds it back. Ratings are recalculated from these stats when the roster loads.
+    for (var pi = 0; pi < d.players.length; pi++) {
+        var pp = d.players[pi], ps = pp.st; if (!ps) { continue; }
+        var pa = Number(pp.age0) + (yr - d.y0), mo = Number(pp.morale), mf = isFinite(mo) ? (mo >= 70 ? 1.15 : (mo < 35 ? 0.7 : 1)) : 1;
+        var ks2 = ["skill", "speed", "strength", "stamina"];
+        for (var kk = 0; kk < ks2.length; kk++) {
+            var key = ks2[kk], cur = Number(ps[key]), mx = Number(ps["max_" + key]);
+            if (!isFinite(cur)) { continue; }
+            if (!isFinite(mx)) { mx = cur; }
+            var nv = cur;
+            if (pa < 30) {
+                var frac = (pa <= 24) ? 0.35 : ((pa <= 28) ? 0.2 : 0.08);
+                var gap = Math.max(0, mx - cur);
+                nv = cur + gap * Math.min(1, frac * mf * (0.6 + Math.random() * 0.8));
+            } else {
+                var dec = (pa >= 33 ? 0.05 : (pa >= 31 ? 0.035 : 0.02)) * ((key === "speed" || key === "stamina") ? 1.5 : 1) * (mf < 1 ? 1.2 : 1) * (0.5 + Math.random());
+                nv = cur - cur * dec;
+            }
+            ps[key] = Math.max(1, Math.round(nv * 100) / 100);
+        }
+    }
+    // 2. draft: fill an empty starting spot first, otherwise go after the position with the weakest starter (a kicker only when there is none)
+    for (var rd = 1; rd <= 3; rd++) {
+        var c0 = counts(), pos = -1, best = -1;
+        for (var b = 1; b <= 10; b++) {
+            var need = (LIM[b] || 0) - (c0.cnt[b] || 0), score = (need > 0) ? (100 + need * 10) : (10 - (c0.weak[b] === undefined ? 0 : c0.weak[b]));
+            if (b === 10 && need <= 0) { score = -1; }
+            score += Math.random() * 4;
+            if (score > best) { best = score; pos = b; }
+        }
+        if (pos < 0) { continue; }
+        var code = pos;
+        if (pos === 5) { code = (c0.ot < 2 && Math.random() < 0.5) ? 16 : 5; }
+        if (pos === 6) { code = (c0.dt < 2 && Math.random() < 0.5) ? 6 : 15; }
+        var lo = (rd === 1) ? 6 : ((rd === 2) ? 5 : 4), hi = (rd === 1) ? 9 : ((rd === 2) ? 8 : 7);
+        var pm = gml_Script_s_create_player(_i, _o, code, 21 + Math.floor(Math.random() * 3), lo, hi), rt = 6;
+        try { rt = Number(gml_Script_s_get_player_rating(_i, _o, pm)); if (!(rt >= 1)) { rt = 6; } } catch (_e) { rt = 6; }
+        if (((LIM[pos] || 0) - (c0.cnt[pos] || 0)) > 0 || (c0.weak[pos] !== undefined && rt > c0.weak[pos])) { addPlayer(pm, code, pos, rt); }
+        try { ds_map_destroy(pm); } catch (_e) {}
+    }
+    // 3. free agents: a spot that is still empty gets filled about 60% of the time (otherwise it stays open)
+    var c1 = counts();
+    for (var fp = 1; fp <= 10; fp++) {
+        var open = (LIM[fp] || 0) - (c1.cnt[fp] || 0);
+        for (var fo = 0; fo < open; fo++) {
+            if (Math.random() >= 0.6) { continue; }
+            var fc = fp;
+            if (fp === 5) { fc = (c1.ot < 2 && Math.random() < 0.5) ? 16 : 5; if (fc === 16) { c1.ot++; } }
+            if (fp === 6) { fc = (c1.dt < 2 && Math.random() < 0.5) ? 6 : 15; if (fc === 6) { c1.dt++; } }
+            var fm = gml_Script_s_create_player(_i, _o, fc, 22 + Math.floor(Math.random() * 10), 3, 7), fr = 5;
+            try { fr = Number(gml_Script_s_get_player_rating(_i, _o, fm)); if (!(fr >= 1)) { fr = 5; } } catch (_e) { fr = 5; }
+            ds_map_set(fm, "contract", 1 + Math.floor(Math.random() * 2));
+            addPlayer(fm, fc, fp, fr);
+            try { ds_map_destroy(fm); } catch (_e) {}
+        }
+    }
+    // 4. salary cap: a team over the cap before the season starts cuts players until it is under it.
+    //    Toxic players (attitude 30 or less, the game's own toxic line) go first, most expensive first; after that the lowest-rated players
+    //    go, extras beyond a position's starting spots before any starter, so the best players are the last to be cut.
+    var capv = rbFalCap(_i, _o);
+    var pay = function () { var t = 0; for (var a = 0; a < d.players.length; a++) { t += Number((d.players[a].st || {}).salary) || 0; } return t; };
+    var isToxic = function (q) { var at = Number((q.st || {}).attitude); return isFinite(at) && at <= 30 && (q.st || {}).attitude !== undefined; };
+    var guard = 60;
+    while (pay() > capv && d.players.length > 11 && guard-- > 0) {
+        var g3 = {}; for (var z3 = 0; z3 < d.players.length; z3++) { var zb3 = rbFalBase(d.players[z3].code); g3[zb3] = (g3[zb3] || 0) + 1; }
+        var pick = -1, pickKey = null;
+        for (var y3 = 0; y3 < d.players.length; y3++) {
+            var q3 = d.players[y3], sal = Number((q3.st || {}).salary) || 0, tier;
+            if (isToxic(q3)) { tier = 0; } else if ((g3[rbFalBase(q3.code)] || 0) > (LIM[rbFalBase(q3.code)] || 0)) { tier = 1; } else { tier = 2; }
+            // lower tier first; toxic: highest salary first; others: lowest rating first, then highest salary
+            var key = [tier, tier === 0 ? -sal : q3.rating, -sal];
+            if (pickKey === null || key[0] < pickKey[0] || (key[0] === pickKey[0] && (key[1] < pickKey[1] || (key[1] === pickKey[1] && key[2] < pickKey[2])))) { pickKey = key; pick = y3; }
+        }
+        if (pick < 0) { break; }
+        d.players.splice(pick, 1);
+    }
+}
+// ---- CPU player morale (0-100): moves every week with the team's result and the player's own game ----
+// team: a win lifts everyone, a loss drops everyone, bigger margins count for more (up to +/-2 extra); a player's own game: his rating plus luck gives a game grade
+// and the gap from his usual level moves his morale; starters who play well feel it most; a player stuck on the bench loses morale every week;
+// morale always drifts slowly back toward his attitude, so a happy player recovers and a toxic one stays low.
+var rbMoraleQ = [];
+function rbCpuMoraleQ(_i,_o,idA,idH,ptA,ptH){
+    if (!isFinite(ptA) || !isFinite(ptH)) { return; }
+    var tl = yyInst(_i,_o,97).gmlteamlist, nm = function (id) { try { return String(ds_map_find_value(ds_list_find_value(tl, id), "name")); } catch (_e) { return ""; } };
+    rbMoraleQ.push({ a: nm(idA), h: nm(idH), pa: ptA, ph: ptH });
+}
+function rbCpuMoraleTeam(d, res, margin, lim) {
+    var base = res > 0 ? 3 : (res < 0 ? -3 : 0), mg = Math.max(-2, Math.min(2, margin / 10)), g = {}, i;
+    for (i = 0; i < d.players.length; i++) { var b = rbFalBase(d.players[i].code); (g[b] = g[b] || []).push(d.players[i]); }
+    for (var k in g) { g[k].sort(function (x, y) { return y.rating - x.rating; }); for (i = 0; i < g[k].length; i++) { g[k][i].bench = i >= (lim[k] || 1); } }
+    for (i = 0; i < d.players.length; i++) {
+        var p = d.players[i], st = p.st || {}, at = Number(st.attitude), home = isFinite(at) ? at : 70;
+        if (!(Number(p.morale) >= 0)) { p.morale = Math.max(0, Math.min(100, home)); }
+        var delta = base + mg;
+        if (p.bench) { delta -= 1.5; }
+        else {
+            var grade = p.rating + (Math.random() + Math.random() + Math.random() - 1.5) * 3;   // roughly +/-1.5 stars of luck
+            delta += (grade - p.rating) * 1.5 * (res > 0 ? 1.1 : 1);
+        }
+        delta += (home - p.morale) * 0.08;
+        p.morale = Math.max(0, Math.min(100, Math.round((p.morale + delta) * 10) / 10));
+    }
+}
+function rbCpuMoraleFlush(_i,_o){
+    var q = rbMoraleQ; rbMoraleQ = [];
+    if (!q.length) { return; }
+    var root = null; try { root = JSON.parse(rbFalGet() || "null"); } catch (_e) { root = null; }
+    if (!root) { return; }
+    var LIM = { 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 4, 7: 3, 8: 2, 9: 2, 10: 1 }, any = false;
+    var apply = function (name, res, margin) {
+        var ti = rbFalTiOfName(name);
+        if (ti < 0 || rbFalIsMine(_i, _o, ti)) { return; }
+        var d = (ti === 0) ? root : (root.teams ? root.teams[ti] : null);
+        if (!d || !d.players || !d.players.length) { return; }
+        rbCpuMoraleTeam(d, res, margin, LIM); any = true;
+    };
+    for (var n = 0; n < q.length; n++) {
+        var r = q[n], diff = r.pa - r.ph;
+        apply(r.a, diff > 0 ? 1 : (diff < 0 ? -1 : 0), diff);
+        apply(r.h, diff < 0 ? 1 : (diff > 0 ? -1 : 0), -diff);
+    }
+    if (any) { rbFalPut(JSON.stringify(root)); }   // the game saves right after this (s_do_next_week)
+}
+// ---- changing jobs: you take over the roster the CPU had at the new team, and the players you leave behind become the old team's CPU roster ----
+var rbSwap = null;
+var RB_SWAP_KEYS = ["fname", "lname", "position", "age", "skin", "face_set", "face_x", "face_y", "skill", "speed", "strength", "stamina", "max_skill", "max_speed", "max_strength", "max_stamina", "attitude", "salary", "contract"];
+function rbSwapSnap(m) {   // game player map -> plain object
+    var o = {};
+    for (var k = 0; k < RB_SWAP_KEYS.length; k++) { try { if (yyGetBool(ds_map_exists(m, RB_SWAP_KEYS[k]))) { o[RB_SWAP_KEYS[k]] = ds_map_find_value(m, RB_SWAP_KEYS[k]); } } catch (_e) {} }
+    return o;
+}
+function rbCpuSwapBefore(_i,_o){
+    rbSwap = null;
+    var g = yyInst(_i,_o,97);
+    var oldTi = rbFalTiOfName(ds_map_find_value(g.gmlmyteam, "name")), newTi = rbFalTiOfName(ds_map_find_value(g.gmlnewteam, "name"));
+    if (oldTi < 0 || newTi < 0 || oldTi === newTi) { return; }
+    var was = rbFalBatch; rbFalBatch = true;
+    try {
+        var yr = rbFalYear(_i,_o), LIM = { 1: 1, 2: 1, 3: 1, 4: 3, 5: 5, 6: 4, 7: 3, 8: 2, 9: 2, 10: 1 }, TAGS = { 1: "QB", 2: "RB", 3: "TE", 4: "WR", 5: "OL", 6: "DL", 7: "LB", 8: "CB", 9: "S", 10: "K" };
+        // 1. the CPU roster of the team I am about to coach (depth-chart order: starters first), as plain objects
+        var inc = [], list = rbFalLoad(_i,_o,newTi);
+        for (var a = 0; a < list.length; a++) { var o = rbSwapSnap(list[a].m); o.rating = list[a].rating; inc.push(o); }
+        rbFalFree(list);
+        // 2. the roster I am leaving, as plain objects
+        var out = [], ros = g.gmlroster;
+        for (var r = 0; r < ds_list_size(ros); r++) {
+            var pm = ds_list_find_value(ros, r), so = rbSwapSnap(pm), rt = 6;
+            try { rt = Number(gml_Script_s_get_player_rating(_i,_o,pm)); if (!(rt >= 1)) { rt = 6; } } catch (_e) {}
+            so.rating = rt; out.push(so);
+        }
+        // 3. write my old players into the old team's CPU data; empty starting spots get filled with fresh players, at most 26 players
+        var sv = rbFalSaved(_i,_o,oldTi);
+        if (sv) {
+            var d = sv.d, used = {}, np = [];
+            out.sort(function (x, y) { return y.rating - x.rating; });
+            var mk = function (o2, code, rating) {
+                var pos = rbFalBase(code);
+                return { pos: pos, code: code, tag: TAGS[pos] || "", num: rbFalNum(pos, used), age0: Number(o2.age) - (yr - d.y0), rating: rating,
+                         st: { skill: o2.skill, speed: o2.speed, strength: o2.strength, stamina: o2.stamina, max_skill: o2.max_skill, max_speed: o2.max_speed, max_strength: o2.max_strength, max_stamina: o2.max_stamina,
+                               attitude: o2.attitude, salary: o2.salary, contract: o2.contract },
+                         fname: String(o2.fname), lname: String(o2.lname), skin: o2.skin, face_set: o2.face_set, face_x: o2.face_x, face_y: o2.face_y };
+            };
+            for (var q = 0; q < out.length && np.length < RB_CPU_MAXR; q++) { np.push(mk(out[q], Number(out[q].position), out[q].rating)); }
+            var cnt = {}; for (var c = 0; c < np.length; c++) { var cb = rbFalBase(np[c].code); cnt[cb] = (cnt[cb] || 0) + 1; }
+            for (var fp = 1; fp <= 10; fp++) {
+                for (var need = (LIM[fp] || 0) - (cnt[fp] || 0); need > 0 && np.length < RB_CPU_MAXR; need--) {
+                    var fc = fp; if (fp === 6 && need % 2 === 0) { fc = 15; }
+                    var fm = gml_Script_s_create_player(_i, _o, fc, 22 + Math.floor(Math.random() * 8), RB_FAL_RMIN, RB_FAL_RMAX), fr = 6;
+                    try { fr = Number(gml_Script_s_get_player_rating(_i, _o, fm)); if (!(fr >= 1)) { fr = 6; } } catch (_e) {}
+                    var fo = rbSwapSnap(fm); fo.position = fc; np.push(mk(fo, fc, fr));
+                    try { ds_map_destroy(fm); } catch (_e) {}
+                }
+            }
+            d.players = np; d.c = 5; d.v = RB_FAL_VER;
+            rbFalPut(JSON.stringify(sv.root));
+        }
+        rbSwap = { oldTi: oldTi, newTi: newTi, inc: inc };
+    } finally { rbFalBatch = was; }
+}
+function rbCpuSwapAfter(_i,_o){
+    var sw = rbSwap; rbSwap = null;
+    if (!sw || !sw.inc.length) { return; }
+    var g = yyInst(_i,_o,97), cap = Number(g.gmlsalary_cap) + (Number(g.gmlboost_salary_cap) || 0);
+    var maxR = cap > 350 ? 30 : (cap > 275 ? 20 : (cap > 200 ? 16 : (cap > 150 ? 12 : 10)));
+    var take = sw.inc.slice(0, maxR);
+    // stay under my own salary cap: drop the lowest-rated players first (never below 10)
+    var pay = function () { var t = 0; for (var a = 0; a < take.length; a++) { t += Number(take[a].salary) || 0; } return t; };
+    while (pay() > cap && take.length > 10) {
+        var w = 0; for (var b = 1; b < take.length; b++) { if (take[b].rating < take[w].rating) { w = b; } }
+        take.splice(w, 1);
+    }
+    // replace the game's freshly made roster with the inherited players
+    var ros = g.gmlroster;
+    for (var z = ds_list_size(ros) - 1; z >= 0; z--) { try { ds_map_destroy(ds_list_find_value(ros, z)); } catch (_e) {} }
+    ds_list_clear(ros);
+    for (var n = 0; n < take.length; n++) {
+        var o = take[n], pm = gml_Script_s_create_player(_i, _o, Number(o.position), Number(o.age), 1, 10);
+        for (var k = 0; k < RB_SWAP_KEYS.length; k++) {
+            var key = RB_SWAP_KEYS[k]; if (o[key] === undefined) { continue; }
+            var v = o[key];
+            if (key === "skill" || key === "speed" || key === "strength" || key === "stamina" || key === "max_skill" || key === "max_speed" || key === "max_strength" || key === "max_stamina") { v = Math.max(1, Math.min(10, Math.round(Number(v)))); }
+            ds_map_set(pm, key, v);
+        }
+        ds_map_set(pm, "signed_year", (-1)); ds_map_set(pm, "teamid", g.gmlmyteam_id);
+        ds_list_add(ros, pm);
+    }
+    rbFalSyncTeam(_i, _o, sw.oldTi);   // the team I left is a CPU team now: rate it from the roster I gave it
+}
+// ---- free agents page: one card per position instead of 12 players; tapping a card opens that position's (still blank) page ----
+var RB_FA_CODES = [1, 2, 3, 4, 5, 16, 6, 15, 7, 8, 9, 10];   // QB RB TE WR IOL OT DT ED LB CB S K, same order as the old page
+function rbFaClear(_i,_o){
+    var fl = yyInst(_i,_o,97).gmlfreeagentlist;
+    for (var z = ds_list_size(fl) - 1; z >= 0; z--) { try { ds_map_destroy(ds_list_find_value(fl, z)); } catch (_e) {} }
+    ds_list_clear(fl);
+}
+function rbFaPage(_i,_o){
+    if (Number(g_pBuiltIn.get_current_room()) === 8) { return false; }
+    var g = yyInst(_i,_o,97), fl = g.gmlfreeagentlist;
+    if (ds_list_size(fl) < 1 && ds_list_size(g.gmltradelist) > 0) { return false; }   // a pending trade offer still uses the game's own page
+    // the old free agent players are cleared out: this page only shows position cards now
+    for (var z = ds_list_size(fl) - 1; z >= 0; z--) { try { ds_map_destroy(ds_list_find_value(fl, z)); } catch (_e) {} }
+    ds_list_clear(fl);
+    var arr = GetWithArray(49);
+    for (var k in arr) { if (!arr.hasOwnProperty(k)) { continue; } var ci = arr[k]; try { if (ci.rbFaCode !== undefined) { ds_map_destroy(ci.gmlpmap); } } catch (_e) {} instance_destroy(ci); }
+    if (global.gmlfa_sel) { return true; }   // a position page: same header, empty body
+    var rw = g_pBuiltIn.room_width, rh = g_pBuiltIn.room_height, gap = 4, per = 6, size = RB_FA_CODES.length;
+    var pw = sprite_get_width(172) + gap, ph = sprite_get_height(172);
+    var px = Math.round(rw * 0.5), py = Math.round(rh * 0.49) - 44;
+    px = px - ((per - 1) * pw) * 0.5;
+    for (var n = 0; n < size; n++) {
+        var code = RB_FA_CODES[n], ci2 = instance_create_layer(0, 0, "Instances", 49), pm = ds_map_create();
+        ds_map_set(pm, "position", code); ds_map_set(pm, "condition", 100); ds_map_set(pm, "flash_time", 0); ds_map_set(pm, "resting", 0);
+        ci2.gmlpmap = pm; ci2.rbFaCode = code;
+        ci2.x = px - pw * 0.5; ci2.y = py - ph * 0.5;
+        ci2.gmlonClickAction = (function (c) { return function (_a, _b) { global.gmlfa_sel = c; rbFaPage(_a, _b); }; })(code);
+        px += pw;
+        if (n === per - 1) { px = rw * 0.5 - ((size - per - 1) * pw) * 0.5; py += 88; }
+    }
+    return true;
+}
+function rbFaDraw(_inst,_other){
+    if (_inst.rbFaCode === undefined) { return false; }
+    var bx = _inst.x + 2, by = _inst.y - 2, w = sprite_get_width(172), h = sprite_get_height(172);
+    if (_inst.gmlclicked || !_inst.gmlactive) { bx = _inst.x; by = _inst.y; }
+    draw_sprite_ext(_inst, _inst.sprite_index, _inst.image_index, _inst.x, _inst.y, 1, 1, 0, 4210752, 1);   // shadow
+    var col = gml_Script_s_get_position_colour(_inst, _other, _inst.rbFaCode);
+    draw_rectangle_color(bx + 2, by + 2, bx + w - 3, by + h * 0.5, col, col, col, col, 0);                   // colored top half like a player card
+    draw_sprite(_inst, _inst.sprite_index, _inst.image_index, bx, by);
+    draw_set_color(16777215); draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1); draw_set_halign(1);
+    gml_Script_draw_hd_text(_inst, _other, bx + w * 0.5, by + h * 0.5, gml_Script_s_get_string_position(_inst, _other, _inst.rbFaCode));
+    draw_set_halign(0);
+    return true;
+}
+function rbCpuDraftStart(_i,_o){
+    rbCd = { wait: 3, stage: 0, k: 0, root: null, total: RB_TEAMS.length };
+    global.rbCdOpen = true;
+}
+function rbCdFinish(_i,_o){
+    var m = rbCd ? rbCd.mode : "";
+    rbCd = null; global.rbCdOpen = false; global.rbBjCool = 4;
+    if (m === "teams") { rbTeamsOpen(_i,_o); } else { room_goto(14); }
+}
+function rbCdStep(_i,_o){
+    if (rbCd.wait > 0) { rbCd.wait--; return; }   // let the page show before the work starts
+    if (rbCd.mode === "teams") {   // one team per frame so the bar moves
+        if (rbCd.k < rbCd.list.length) {
+            var tt = rbCd.list[rbCd.k++];
+            rbFalBatch = true;
+            try { rbFalFree(rbFalLoad(_i, _o, tt)); } catch (_e) { try { console.error("team generation error", _e); } catch (_x) {} }
+            finally { rbFalBatch = false; }
+            return;
+        }
+        try { gml_Script_s_savegame(_i, _o); } catch (_e) {}
+        rbCdFinish(_i, _o); return;
+    }
+    if (rbCd.stage === 0) {
+        rbFalGenAll(_i, _o);
+        try { rbCd.root = JSON.parse(rbFalGet() || "null"); } catch (_e) { rbCd.root = null; }
+        rbCd.stage = 1; return;
+    }
+    if (rbCd.stage === 1) {
+        var yr = rbFalYear(_i, _o), root = rbCd.root, n = 0;
+        while (rbCd.k < RB_TEAMS.length && n < 3) {
+            var ti = rbCd.k++; n++;
+            if (!root || rbFalIsMine(_i, _o, ti)) { continue; }
+            var d = (ti === 0) ? root : (root.teams ? root.teams[ti] : null);
+            if (d && d.players && d.players.length) { try { rbCpuDraftTeam(_i, _o, d, yr); } catch (_e) { try { console.error("cpu draft error", _e); } catch (_x) {} } }
+        }
+        if (rbCd.k >= RB_TEAMS.length) { rbCd.stage = 2; }
+        return;
+    }
+    if (rbCd.root) {
+        rbFalPut(JSON.stringify(rbCd.root));
+        for (var st = 0; st < RB_TEAMS.length; st++) { rbFalSyncTeam(_i, _o, st); }   // new rookies change each team's rating
+        try { gml_Script_s_savegame(_i, _o); } catch (_e) {}
+    }
+    rbCdFinish(_i, _o);
+}
+function rbCdDraw(_i,_o){
+    if (!rbCd) { return; }
+    var o = rbBjOff();
+    draw_set_alpha(1); draw_set_color(global.gmlc_background); draw_rectangle(0, 0, o.w, o.h, 0);
+    draw_set_font(global.gmlfnt_flex); draw_set_halign(1); draw_set_valign(1); draw_set_color(16777215);
+    gml_Script_draw_hd_text(_i, _o, o.w * 0.5, o.y + 110, rbCd.title || "GENERATING CPU DRAFTS");
+    var bw = 200, bh = 8, bx = Math.round(o.w * 0.5 - bw / 2), by = o.y + 150, f = Math.min(1, rbCd.k / rbCd.total);
+    draw_rectangle(bx - 2, by - 2, bx + bw + 2, by + bh + 2, 0);
+    draw_set_color(global.gmlc_background); draw_rectangle(bx, by, bx + bw, by + bh, 0);
+    draw_set_color(16777215); draw_rectangle(bx, by, bx + Math.round(bw * f), by + bh, 0);
+    draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215);
+}
+function rbFalCard(_i,_o,x,y,p,sc,pr){
+    var w = sprite_get_width(172), h = sprite_get_height(172), m = p.m, pos = p.code;
+    var bx = pr ? x : x + 2, by = pr ? y : y - 2;
+    if (sc < 1) matrix_set(2, matrix_build(x * (1 - sc), y * (1 - sc), 0, 0, 0, 0, sc, sc, 1));
+    try {
+        var pc = gml_Script_s_get_position_colour(_i, _o, pos);
+        if (p.bench) { pc = 8421504; }   // benched: gray position band like the game's resting players
+        draw_set_alpha(1);
+        draw_sprite_ext(_i, 172, 0, x, y, 1, 1, 0, 4210752, 1);
+        draw_rectangle_color(bx + 2, by + 2, bx + w - 3, by + h * 0.5, pc, pc, pc, pc, 0);
+        draw_sprite(_i, 172, 0, bx, by);
+        // face + uniform colours (helmet / shirt / pants), same shader set-up the game uses
+        shader_set(0);
+        shader_set_uniform_f(global.gmlcolorHelmet, 1, 0, 0); shader_set_uniform_f(global.gmlcolorShirt, 0, 1, 0); shader_set_uniform_f(global.gmlcolorPants, 1, 0, 1);
+        var hm = _i.gmlhelmet, sh = _i.gmlshirt, pa = _i.gmlpants;
+        shader_set_uniform_f(global.gmlreplaceHelmet, hm[2], hm[1], hm[0]);
+        shader_set_uniform_f(global.gmlreplaceShirt, sh[2], sh[1], sh[0]);
+        shader_set_uniform_f(global.gmlreplacePants, pa[2], pa[1], pa[0]);
+        var sk = Number(ds_map_find_value(m, "skin")), fy = Number(ds_map_find_value(m, "face_y")), spr = 198;
+        if (sk === 2) { spr = [198, 200, 201][fy] || 198; }
+        else if (sk === 1) { spr = 202; }
+        else { spr = [203, 204, 205, 206, 207, 208, 208, 209, 210][fy] || 203; }
+        draw_sprite_ext(_i, spr, ds_map_find_value(m, "face_x"), bx + 16, by + 3, 1, 1, 0, 16777215, 1);
+        shader_reset();
+        draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1); draw_set_color(16777215);
+        draw_set_halign(0);
+        gml_Script_draw_hd_text(_i, _o, bx + 6, by + 8, gml_Script_s_get_string_position(_i, _o, pos));
+        draw_set_halign(2);
+        try {   // morale face icon where the number was, same spot and sprite as the game's own player cards
+            var mor = rbFalV(m, "morale"); if (!(mor >= 0) || !yyGetBool(ds_map_exists(m, "morale"))) { mor = rbFalV(m, "attitude"); }
+            draw_sprite(_i, 107, gml_Script_s_get_attitude_icon(_i, _o, mor), bx + w - 9, by + 8);
+        } catch (_e) {}
+        try { if (p.age === gml_Script_s_rookie_age_internal(_i, _o)) { draw_sprite(_i, 110, 0, bx + 10, by + 19); } } catch (_e) {}
+        draw_set_halign(1);
+        var nm = String(p.name).substring(0, 13), nw = gml_Script_string_hd_width(_i, _o, nm), nmax = w - 4, ns = 1;
+        if (nw > nmax) ns = nmax / nw;
+        gml_Script_draw_hd_text_transformed(_i, _o, bx + w * 0.5, by + 48, nm, ns, ns, 0);
+        draw_sprite_ext(_i, 118, p.rating, bx + w * 0.5, by + 60, 1, 1, 0, 65535, 1);
+        draw_set_color(12632256);
+        gml_Script_draw_hd_text(_i, _o, bx + w * 0.5, by + h - 9, "AGE " + p.age);
+        draw_set_color(16777215);
+    } catch (_e) { try { shader_reset(); } catch (_x) {} try { console.error("card draw error", _e); } catch (_x2) {} }
+    if (sc < 1) matrix_set(2, matrix_build(0, 0, 0, 0, 0, 0, 1, 1, 1));
+    draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+}
+function rbFalDraw(_i,_o,o){
+    var L = rbTm.list;
+    draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
+    if (!L) { rbBjT(o.w * 0.5, o.y + 120, rbTm.mine ? ("YOU COACH THE " + RB_TEAMS[rbTm.ti][0]) : "COULD NOT BUILD ROSTER", 1, 16777215, 1); return; }
+    rbBjT(o.w * 0.5, o.y + 36, RB_TEAMS[rbTm.ti][0] + (rbTm.team ? ("   OVR " + rbTm.team.ovr + "/20") : ""), 1, 16777215, 1);
+    // Falcons colours: black helmet, red jersey, silver pants (shader colours are [blue, green, red] / 256)
+    var oh = _i.gmlhelmet, os = _i.gmlshirt, op = _i.gmlpants;
+    rbFalCols(_i);
+    // pick the biggest card size that fits every player on screen, then centre the rows like the game's roster does
+    var cw0 = sprite_get_width(172), ch0 = sprite_get_height(172), n = L.length, gap = 4;
+    var aw = o.w - 96, top = o.y + 48, ah = (o.y + 224) - top;
+    var steps = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4], sc = 0.4, rows = n;
+    for (var t = 0; t < steps.length; t++) {
+        var pr = Math.max(1, Math.floor((aw + gap) / (cw0 * steps[t] + gap))), rw = Math.ceil(n / pr);
+        sc = steps[t]; rows = rw;
+        if (rw * (ch0 * sc + gap) - gap <= ah) break;
+    }
+    var per = Math.ceil(n / rows), cw = cw0 * sc, ch = ch0 * sc;
+    var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0), md = yyGetBool(mouse_check_button(1));
+    rbTm.rects = [];
+    var totH = rows * ch + (rows - 1) * gap, ty0 = top + Math.max(0, Math.floor((ah - totH) / 2));
+    for (var i = 0; i < n; i++) {
+        var r = Math.floor(i / per), cnt = (r < rows - 1) ? per : (n - per * (rows - 1)), ix = i - r * per;
+        var cx = Math.round(o.w * 0.5 - (cnt * cw + (cnt - 1) * gap) / 2 + ix * (cw + gap));
+        var cy = Math.round(ty0 + r * (ch + gap));
+        var rx = cx, ry = cy - 2, rw = cw + 2, rh = ch + 2;
+        rbTm.rects.push({ x: rx, y: ry, w: rw, h: rh, i: i });
+        var prs = md && rbTm.downId === ("card" + i) && mx >= rx && mx <= rx + rw && my >= ry && my <= ry + rh;
+        rbFalCard(_i, _o, cx, cy, L[i], sc, prs);
+    }
+    _i.gmlhelmet = oh; _i.gmlshirt = os; _i.gmlpants = op;
+    shader_reset();
+    draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
+    // team offense / defense star ratings along the bottom (game's own offense / defense star sprites)
+    // salary cap line: this team's payroll (everyone on the roster) against the league's cap, above the star ratings
+    try {
+        var pay = 0, capv = rbFalCap(_i, _o);
+        for (var sk = 0; sk < L.length; sk++) { pay += rbFalV(L[sk].m, "salary"); }
+        pay = Math.round(pay);
+        draw_set_halign(1); draw_set_valign(1); draw_set_color((capv > 0 && pay > capv) ? 255 : 16777215);
+        gml_Script_draw_hd_text(_i, _o, o.w * 0.5, o.y + 236, "SALARY CAP: " + pay + "/" + (capv > 0 ? capv : "?"));
+        draw_set_color(16777215); draw_set_halign(0);
+    } catch (_e) {}
+    var rr = rbTm.team || rbTm.real;
+    if (rr) {
+        try {
+            var sy = o.y + 254, sw = sprite_get_width(114), lo = "OFF", ld = "DEF", sp = 4, grp = 24;
+            var wo = gml_Script_string_hd_width(_i, _o, lo), wd = gml_Script_string_hd_width(_i, _o, ld);
+            var tot = wo + sp + sw + grp + wd + sp + sw, sx = Math.round(o.w * 0.5 - tot / 2);
+            draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215);
+            gml_Script_draw_hd_text(_i, _o, sx, sy, lo);
+            for (var k = 0; k < 4; k++) { draw_sprite_ext(_i, 114, rr.off, sx + wo + sp + [-1, 1, 0, 0][k], sy + [0, 0, -1, 1][k], 1, 1, 0, 0, 1); }
+            draw_sprite_ext(_i, 114, rr.off, sx + wo + sp, sy, 1, 1, 0, global.gmlc_offense, 1);
+            var dx = sx + wo + sp + sw + grp;
+            gml_Script_draw_hd_text(_i, _o, dx, sy, ld);
+            for (var k2 = 0; k2 < 4; k2++) { draw_sprite_ext(_i, 115, rr.def, dx + wd + sp + [-1, 1, 0, 0][k2], sy + [0, 0, -1, 1][k2], 1, 1, 0, 0, 1); }
+            draw_sprite_ext(_i, 115, rr.def, dx + wd + sp, sy, 1, 1, 0, global.gmlc_defense, 1);
+        } catch (_e) {}
+        draw_set_color(16777215); draw_set_halign(0);
+    }
+}
+// ---- Player profile (opened by clicking a card): same panels / attribute bars / stars as the game's profile, no buttons ----
+function rbFalV(m, k){ try { return yyGetBool(ds_map_exists(m, k)) ? rbN(ds_map_find_value(m, k)) : 0; } catch (_e) { return 0; } }
+function rbFalSelect(_i,_o,i){
+    var it = rbTm.list[i], m = it.m, P = { it: it, rating: it.rating, pot: 0, value: "", attTxt: "", attIcon: -1 };
+    try { var r1 = Number(gml_Script_s_get_player_rating(_i, _o, m)); if (r1 >= 1) P.rating = r1; } catch (_e) {}
+    try { P.pot = Number(gml_Script_s_get_player_potential(_i, _o, m)); if (!(P.pot >= 1)) P.pot = P.rating; } catch (_e) { P.pot = P.rating; }
+    try { P.value = String(gml_Script_s_get_string_trade_value(_i, _o, gml_Script_s_get_trade_value(_i, _o, m))); } catch (_e) { P.value = ""; }
+    try { var at = ds_map_find_value(m, "attitude"); P.attTxt = String(gml_Script_s_get_string_attitude(_i, _o, at)); P.attIcon = gml_Script_s_get_attitude_icon(_i, _o, at); } catch (_e) { P.attTxt = ""; P.attIcon = -1; }
+    rbTm.prof = P; rbTm.sel = i;
+}
+function rbFalBox(_i,_o,x,y,w,h,title){
+    var bg = global.gmlc_background, t = 2, L = 14;
+    draw_set_alpha(1); draw_set_color(16777215);
+    draw_rectangle(x, y, x + w, y + h, 0);
+    draw_rectangle_color(x + t, y + t, x + w - t, y + h - t, bg, bg, bg, bg, 0);
+    // knock gaps out of the middle of each edge so only the corner brackets remain
+    draw_rectangle_color(x + L, y - 1, x + w - L, y + t, bg, bg, bg, bg, 0);
+    draw_rectangle_color(x + L, y + h - t, x + w - L, y + h + 1, bg, bg, bg, bg, 0);
+    draw_rectangle_color(x - 1, y + L, x + t, y + h - L, bg, bg, bg, bg, 0);
+    draw_rectangle_color(x + w - t, y + L, x + w + 1, y + h - L, bg, bg, bg, bg, 0);
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(1); draw_set_valign(1);
+    var tw = gml_Script_string_hd_width(_i, _o, title) / 2, th = gml_Script_string_hd_height(_i, _o, title) / 2, tx = x + w / 2;
+    draw_rectangle_color(tx - tw - 3, y - th - 1, tx + tw + 2, y + th, bg, bg, bg, bg, 0);
+    draw_set_color(16777215);
+    gml_Script_draw_hd_text(_i, _o, tx + 0.5, y, title);
+}
+// left-aligned text that shrinks to fit a width; returns the drawn width
+function rbFalTxt(_i,_o,x,y,str,avail){
+    var w = gml_Script_string_hd_width(_i, _o, str), sc = (avail > 0 && w > avail) ? avail / w : 1;
+    draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215);
+    if (sc < 1) { gml_Script_draw_hd_text_transformed(_i, _o, x, y, str, sc, sc, 0); } else { gml_Script_draw_hd_text(_i, _o, x, y, str); }
+    return w * sc;
+}
+function rbFalBar(_i,_o,x,y,label,val,mx){
+    var bw = sprite_get_width(136) - 5, bh = sprite_get_height(136) - 3;
+    var prc = clamp(bw / 120 * (val * 10), 1, bw), pt = clamp(bw / 120 * (mx * 10), 1, bw), col = global.gmlc_primary, bf = global.gmlc_backfill;
+    draw_set_color(16777215); draw_set_halign(0); draw_set_valign(1);
+    gml_Script_draw_hd_text(_i, _o, x, y - 8, String(label).toUpperCase());
+    draw_sprite_ext(_i, 136, 1, x, y, 1, 1, 0, bf, 1);
+    draw_rectangle_color(x + 2, y + 2, x + 2 + pt, y + bh, col, col, col, col, 0);
+    draw_rectangle_color(x + 3, y + 3, x + 3 + pt - 2, y + bh - 1, bf, bf, bf, bf, 0);
+    draw_rectangle_color(x + 2, y + 2, x + 2 + prc, y + bh, col, col, col, col, 0);
+}
+function rbFalProfile(_i,_o,o){
+    var P = rbTm.prof;
+    if (!P) { rbTm.sel = -1; return; }
+    var it = P.it, m = it.m, pos = it.code;
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+    var pw = 208, ph = 172, lx = o.x + 24, ty = o.y + 40;
+    rbFalBox(_i, _o, lx, ty, pw, ph, "DETAILS");
+    rbFalBox(_i, _o, o.x + 248, ty, pw, ph, "SKILLS");
+    // card (Falcons colours), top-right of the details panel
+    var oh = _i.gmlhelmet, os = _i.gmlshirt, op = _i.gmlpants;
+    rbFalCols(_i);
+    var cwid = sprite_get_width(172), cx = Math.round(lx + pw - cwid - 12);
+    rbFalCard(_i, _o, cx, o.y + 52, it, 1, false);
+    _i.gmlhelmet = oh; _i.gmlshirt = os; _i.gmlpants = op;
+    shader_reset();
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+    var tx = lx + 14, avail = cx - tx - 8;
+    rbFalTxt(_i, _o, tx, o.y + 56, gml_Script_s_get_string_position(_i, _o, pos) + " - " + it.fname + " " + it.name, avail);
+    rbFalTxt(_i, _o, tx, o.y + 72, "#" + it.num + "   AGE " + it.age, avail);
+    if (P.attTxt) {
+        var at = ("ATTITUDE: " + P.attTxt).toUpperCase(), iw = (P.attIcon >= 0) ? 14 : 0;
+        var aw = rbFalTxt(_i, _o, tx, o.y + 88, at, avail - iw);
+        if (P.attIcon >= 0) { draw_sprite_ext(_i, 107, P.attIcon, tx + aw + 10, o.y + 88, 1, 1, 0, 16777215, 1); }
+    }
+    var sal = rbFalV(m, "salary"), con = rbFalV(m, "contract");
+    if (sal > 0) { rbFalTxt(_i, _o, tx, o.y + 104, "SALARY: $" + sal + "M", avail); }
+    if (con > 0) { rbFalTxt(_i, _o, tx, o.y + 118, "CONTRACT: " + con + (con === 1 ? " YEAR" : " YEARS"), avail); }
+    if (m && yyGetBool(ds_map_exists(m, "morale"))) { rbFalTxt(_i, _o, tx, o.y + 132, "MORALE: " + Math.round(rbFalV(m, "morale")), avail); }
+    if (P.value) { rbFalTxt(_i, _o, tx, o.y + 146, ("VALUE: " + P.value).toUpperCase(), pw - 28); }
+    // rating / potential stars
+    var colP = (global.gmlc_primary === 0) ? 16777215 : global.gmlc_primary;
+    var c1 = lx + pw * 0.27, c2 = lx + pw * 0.73;
+    draw_set_halign(1); draw_set_color(16777215);
+    gml_Script_draw_hd_text(_i, _o, c1, o.y + 162, "RATING");
+    draw_sprite_ext(_i, 118, P.rating, c1, o.y + 175, 1, 1, 0, colP, 1);
+    draw_set_halign(1); draw_set_color(16777215);
+    gml_Script_draw_hd_text(_i, _o, c2, o.y + 162, "POTENTIAL");
+    draw_sprite_ext(_i, 119, P.pot, c2, o.y + 175, 1, 1, 0, 16777215, 1);
+    // attribute bars
+    var skl = "Catching", str = "Strength";
+    if (pos === 1) { skl = "Throw Accuracy"; str = "Arm Strength"; }
+    else if (pos === 10) { skl = "Kick Accuracy"; str = "Kick Range"; }
+    else if (pos === 5 || pos === 16) { skl = "Blocking"; }
+    else if (pos === 6 || pos === 15 || pos === 7 || pos === 8 || pos === 9) { skl = "Tackling"; }
+    var bx = o.x + 256;
+    rbFalBar(_i, _o, bx, o.y + 64, skl, rbFalV(m, "skill"), rbFalV(m, "max_skill"));
+    rbFalBar(_i, _o, bx, o.y + 104, str, rbFalV(m, "strength"), rbFalV(m, "max_strength"));
+    rbFalBar(_i, _o, bx, o.y + 144, "Speed", rbFalV(m, "speed"), rbFalV(m, "max_speed"));
+    rbFalBar(_i, _o, bx, o.y + 184, "Stamina", rbFalV(m, "stamina"), rbFalV(m, "max_stamina"));
+    // TRADE button under the details panel (game-style slim button); opens the trade page
+    rbTm.tradeBtn = rbFalBtn(_i, _o, 196, Math.round(lx + (pw - sprite_get_width(196)) / 2), o.y + 218, "TRADE", "trade", 0);
+    draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+}
+// game-style button (obj_button_med_slim look): frame 0 + background-tinted frame 2, pressed = frame 1 shifted; returns the rect so clicks can be hit-tested
+function rbFalBtn(_i,_o,spr,x,y,label,id,maxTw){
+    var w = sprite_get_width(spr), h = sprite_get_height(spr), rc = { x: x, y: y, w: w, h: h };
+    var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0);
+    var pr = yyGetBool(mouse_check_button(1)) && rbTm.downId === id && mx >= x && mx <= x + w && my >= y && my <= y + h;
+    draw_set_alpha(1);
+    var tx = x + w / 2 + 1, ty = y + h / 2 - 1;
+    if (!pr) { draw_sprite(_i, spr, 0, x, y); draw_sprite_ext(_i, spr, 2, x, y, 1, 1, 0, global.gmlc_background, 1); }
+    else { draw_sprite(_i, spr, 1, x, y); draw_sprite_ext(_i, spr, 2, x - 2, y + 2, 1, 1, 0, global.gmlc_background, 1); tx -= 2; ty += 2; }
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(1); draw_set_valign(1); draw_set_color(16777215);
+    var tw = gml_Script_string_hd_width(_i, _o, label), sc = (maxTw > 0 && tw > maxTw) ? maxTw / tw : 1;
+    if (sc < 1) { gml_Script_draw_hd_text_transformed(_i, _o, tx, ty, label, sc, sc, 0); } else { gml_Script_draw_hd_text(_i, _o, tx, ty, label); }
+    return rc;
+}
+var RB_ABBR = ["ATL","CAR","NO","TB","PHI","DAL","NYG","WAS","LAR","SF","SEA","ARI","DET","GB","CHI","MIN","KC","LV","LAC","DEN","BUF","NE","MIA","NYJ","JAX","TEN","IND","HOU","CIN","BAL","CLE","PIT"];
+// initials of the user's own team (matched against the 32 known teams, otherwise the first letters of its name)
+function rbMyInitials(_i,_o){
+    try {
+        var n = String(ds_map_find_value(yyInst(_i,_o,97).gmlmyteam, "name")).toUpperCase();
+        for (var k = 0; k < RB_TEAMS.length; k++) { if (new RegExp(RB_TEAMS[k][1]).test(n) || (k === 0 && n.indexOf("ATLANTA") >= 0)) { return RB_ABBR[k]; } }
+        var w = n.split(/\s+/).filter(function (x) { return x.length; }), r = "";
+        for (var j = 0; j < w.length && r.length < 3; j++) { r += w[j].charAt(0); }
+        return r || "YOU";
+    } catch (_e) { return "YOU"; }
+}
+// my own roster as card items (the game's real player maps; never destroyed here)
+function rbFalMyList(_i,_o){
+    var out = [], lst = null;
+    try { lst = yyInst(_i,_o,97).gmlroster; } catch (_e) {}
+    if (!lst) return out;
+    var n = ds_list_size(lst);
+    try { var dbg = []; for (var d0 = 0; d0 < n; d0++) { var dm = ds_list_find_value(lst, d0); dbg.push(ds_map_find_value(dm, "fname") + " " + ds_map_find_value(dm, "lname") + " (pos " + ds_map_find_value(dm, "position") + ")"); } console.log("[trade picker] gmlroster has " + n + " players, exhibition=" + global.gmlexhibition + ", team=" + ds_map_find_value(yyInst(_i,_o,97).gmlmyteam, "name"), dbg); } catch (_e) {}
+    for (var k = 0; k < n; k++) {
+        var m = ds_list_find_value(lst, k), rt = 6;
+        try { rt = Number(gml_Script_s_get_player_rating(_i, _o, m)); if (!(rt >= 1)) rt = 6; } catch (_e) {}
+        out.push({ m: m, num: "", tag: "", code: Number(ds_map_find_value(m, "position")), rating: rt, name: String(ds_map_find_value(m, "lname")), fname: String(ds_map_find_value(m, "fname")), age: Number(ds_map_find_value(m, "age")) });
+    }
+    return out;
+}
+// "pick a player from my roster" page: same card grid as the team roster, in the game's own team colours
+function rbFalMyRoster(_i,_o,o){
+    var L = rbTm.myList || [];
+    draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1); draw_set_halign(1); draw_set_color(16777215);
+    gml_Script_draw_hd_text(_i, _o, o.w * 0.5, o.y + 36, "PICK A PLAYER TO TRADE");
+    var cw0 = sprite_get_width(172), ch0 = sprite_get_height(172), n = L.length, gap = 4;
+    var aw = o.w - 96, top = o.y + 48, ah = (o.y + 224) - top;
+    var steps = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4], sc = 0.4, rows = Math.max(1, n);
+    for (var t = 0; t < steps.length; t++) {
+        var pr = Math.max(1, Math.floor((aw + gap) / (cw0 * steps[t] + gap))), rw = Math.max(1, Math.ceil(n / pr));
+        sc = steps[t]; rows = rw;
+        if (rw * (ch0 * sc + gap) - gap <= ah) break;
+    }
+    var per = Math.max(1, Math.ceil(n / rows)), cw = cw0 * sc, ch = ch0 * sc;
+    var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0), md = yyGetBool(mouse_check_button(1));
+    rbTm.mRects = [];
+    // draft pick buttons: tapping one adds that pick to the trade
+    var mpk = rbTm.myPicks || (rbTm.myPicks = []), RN = ["1ST", "2ND", "3RD"], rds = [], pbw = Number(sprite_get_width(196)) || 70;
+    rbTm.pickBtns = [];
+    for (var r = 1; r <= 3; r++) { var own = 0; try { own = Number(yyInst(_i, _o, 97).gmldraft_picks[r - 1]) || 0; } catch (_e) {} if (own - mpk.filter(function (z) { return z === r; }).length > 0) { rds.push(r); } }
+    var pbx = Math.round(o.w * 0.5 - (rds.length * pbw + (rds.length - 1) * 6) / 2);
+    for (var ri = 0; ri < rds.length; ri++) { var rr = rbFalBtn(_i, _o, 196, pbx, o.y + 232, RN[rds[ri] - 1], "pk" + rds[ri], pbw - 6); rr.r = rds[ri]; rbTm.pickBtns.push(rr); pbx += pbw + 6; }
+    // the game's own team uniform colours (same call obj_player_profile makes), so the cards get their helmet / jersey / pants
+    var oh = _i.gmlhelmet, os = _i.gmlshirt, op = _i.gmlpants;
+    try { gml_Script_s_set_up_uniform_profile(_i, _o, (-4)); } catch (_e) { try { console.error("uniform setup error", _e); } catch (_x) {} }
+    var totH = rows * ch + (rows - 1) * gap, ty0 = top + Math.max(0, Math.floor((ah - totH) / 2));
+    for (var i = 0; i < n; i++) {
+        var r = Math.floor(i / per), cnt = (r < rows - 1) ? per : (n - per * (rows - 1)), ix = i - r * per;
+        var cx = Math.round(o.w * 0.5 - (cnt * cw + (cnt - 1) * gap) / 2 + ix * (cw + gap)), cy = Math.round(ty0 + r * (ch + gap));
+        var rx = cx, ry = cy - 2, rw2 = cw + 2, rh = ch + 2;
+        rbTm.mRects.push({ x: rx, y: ry, w: rw2, h: rh, i: i });
+        var prs = md && rbTm.downId === ("m" + i) && mx >= rx && mx <= rx + rw2 && my >= ry && my <= ry + rh;
+        rbFalCard(_i, _o, cx, cy, L[i], sc, prs);
+    }
+    _i.gmlhelmet = oh; _i.gmlshirt = os; _i.gmlpants = op;
+    shader_reset();
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+}
+// ---- trade value ----
+// rating is in half stars (10 = 5 stars), so stars = rating / 2
+var RB_TV_STARS = { 2: 20, 3: 30, 4: 50, 5: 75, 6: 130, 7: 200, 8: 275, 9: 350, 10: 500, 11: 1500, 12: 2000 };
+var RB_PICK_VALUE = [300, 200, 120];   // 1st, 2nd, 3rd round (not used until draft picks are added to the trade screen)
+function rbAgeFactor(age){
+    if (age <= 21) return 1.5;
+    if (age <= 24) return 1.25;
+    if (age <= 27) return 1.15;
+    if (age <= 29) return 1;
+    return Math.max(0, 1 - 0.05 * (age - 29));   // 30 = 0.95, 31 = 0.90, 32 = 0.85 ...
+}
+function rbTradeValue(rating, age){
+    var r = Math.max(2, Math.min(12, Math.round(Number(rating) || 0)));
+    return Math.round(RB_TV_STARS[r] * rbAgeFactor(Number(age) || 28));
+}
+// Trade > Player page: your side / their side, the player being traded listed under the other team's initials (no function yet)
+// small square minus button (returns its click rectangle)
+function rbFalMinusBox(x, y, s, id){
+    var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0);
+    var pr = yyGetBool(mouse_check_button(1)) && rbTm.downId === id && mx >= x && mx <= x + s && my >= y && my <= y + s, d = pr ? 2 : 0;
+    draw_set_alpha(1); draw_set_color(16777215); draw_rectangle(x + d, y + d, x + d + s, y + d + s, 0);
+    draw_set_color(global.gmlc_background); draw_rectangle(x + d + 4, y + d + Math.floor(s / 2) - 1, x + d + s - 4, y + d + Math.floor(s / 2) + 1, 0);
+    draw_set_color(16777215);
+    return { x: x, y: y, w: s, h: s };
+}
+function rbFalTradePlayer(_i,_o,o){
+    var P = rbTm.prof, it = P ? P.it : null;
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(1); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+    var c1 = o.w * 0.25, c2 = o.w * 0.75, colW = o.w * 0.5 - 24;
+    draw_rectangle(Math.round(o.w * 0.5) - 1, o.y + 40, Math.round(o.w * 0.5) + 1, o.y + 220, 0);
+    gml_Script_draw_hd_text(_i, _o, c1, o.y + 56, rbMyInitials(_i, _o) + " TRADES:");
+    var colM = (global.gmlc_primary === 0) ? 16777215 : global.gmlc_primary, mt = rbTm.myTrade || [], mp = rbTm.myPicks || (rbTm.myPicks = []), ly = o.y + 86;
+    var ms = Number(sprite_get_height(196)) || 20, bw = Number(sprite_get_width(196)) || 30, nmax = colW - 2 * (bw + 6);
+    var pitch = (mt.length + mp.length * 0.5 > 3) ? 30 : 36, RN = ["1ST", "2ND", "3RD"];
+    rbTm.minusBtns = []; rbTm.pickMinus = []; rbTm.pickBtns = [];
+    for (var q = 0; q < mt.length; q++) {
+        var nm2 = String(mt[q].fname + " " + mt[q].name).toUpperCase(), nw2 = gml_Script_string_hd_width(_i, _o, nm2), sc2 = nw2 > nmax ? nmax / nw2 : 1;
+        if (sc2 < 1) { gml_Script_draw_hd_text_transformed(_i, _o, c1, ly, nm2, sc2, sc2, 0); } else { gml_Script_draw_hd_text(_i, _o, c1, ly, nm2); }
+        draw_sprite_ext(_i, 118, mt[q].rating, c1, ly + 18, 1, 1, 0, colM, 1);
+        try { rbTm.minusBtns.push(rbFalMinusBox(Math.round(c1 + (Number(nw2) * sc2 || 60) / 2 + 6), Math.round(ly + 9 - ms / 2), ms, "rm" + q)); } catch (_em) { try { console.error("minus btn error", _em); } catch (_x) {} }
+        ly += pitch;
+    }
+    for (var k = 0; k < mp.length; k++) {
+        var pn = (RN[mp[k] - 1] || "?") + " ROUND PICK", pw = Number(gml_Script_string_hd_width(_i, _o, pn)) || 90;
+        gml_Script_draw_hd_text(_i, _o, c1, ly + 6, pn);
+        try { rbTm.pickMinus.push(rbFalMinusBox(Math.round(c1 + pw / 2 + 6), Math.round(ly + 6 - ms / 2), ms, "rp" + k)); } catch (_em) { try { console.error("pick minus error", _em); } catch (_x) {} }
+        ly += ms + 2;
+    }
+    // button row: + (add a player) and one button per round you still have a pick in
+    rbTm.plusBtn = null;
+    var rounds = [];
+    for (var r = 1; r <= 3; r++) {
+        var own = 0; try { own = Number(yyInst(_i, _o, 97).gmldraft_picks[r - 1]) || 0; } catch (_e) {}
+        var used = mp.filter(function (z) { return z === r; }).length;
+
+    }
+    var nb = (mt.length < 4 ? 1 : 0) + rounds.length, bx = Math.round(c1 - (nb * bw + (nb - 1) * 4) / 2);
+    if (mt.length < 4) { rbTm.plusBtn = rbFalBtn(_i, _o, 196, bx, ly - 4, "+", "plus", 0); bx += bw + 4; }
+    for (var ri = 0; ri < rounds.length; ri++) {
+        var rr = rbFalBtn(_i, _o, 196, bx, ly - 4, RN[rounds[ri] - 1], "pk" + rounds[ri], bw - 6);
+        rr.r = rounds[ri]; rbTm.pickBtns.push(rr); bx += bw + 4;
+    }
+    draw_set_halign(1); draw_set_color(16777215);
+    gml_Script_draw_hd_text(_i, _o, c2, o.y + 56, RB_ABBR[rbTm.ti] + " TRADES:");
+    var tt = rbTm.theirTrade || [], tpk = rbTm.theirPicks || (rbTm.theirPicks = []), colP = (global.gmlc_primary === 0) ? 16777215 : global.gmlc_primary, ry = o.y + 86;
+    var pitchT = (tt.length + tpk.length * 0.5 > 3) ? 30 : 36;
+    rbTm.tMinus = []; rbTm.tPickMinus = []; rbTm.tPlusBtn = null;
+    for (var tq = 0; tq < tt.length; tq++) {
+        var tn = String(tt[tq].fname + " " + tt[tq].name).toUpperCase(), tw = gml_Script_string_hd_width(_i, _o, tn), tsc = tw > nmax ? nmax / tw : 1;
+        if (tsc < 1) { gml_Script_draw_hd_text_transformed(_i, _o, c2, ry, tn, tsc, tsc, 0); } else { gml_Script_draw_hd_text(_i, _o, c2, ry, tn); }
+        draw_sprite_ext(_i, 118, tt[tq].rating, c2, ry + 18, 1, 1, 0, colP, 1);
+        try { rbTm.tMinus.push(rbFalMinusBox(Math.round(c2 + (Number(tw) * tsc || 60) / 2 + 6), Math.round(ry + 9 - ms / 2), ms, "tx" + tq)); } catch (_em) {}
+        ry += pitchT;
+    }
+    for (var tk = 0; tk < tpk.length; tk++) {
+        var tpn = (RN[tpk[tk] - 1] || "?") + " ROUND PICK", tpw = Number(gml_Script_string_hd_width(_i, _o, tpn)) || 90;
+        gml_Script_draw_hd_text(_i, _o, c2, ry + 6, tpn);
+        try { rbTm.tPickMinus.push(rbFalMinusBox(Math.round(c2 + tpw / 2 + 6), Math.round(ry + 6 - ms / 2), ms, "ty" + tk)); } catch (_em) {}
+        ry += ms + 2;
+    }
+    var nbT = (tt.length < 4 ? 1 : 0);
+    if (nbT > 0) { rbTm.tPlusBtn = rbFalBtn(_i, _o, 196, Math.round(c2 - bw / 2), ry - 4, "+", "tplus", 0); }
+    var tyT = Math.max(nb > 0 ? (ly - 4 + ms) : (ly - 8), nbT > 0 ? (ry - 4 + ms) : (ry - 8)) + 10, TT = rbTradeTotals();
+    draw_set_halign(1); draw_set_valign(1); draw_set_color(16777215);
+    gml_Script_draw_hd_text(_i, _o, c1, tyT, "TOTAL: " + TT.my.toLocaleString());
+    gml_Script_draw_hd_text(_i, _o, c2, tyT, "TOTAL: " + TT.th.toLocaleString());
+    var obw = Number(sprite_get_width(196)) || 70;
+    rbTm.offerBtn = rbFalBtn(_i, _o, 196, Math.round(o.w * 0.5 - obw / 2), o.y + 222, "OFFER", "offer", 0);
+    draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215);
+}
+// ---- Offer: the other team accepts when what you send is worth MORE than the player you ask for ----
+function rbFalTheirRoster(_i,_o,o){
+    var L = rbTm.tList || [];
+    draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1); draw_set_halign(1); draw_set_color(16777215);
+    gml_Script_draw_hd_text(_i, _o, o.w * 0.5, o.y + 36, "PICK WHAT YOU WANT FROM THEM");
+    var cw0 = sprite_get_width(172), ch0 = sprite_get_height(172), n = L.length, gap = 4;
+    var aw = o.w - 96, top = o.y + 48, ah = (o.y + 224) - top;
+    var steps = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4], sc = 0.4, rows = Math.max(1, n);
+    for (var t = 0; t < steps.length; t++) {
+        var pr = Math.max(1, Math.floor((aw + gap) / (cw0 * steps[t] + gap))), rw = Math.max(1, Math.ceil(n / pr));
+        sc = steps[t]; rows = rw;
+        if (rw * (ch0 * sc + gap) - gap <= ah) break;
+    }
+    var per = Math.max(1, Math.ceil(n / rows)), cw = cw0 * sc, ch = ch0 * sc;
+    var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0), md = yyGetBool(mouse_check_button(1));
+    rbTm.tRects = [];
+    // draft pick buttons: tapping one adds that pick to the trade
+    var mpk = rbTm.theirPicks || (rbTm.theirPicks = []), RN = ["1ST", "2ND", "3RD"], rds = [], pbw = Number(sprite_get_width(196)) || 70;
+    rbTm.tPickBtns = [];
+    for (var r = 1; r <= 3; r++) { var own = 1; if (own - mpk.filter(function (z) { return z === r; }).length > 0) { rds.push(r); } }
+    var pbx = Math.round(o.w * 0.5 - (rds.length * pbw + (rds.length - 1) * 6) / 2);
+    for (var ri = 0; ri < rds.length; ri++) { var rr = rbFalBtn(_i, _o, 196, pbx, o.y + 232, RN[rds[ri] - 1], "tk" + rds[ri], pbw - 6); rr.r = rds[ri]; rbTm.tPickBtns.push(rr); pbx += pbw + 6; }
+    // the game's own team uniform colours (same call obj_player_profile makes), so the cards get their helmet / jersey / pants
+    var oh = _i.gmlhelmet, os = _i.gmlshirt, op = _i.gmlpants;
+    rbFalCols(_i);
+    var totH = rows * ch + (rows - 1) * gap, ty0 = top + Math.max(0, Math.floor((ah - totH) / 2));
+    for (var i = 0; i < n; i++) {
+        var r = Math.floor(i / per), cnt = (r < rows - 1) ? per : (n - per * (rows - 1)), ix = i - r * per;
+        var cx = Math.round(o.w * 0.5 - (cnt * cw + (cnt - 1) * gap) / 2 + ix * (cw + gap)), cy = Math.round(ty0 + r * (ch + gap));
+        var rx = cx, ry = cy - 2, rw2 = cw + 2, rh = ch + 2;
+        rbTm.tRects.push({ x: rx, y: ry, w: rw2, h: rh, i: i });
+        var prs = md && rbTm.downId === ("tc" + i) && mx >= rx && mx <= rx + rw2 && my >= ry && my <= ry + rh;
+        rbFalCard(_i, _o, cx, cy, L[i], sc, prs);
+    }
+    _i.gmlhelmet = oh; _i.gmlshirt = os; _i.gmlpants = op;
+    shader_reset();
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+}
+function rbTradeTotals(){
+    var tt = rbTm.theirTrade || [], tp = rbTm.theirPicks || [], mt = rbTm.myTrade || [], mp = rbTm.myPicks || [], my = 0, th = 0;
+    for (var q = 0; q < mt.length; q++) { my += rbTradeValue(mt[q].rating, mt[q].age); }
+    for (var k = 0; k < mp.length; k++) { my += RB_PICK_VALUE[mp[k] - 1] || 0; }
+    for (var q2 = 0; q2 < tt.length; q2++) { th += rbTradeValue(tt[q2].rating, tt[q2].age); }
+    for (var k2 = 0; k2 < tp.length; k2++) { th += RB_PICK_VALUE[tp[k2] - 1] || 0; }
+    return { my: my, th: th };
+}
+// applies an accepted trade: their players / picks -> me, my players / picks -> them
+function rbTradeApply(_i,_o,tt,tp,mt,mp){
+    var g = yyInst(_i,_o,97), yr = rbFalYear(_i,_o), ti = rbTm.ti;
+    var root = null; try { root = JSON.parse(rbFalGet() || "null"); } catch (_e) { root = null; }
+    var d = root ? ((ti === 0) ? root : (root.teams ? root.teams[ti] : null)) : null;
+    if (!d || !d.players) { throw new Error("team roster not found"); }
+    var pins = [];
+    for (var a = 0; a < tt.length; a++) {
+        var it = tt[a], pin = null;
+        for (var k = 0; k < d.players.length; k++) { var q = d.players[k]; if (q.code === it.code && q.fname === it.fname && q.lname === it.name && q.num === it.num) { pin = q; break; } }
+        if (!pin) { throw new Error("player not found on their roster"); }
+        pins.push(pin);
+    }
+    // the players I get: real game players with the same name / face / stats
+    var pms = [];
+    for (var b = 0; b < pins.length; b++) {
+        var pn = pins[b], pm = gml_Script_s_create_player(_i, _o, pn.code, Math.max(21, Number(tt[b].age) || 24), RB_FAL_RMIN, RB_FAL_RMAX);
+        ds_map_set(pm, "position", pn.code); ds_map_set(pm, "fname", pn.fname); ds_map_set(pm, "lname", pn.lname);
+        ds_map_set(pm, "skin", pn.skin); ds_map_set(pm, "face_set", pn.face_set); ds_map_set(pm, "face_x", pn.face_x); ds_map_set(pm, "face_y", pn.face_y);
+        for (var sk in (pn.st || {})) { ds_map_set(pm, sk, pn.st[sk]); }
+        ds_map_set(pm, "age", Number(tt[b].age)); ds_map_set(pm, "condition", 100); ds_map_set(pm, "resting", 0);
+        ds_map_set(pm, "teamid", g.gmlmyteam_id); ds_map_set(pm, "signed_year", g.gmlyear); ds_map_set(pm, "intrade_pick", 0); ds_map_set(pm, "outtrade_pick", 0);
+        try { ds_map_set(pm, "flash_time", g_pBuiltIn.get_current_time()); } catch (_e) {}
+        pms.push(pm);
+    }
+    // the players I send: saved onto their roster
+    var TAGS = { 1: "QB", 2: "RB", 3: "TE", 4: "WR", 5: "OL", 6: "DL", 7: "LB", 8: "CB", 9: "S", 10: "K" }, used = {}, out = [];
+    for (var u = 0; u < d.players.length; u++) { used[d.players[u].num] = true; }
+    for (var j = 0; j < mt.length; j++) {
+        var m = mt[j].m, code = Number(ds_map_find_value(m, "position")), pos = (code === 15) ? 6 : ((code === 16) ? 5 : code);
+        out.push({ pos: pos, code: code, tag: TAGS[pos] || "", num: rbFalNum(pos, used), age0: Number(ds_map_find_value(m, "age")) - (yr - d.y0), rating: mt[j].rating, st: rbFalStats(m),
+                   fname: String(ds_map_find_value(m, "fname")), lname: String(ds_map_find_value(m, "lname")),
+                   skin: ds_map_find_value(m, "skin"), face_set: ds_map_find_value(m, "face_set"), face_x: ds_map_find_value(m, "face_x"), face_y: ds_map_find_value(m, "face_y") });
+    }
+    // everything is ready: commit
+    d.players = d.players.filter(function (z) { return pins.indexOf(z) < 0; }).concat(out);
+    rbFalPut(JSON.stringify(root));
+    for (var r = 0; r < mt.length; r++) { gml_Script_s_remove_player(_i, _o, mt[r].m, "trade"); }
+    for (var n = 0; n < pms.length; n++) { ds_list_add(g.gmlroster, pms[n]); }
+    for (var pk = 0; pk < mp.length; pk++) { var ri = mp[pk] - 1; g.gmldraft_picks[ri] = Math.max(0, (Number(g.gmldraft_picks[ri]) || 0) - 1); }
+    for (var pk2 = 0; pk2 < tp.length; pk2++) { var ri2 = tp[pk2] - 1; g.gmldraft_picks[ri2] = (Number(g.gmldraft_picks[ri2]) || 0) + 1; }
+    rbFalSyncTeam(_i, _o, ti);
+    gml_Script_s_savegame(_i, _o);
+}
+function rbTradeOffer(_i,_o){
+    var T = rbTradeTotals(), team = RB_TEAMS[rbTm.ti][0], tt = (rbTm.theirTrade || []).slice(), tp = (rbTm.theirPicks || []).slice(), mt = (rbTm.myTrade || []).slice(), mp = (rbTm.myPicks || []).slice();
+    if ((tt.length + tp.length) === 0 || (mt.length + mp.length) === 0 || !(T.my > T.th)) { rbTm.msg = { lines: [team, "REJECT THE TRADE"] }; return; }
+    try { rbTradeApply(_i, _o, tt, tp, mt, mp); }
+    catch (_e) { try { console.error("trade error", _e); } catch (_x) {} rbTm.msg = { lines: ["TRADE FAILED"] }; return; }
+    rbTmLoad(_i, _o);   // reload their roster (and clear the trade page)
+    rbTm.msg = { lines: [team, "ACCEPT THE TRADE"] };
+}
+function rbFalMsg(_i,_o,o){
+    var lines = rbTm.msg.lines, cx = o.w * 0.5, y0 = o.y + 100 - (lines.length - 1) * 12, bw = Number(sprite_get_width(196)) || 70;
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(1); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+    for (var k = 0; k < lines.length; k++) { gml_Script_draw_hd_text(_i, _o, cx, y0 + k * 24, lines[k]); }
+    rbTm.msgBtn = rbFalBtn(_i, _o, 196, Math.round(cx - bw / 2), o.y + 170, "OK", "msgok", 0);
+    draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215);
+}
+// Trade page: asks whether to trade a player or a draft pick (no function behind the choices yet)
+function rbFalTrade(_i,_o,o){
+    draw_set_font(global.gmlfnt_small_flex); draw_set_halign(1); draw_set_valign(1); draw_set_color(16777215); draw_set_alpha(1);
+    var cx = o.w * 0.5;
+
+    var bw = sprite_get_width(127), bh = sprite_get_height(127), bx0 = Math.round(cx - bw / 2), by0 = Math.round(o.y + 130 - bh / 2);
+    rbTm.tPlayer = rbFalBtn(_i, _o, 127, bx0, by0, "TRADE", "tplayer", bw - 12);
+    rbTm.tPick = null;
+    draw_set_halign(0); draw_set_valign(1); draw_set_color(16777215);
+}
+// real offense / defense (1-10) of the game's team that matches RB_TEAMS[ti] (the user's own team is recalculated live from its roster)
+function rbRealRtg(_i,_o,ti){
+    try {
+        var g = yyInst(_i,_o,97), re = new RegExp(RB_TEAMS[ti][1]), t = null, mine = rbFalIsMine(_i,_o,ti);
+        if (mine) { t = g.gmlmyteam; }
+        else { var tl = g.gmlteamlist, n = ds_list_size(tl); for (var k = 0; k < n; k++) { var c = ds_list_find_value(tl, k); if (re.test(String(ds_map_find_value(c, "name")).toUpperCase()) || (ti === 0 && String(ds_map_find_value(c, "name")).toUpperCase().indexOf("ATLANTA") >= 0)) { t = c; break; } } }
+        if (!t) return null;
+        var o = Number(mine ? gml_Script_s_get_team_offense(_i,_o,t) : ds_map_find_value(t, "offense"));
+        var d = Number(mine ? gml_Script_s_get_team_defense(_i,_o,t) : ds_map_find_value(t, "defense"));
+        if (!(o >= 0) || !(d >= 0)) return null;
+        return { off: Math.max(1, Math.min(10, Math.round(o))), def: Math.max(1, Math.min(10, Math.round(d))) };
+    } catch (_e) { return null; }
+}
+function rbTmLoad(_i,_o){
+    try { rbFalFree(rbTm.list); } catch (_e) {}
+    rbTm.trade = false; rbTm.tradePage = ""; rbTm.tradeBtn = null; rbTm.myTrade = []; rbTm.myPicks = []; rbTm.myList = null; rbTm.theirTrade = null; rbTm.theirPicks = []; rbTm.tList = null; rbTm.plusBtn = null; rbTm.mRects = []; rbTm.list = null; rbTm.team = null; rbTm.real = null; rbTm.rects = []; rbTm.sel = -1; rbTm.prof = null;
+    rbTm.mine = rbFalIsMine(_i,_o,rbTm.ti);
+    rbTm.real = rbRealRtg(_i,_o,rbTm.ti);
+    if (!rbTm.mine) { try { rbTm.list = rbFalLoad(_i,_o,rbTm.ti); try { rbTm.team = rbFalTeam(_i,_o,rbTm.list); } catch (_e) { rbTm.team = null; } } catch (_e) { try { console.error("team roster error", _e); } catch (_x) {} rbTm.list = null; } }
+}
+function rbTeamsOpen(_i,_o){
+    rbTm = { downId: "", mine: false, list: null, sel: -1, rects: [], prof: null, team: null, ti: 0 };
+    rbTmLoad(_i,_o);
+    global.rbTmOpen = true;
+}
+function rbTeams(_i,_o){
+    var miss = rbFalMissing(_i,_o);
+    if (miss.length) {   // first time: build every CPU team on a loading page instead of freezing
+        rbCd = { mode: "teams", title: "GENERATING CPU TEAMS", wait: 3, k: 0, list: miss, total: miss.length };
+        global.rbCdOpen = true;
+        return;
+    }
+    rbTeamsOpen(_i,_o);
+}
+function rbTmArrows(o){
+    var w = 33, h = 34; try { w = sprite_get_width(129); h = sprite_get_height(129); } catch (_e) {}
+    var y = o.y + 136 - Math.floor(h / 2);
+    return { l: { x: 8, y: y, w: w, h: h }, r: { x: o.w - 8 - w, y: y, w: w, h: h } };
+}
+function rbTmArrowDraw(_i,b,icon,pressed){
+    var ix = b.x + Math.floor(b.w / 2) + 1, iy = b.y + Math.floor(b.h / 2) - 1;
+    draw_set_alpha(1);
+    if (!pressed) { draw_sprite(_i, 129, 0, b.x, b.y); draw_sprite_ext(_i, 129, 2, b.x, b.y, 1, 1, 0, global.gmlc_background, 1); }
+    else { draw_sprite(_i, 129, 1, b.x, b.y); draw_sprite_ext(_i, 129, 2, b.x - 2, b.y + 2, 1, 1, 0, global.gmlc_background, 1); ix -= 2; iy += 2; }
+    draw_sprite(_i, icon, 0, ix, iy);
+}
+function rbTmClose(){
+    try { if (rbTm) { rbFalFree(rbTm.list); } } catch (_e) {}
+    rbTm = null; global.rbTmOpen = false; global.rbBjCool = 4;
+}
+function rbTmStep(_i,_o){
+    var b = rbConBack(), o = rbBjOff(), ar = rbTmArrows(o);
+    var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0);
+    var inR = function (r) { return mx >= r.x && mx <= r.x + r.w && my >= r.y && my <= r.y + r.h; };
+    var over = inR(b), hit = -1, aw = "";
+    if (rbTm.msg) {   // offer result dialog: OK / back / Esc close it
+        var mOk = rbTm.msgBtn && inR(rbTm.msgBtn);
+        if (yyGetBool(mouse_check_button_pressed(1))) { rbTm.downId = mOk ? "msgok" : (over ? "back" : ""); }
+        if (yyGetBool(mouse_check_button_released(1))) { var md0 = rbTm.downId; rbTm.downId = ""; if ((mOk && md0 === "msgok") || (over && md0 === "back")) { rbBjSound(_i,_o); rbTm.msg = null; } }
+        if (yyGetBool(keyboard_check_pressed(27))) { rbBjSound(_i,_o); rbTm.msg = null; }
+        return;
+    }
+    if (rbTm.sel < 0) {
+        if (inR(ar.l)) { aw = "prev"; } else if (inR(ar.r)) { aw = "next"; }
+        if (rbTm.rects) { for (var k = 0; k < rbTm.rects.length; k++) { if (inR(rbTm.rects[k])) { hit = rbTm.rects[k].i; } } }
+    }
+    var xid = "";
+    if (rbTm.trade) { if (rbTm.tradePage === "player") { if (rbTm.minusBtns) { for (var nk = 0; nk < rbTm.minusBtns.length; nk++) { if (inR(rbTm.minusBtns[nk])) { xid = "rm" + nk; } } } if (rbTm.pickMinus) { for (var pk = 0; pk < rbTm.pickMinus.length; pk++) { if (inR(rbTm.pickMinus[pk])) { xid = "rp" + pk; } } } if (rbTm.pickBtns) { for (var pb = 0; pb < rbTm.pickBtns.length; pb++) { if (inR(rbTm.pickBtns[pb])) { xid = "pk" + rbTm.pickBtns[pb].r; } } } if (rbTm.plusBtn && inR(rbTm.plusBtn)) { xid = "plus"; } if (rbTm.offerBtn && inR(rbTm.offerBtn)) { xid = "offer"; } if (rbTm.tMinus) { for (var tx = 0; tx < rbTm.tMinus.length; tx++) { if (inR(rbTm.tMinus[tx])) { xid = "tx" + tx; } } } if (rbTm.tPickMinus) { for (var ty = 0; ty < rbTm.tPickMinus.length; ty++) { if (inR(rbTm.tPickMinus[ty])) { xid = "ty" + ty; } } } if (rbTm.tPlusBtn && inR(rbTm.tPlusBtn)) { xid = "tplus"; } } else if (rbTm.tradePage === "myroster") { if (rbTm.pickBtns) { for (var pc = 0; pc < rbTm.pickBtns.length; pc++) { if (inR(rbTm.pickBtns[pc])) { xid = "pk" + rbTm.pickBtns[pc].r; } } } if (rbTm.mRects) { for (var mk = 0; mk < rbTm.mRects.length; mk++) { if (inR(rbTm.mRects[mk])) { xid = "m" + rbTm.mRects[mk].i; } } } } else if (rbTm.tradePage === "theirroster") { if (rbTm.tPickBtns) { for (var tb = 0; tb < rbTm.tPickBtns.length; tb++) { if (inR(rbTm.tPickBtns[tb])) { xid = "tk" + rbTm.tPickBtns[tb].r; } } } if (rbTm.tRects) { for (var tc = 0; tc < rbTm.tRects.length; tc++) { if (inR(rbTm.tRects[tc])) { xid = "tc" + rbTm.tRects[tc].i; } } } } else if (rbTm.tPlayer && inR(rbTm.tPlayer)) { xid = "tplayer"; } else if (rbTm.tPick && inR(rbTm.tPick)) { xid = "tpick"; } }
+    else if (rbTm.sel >= 0 && rbTm.tradeBtn && inR(rbTm.tradeBtn)) { xid = "trade"; }
+    if (yyGetBool(mouse_check_button_pressed(1))) { rbTm.downId = over ? "back" : (xid !== "" ? xid : (aw !== "" ? aw : (hit >= 0 ? ("card" + hit) : ""))); }
+    if (yyGetBool(mouse_check_button_released(1))) {
+        var dn = rbTm.downId; rbTm.downId = "";
+        if (over && dn === "back") { rbBjSound(_i,_o); if (rbTm.trade) { if (rbTm.tradePage) { rbTm.tradePage = (rbTm.tradePage === "myroster" || rbTm.tradePage === "theirroster") ? "player" : ""; } else { rbTm.trade = false; } } else if (rbTm.sel >= 0) { rbTm.sel = -1; rbTm.prof = null; } else { rbTmClose(); } return; }
+        if (xid !== "" && dn === xid) { rbBjSound(_i,_o); if (xid === "trade") { rbTm.trade = true; rbTm.tradePage = ""; rbTm.theirTrade = (rbTm.prof && rbTm.prof.it) ? [rbTm.prof.it] : []; rbTm.theirPicks = []; } else if (xid === "tplayer") { rbTm.tradePage = "player"; } else if (xid === "offer") { rbTradeOffer(_i, _o); } else if (xid === "tplus") { rbTm.tList = (rbTm.list || []).filter(function (z) { return (rbTm.theirTrade || []).indexOf(z) < 0; }); rbTm.tradePage = "theirroster"; } else if (xid.indexOf("tx") === 0) { rbTm.theirTrade.splice(Number(xid.substring(2)), 1); } else if (xid.indexOf("ty") === 0) { rbTm.theirPicks.splice(Number(xid.substring(2)), 1); } else if (xid.indexOf("tk") === 0) { (rbTm.theirPicks || (rbTm.theirPicks = [])).push(Number(xid.substring(2))); rbTm.tradePage = "player"; } else if (xid.indexOf("tc") === 0) { var tci = Number(xid.substring(2)), tcp = rbTm.tList ? rbTm.tList[tci] : null; if (tcp && (rbTm.theirTrade || (rbTm.theirTrade = [])).indexOf(tcp) < 0) { rbTm.theirTrade.push(tcp); } rbTm.tradePage = "player"; } else if (xid.indexOf("rp") === 0) { rbTm.myPicks.splice(Number(xid.substring(2)), 1); } else if (xid.indexOf("pk") === 0) { (rbTm.myPicks || (rbTm.myPicks = [])).push(Number(xid.substring(2))); rbTm.tradePage = "player"; } else if (xid.indexOf("rm") === 0) { rbTm.myTrade.splice(Number(xid.substring(2)), 1); } else if (xid.indexOf("rp") === 0) { rbTm.myPicks.splice(Number(xid.substring(2)), 1); } else if (xid.indexOf("pk") === 0) { (rbTm.myPicks || (rbTm.myPicks = [])).push(Number(xid.substring(2))); rbTm.tradePage = "player"; } else if (xid.indexOf("rm") === 0) { rbTm.myTrade.splice(Number(xid.substring(2)), 1); } else if (xid === "plus") { rbTm.myList = rbFalMyList(_i, _o); rbTm.tradePage = "myroster"; } else if (xid.charAt(0) === "m" && xid !== "m") { var mi = Number(xid.substring(1)), mp = rbTm.myList ? rbTm.myList[mi] : null; if (mp && (rbTm.myTrade || (rbTm.myTrade = [])).indexOf(mp) < 0 && rbTm.myTrade.filter(function (z) { return z.m === mp.m; }).length === 0) { rbTm.myTrade.push(mp); } rbTm.tradePage = "player"; } else { rbTm.tradeChoice = xid; } return; }
+        if (aw !== "" && dn === aw) { rbBjSound(_i,_o); rbTm.ti = (rbTm.ti + (aw === "next" ? 1 : RB_TEAMS.length - 1)) % RB_TEAMS.length; rbTmLoad(_i,_o); return; }
+        if (hit >= 0 && dn === ("card" + hit)) { rbBjSound(_i,_o); try { rbFalSelect(_i,_o,hit); } catch (_e) { try { console.error("profile error", _e); } catch (_x) {} rbTm.sel = -1; rbTm.prof = null; } return; }
+    }
+    if (yyGetBool(keyboard_check_pressed(27))) { rbBjSound(_i,_o); if (rbTm.trade) { if (rbTm.tradePage) { rbTm.tradePage = (rbTm.tradePage === "myroster" || rbTm.tradePage === "theirroster") ? "player" : ""; } else { rbTm.trade = false; } } else if (rbTm.sel >= 0) { rbTm.sel = -1; rbTm.prof = null; } else { rbTmClose(); } }
+}
+function rbTmDraw(_i,_o){
+    if (!rbTm) return;
+    try {
+        var o = rbBjOff();
+        draw_set_alpha(1); draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
+        draw_set_color(global.gmlc_background); draw_rectangle(0, 0, o.w, o.h, 0);
+        // header copied from the room titles: big font, stars both sides
+        draw_set_font(global.gmlfnt_flex); draw_set_halign(1); draw_set_valign(1); draw_set_color(16777215);
+        var hTxt = (rbTm.trade || rbTm.msg) ? "TRADE" : ((rbTm.sel >= 0) ? "PLAYER PROFILE" : "TEAMS");
+        var hX = o.w * 0.5;
+        var hY = 16;
+        var hW = gml_Script_string_hd_width(_i, _o, hTxt) * 0.5 + sprite_get_width(123) + 16;
+        gml_Script_draw_hd_text(_i, _o, hX, hY, hTxt);
+        draw_sprite_ext(_i, 123, 0, hX - hW, hY, 2, 2, 0, 16777215, 1);
+        draw_sprite_ext(_i, 123, 0, hX + hW - 2, hY, -2, 2, 0, 16777215, 1);
+        draw_set_valign(1);
+        if (rbTm.msg) { rbFalMsg(_i, _o, o); } else if (rbTm.trade) { if (rbTm.tradePage === "myroster") { rbFalMyRoster(_i, _o, o); } else if (rbTm.tradePage === "theirroster") { rbFalTheirRoster(_i, _o, o); } else if (rbTm.tradePage === "player") { rbFalTradePlayer(_i, _o, o); } else { rbFalTrade(_i, _o, o); } } else if (rbTm.sel >= 0) { rbFalProfile(_i, _o, o); } else {
+            rbFalDraw(_i, _o, o);
+            var ar = rbTmArrows(o), amx = device_mouse_x_to_gui(0), amy = device_mouse_y_to_gui(0), amd = yyGetBool(mouse_check_button(1));
+            rbTmArrowDraw(_i, ar.l, 144, amd && rbTm.downId === "prev" && amx >= ar.l.x && amx <= ar.l.x + ar.l.w && amy >= ar.l.y && amy <= ar.l.y + ar.l.h);
+            rbTmArrowDraw(_i, ar.r, 146, amd && rbTm.downId === "next" && amx >= ar.r.x && amx <= ar.r.x + ar.r.w && amy >= ar.r.y && amy <= ar.r.y + ar.r.h);
+        }
+        draw_set_halign(1); draw_set_color(16777215); draw_set_alpha(1);
+        var b = rbConBack();
+        var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0);
+        var over = (mx >= b.x && mx <= b.x + b.w && my >= b.y && my <= b.y + b.h);
+        var pressed = over && yyGetBool(mouse_check_button(1)) && rbTm.downId === "back";
+        draw_set_alpha(1);
+        var bx = b.x, by = b.y;
+        var ix = b.x + Math.floor(b.w / 2) + 1, iy = b.y + Math.floor(b.h / 2) - 1;
+        if (!pressed) {
+            draw_sprite(_i, 129, 0, bx, by);
+            draw_sprite_ext(_i, 129, 2, bx, by, 1, 1, 0, global.gmlc_background, 1);
+        } else {
+            draw_sprite(_i, 129, 1, bx, by);
+            draw_sprite_ext(_i, 129, 2, bx - 2, by + 2, 1, 1, 0, global.gmlc_background, 1);
+            ix -= 2; iy += 2;
+        }
+        draw_sprite(_i, 142, 0, ix, iy);
+        draw_set_halign(0); draw_set_color(16777215); draw_set_alpha(1);
+    } catch (_e) {
+        try { console.error("teams draw error", _e); } catch (_x) {}
+        rbTmClose();
+        draw_set_halign(0); draw_set_color(16777215); draw_set_alpha(1);
+    }
 }
 // ---- Login screen: "LOGIN" header, USERNAME / PASSWORD text boxes (left side) and a SIGN IN button ----
 var rbLog = null;
@@ -9273,7 +10547,7 @@ function rbBjTotal(h) {
     return t;
 }
 function rbBjIsBJ(h) { return h.length === 2 && rbBjTotal(h) === 21; }
-function rbBjBlocking() { return global.rbBjOpen === true || global.rbConOpen === true || global.rbLogOpen === true || global.rbBjCool > 0; }
+function rbBjBlocking() { return global.rbBjOpen === true || global.rbConOpen === true || global.rbLogOpen === true || global.rbTmOpen === true || global.rbCdOpen === true || global.rbBjCool > 0; }
 function rbBjCredits(_i, _o) { var n = Number(yyInst(_i, _o, 97).gmlcoach_credit); return isFinite(n) ? n : 0; }
 function rbBjGive(_i, _o, n) { yyInst(_i, _o, 97).gmlcoach_credit = Math.min(2000000000, Math.max(0, rbBjCredits(_i, _o) + n)); }
 function rbBjSound(_i, _o) { try { if (yyGetBool(ds_map_find_value(yyInst(_i, _o, 97).gmlmap_options, "op_soundfx"))) { audio_play_sound(5, 1, false); } } catch (_e) {} }
@@ -9435,6 +10709,8 @@ function rbBjStep(_i, _o) {
 function rbBjTick(_i, _o) {
     try { rbKbTick(); } catch (_e) {}
     if (global.rbBjCool > 0) { global.rbBjCool--; }
+    if (rbCd) { try { rbCdStep(_i, _o); } catch (_e) { try { console.error("cpu draft error", _e); } catch (_x) {} rbCdFinish(_i, _o); } return; }
+    if (rbTm) { try { rbTmStep(_i, _o); } catch (_e) { try { console.error("teams error", _e); } catch (_x) {} rbTmClose(); } return; }
     if (rbLog) { try { rbLogStep(_i, _o); } catch (_e) { try { console.error("login error", _e); } catch (_x) {} rbLogClose(); } return; }
     if (rbCon) { try { rbConStep(_i, _o); } catch (_e) { try { console.error("console error", _e); } catch (_x) {} rbConClose(); } return; }
     if (!rbBj) return;
@@ -9569,7 +10845,7 @@ function rbBjDraw(_i, _o) {
         draw_set_halign(0); draw_set_color(16777215); draw_set_alpha(1);
     }
 }
-function gml_Object_obj_master_Draw_75(_inst, _other) { rbGameLogRoom(_inst, _other); rbBjDraw(_inst, _other); rbConDraw(_inst, _other); rbLogDraw(_inst, _other); }
+function gml_Object_obj_master_Draw_75(_inst, _other) { rbGameLogRoom(_inst, _other); rbBjDraw(_inst, _other); rbConDraw(_inst, _other); rbLogDraw(_inst, _other); rbTmDraw(_inst, _other); rbCdDraw(_inst, _other); }
 function gml_RoomCC_rm_options_0_PreCreate(_inst,_other){_inst.gmltext=gml_Script_s_str(_inst,_inst,"ui_Options");}function gml_RoomCC_rm_options_1_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_Options_Exit;_inst.gmlimage=159;_inst.gmlgp_mapped_hidden=global.gmlgp_back;}function gml_RoomCC_rm_options_2_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsDriveLeft;}function gml_RoomCC_rm_options_3_PreCreate(_inst,_other){_inst.gmldraw_box=false;
 _inst.gmlhalign=2;_inst.gmlfont=global.gmlfnt_small_flex;}function gml_RoomCC_rm_options_4_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsWeather;}function gml_RoomCC_rm_options_6_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsSoundFX;}function gml_RoomCC_rm_options_7_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsZoom;}function gml_RoomCC_rm_options_8_PreCreate(_inst,_other){_inst.gmltext=gml_Script_s_str(_inst,_inst,
 "ui_Credits");_inst.gmldraw_box=false;}function gml_RoomCC_rm_options_9_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsMatchLength;}function gml_RoomCC_rm_options_11_PreCreate(_inst,_other){_inst.gmlgoogle=true;}function gml_RoomCC_rm_options_12_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsTeamEditor;_inst.gmlimage=148;}function gml_RoomCC_rm_options_13_PreCreate(_inst,_other){_inst.gmlonClickAction=kgml_Script_btn_click_OptionsDifficulty;}
