@@ -8693,6 +8693,7 @@ var RB_SB_URL = "https://mrxmwbkfgdxkwmujbnnr.supabase.co";
 var RB_SB_KEY = "sb_publishable_xkaAnZTOgQDUoNGBzXGNHA_nX-_lScT";   // publishable key: safe to ship, row-level security protects the data
 var RB_EMAIL_DOMAIN = "retrobowl.app";
 var RB_SAVE_KEY = "RetroBowl.0.savedata.ini", RB_SESSION_KEY = "RB_session";
+var RB_SYNC_KEY = "RB_synced_at", RB_DIRTY_KEY = "RB_dirty", rbBootT0 = Date.now();
 var rbAcctLock = false, rbSbTimer = null, rbSbPending = null;
 function rbSbGet() { try { var s = JSON.parse(localStorage.getItem(RB_SESSION_KEY) || "null"); return (s && s.access_token) ? s : null; } catch (_e) { return null; } }
 function rbSbSet(s) { try { if (s) { localStorage.setItem(RB_SESSION_KEY, JSON.stringify(s)); } else { localStorage.removeItem(RB_SESSION_KEY); } } catch (_e) {} }
@@ -8719,20 +8720,25 @@ function rbSbToken() {
     }, function () { return null; });
 }
 function rbSbPush(s, data, keepalive) {
+    var ts = new Date().toISOString();
     return rbSbReq("POST", "/rest/v1/saves?on_conflict=user_id", s.access_token,
-        { user_id: s.uid, data: data, updated_at: new Date().toISOString() },
-        { "Prefer": "resolution=merge-duplicates,return=minimal" }, keepalive).then(function (r) { return r.ok; }, function () { return false; });
+        { user_id: s.uid, data: data, updated_at: ts },
+        { "Prefer": "resolution=merge-duplicates,return=minimal" }, keepalive).then(function (r) {
+            if (r.ok) { try { localStorage.setItem(RB_SYNC_KEY, ts); } catch (_e) {} }
+            return r.ok;
+        }, function () { return false; });
 }
 function rbSbPull(s) {
-    return rbSbReq("GET", "/rest/v1/saves?select=data&user_id=eq." + encodeURIComponent(s.uid), s.access_token).then(function (r) {
+    return rbSbReq("GET", "/rest/v1/saves?select=data,updated_at&user_id=eq." + encodeURIComponent(s.uid), s.access_token).then(function (r) {
         if (!r.ok) { return { ok: false }; }
-        return { ok: true, data: (r.json && r.json[0] && typeof r.json[0].data === "string") ? r.json[0].data : "" };
+        return { ok: true, data: (r.json && r.json[0] && typeof r.json[0].data === "string") ? r.json[0].data : "", updated: (r.json && r.json[0]) ? r.json[0].updated_at : null };
     }, function () { return { ok: false }; });
 }
 // mirror game saves to the signed-in account (debounced)
 function rbAcctSync(v) {
     if (rbAcctLock || typeof v !== "string" || !rbSbGet()) return;
     rbSbPending = v;
+    try { localStorage.setItem(RB_DIRTY_KEY, "1"); } catch (_e) {}
     if (rbSbTimer) { clearTimeout(rbSbTimer); }
     rbSbTimer = setTimeout(rbSbFlush, 1500);
 }
@@ -8740,7 +8746,7 @@ function rbSbFlush() {
     rbSbTimer = null;
     var v = rbSbPending; if (v === null) return;
     rbSbPending = null;
-    rbSbToken().then(function (s) { if (s) { rbSbPush(s, v).then(function (ok) { if (!ok && rbSbPending === null) { rbSbPending = v; } }); } });
+    rbSbToken().then(function (s) { if (s) { rbSbPush(s, v).then(function (ok) { if (!ok && rbSbPending === null) { rbSbPending = v; } if (ok && rbSbPending === null) { try { localStorage.removeItem(RB_DIRTY_KEY); } catch (_e) {} } }); } });
 }
 (function () {
     try {
@@ -8755,6 +8761,43 @@ function rbSbFlush() {
         });
     } catch (_e) {}
 })();
+// The game writes saves with localStorage[key] = value (not setItem), so watch the save directly.
+var rbSbLast = null;
+setInterval(function () {
+    try {
+        var v = localStorage.getItem(RB_SAVE_KEY);
+        if (rbSbLast === null) { rbSbLast = (v === null ? "" : v); return; }
+        if (v !== null && v !== rbSbLast) { rbSbLast = v; rbAcctSync(v); }
+    } catch (_e) {}
+}, 2000);
+// When the game opens while signed in: if another device uploaded newer progress, load it (your old local save is kept as a backup).
+function rbSbBoot() {
+    try {
+        if (!rbSbGet()) return;
+        rbSbToken().then(function (sess) {
+            if (!sess) return;
+            return rbSbPull(sess).then(function (pr) {
+                if (!pr.ok || !pr.updated) return;
+                var cloudT = Date.parse(pr.updated), mine = Date.parse(localStorage.getItem(RB_SYNC_KEY) || "");
+                if (isNaN(mine)) { localStorage.setItem(RB_SYNC_KEY, pr.updated); return; }     // first run of this version: just record it
+                var cur = localStorage.getItem(RB_SAVE_KEY);
+                if (localStorage.getItem(RB_DIRTY_KEY) === "1") { if (cur !== null) { rbAcctSync(cur); } return; }   // un-uploaded local progress wins
+                if (cloudT === mine || !pr.data) return;
+                if (cur === pr.data) { localStorage.setItem(RB_SYNC_KEY, pr.updated); return; }
+                if (Date.now() - rbBootT0 > 30000) return;                                       // too late: don't yank the game mid-play
+                var g = 0; try { g = Number(sessionStorage.getItem("RB_boot_apply") || 0); } catch (_e) {}
+                if (Date.now() - g < 15000) return;                                              // never loop
+                rbAcctLock = true;
+                if (cur !== null) { localStorage.setItem("RB_backup_before_login", cur); }
+                localStorage.setItem(RB_SAVE_KEY, pr.data);
+                localStorage.setItem(RB_SYNC_KEY, pr.updated);
+                try { sessionStorage.setItem("RB_boot_apply", String(Date.now())); } catch (_e) {}
+                location.reload();
+            });
+        });
+    } catch (_e) {}
+}
+setTimeout(rbSbBoot, 300);
 function rbAcctMsg(L, text, ok) { L.msg = text; L.msgOk = !!ok; }
 function rbAcctCreate(_i, _o) {
     var L = rbLog; if (!L || L.busy) return;
@@ -8811,12 +8854,28 @@ function rbAcctSignIn(_i, _o) {
                 var old = localStorage.getItem(RB_SAVE_KEY);
                 if (old !== null) { localStorage.setItem("RB_backup_before_login", old); }
                 localStorage.setItem(RB_SAVE_KEY, pr.data);
+                if (pr.updated) { localStorage.setItem(RB_SYNC_KEY, pr.updated); }
+                localStorage.removeItem(RB_DIRTY_KEY);
                 rbSbSet(sess);
                 rbAcctMsg(L, "SIGNED IN - LOADING YOUR SAVE", true);
                 setTimeout(function () { location.reload(); }, 700);
             } catch (_e) { rbAcctLock = false; rbAcctMsg(L, "COULD NOT LOAD SAVE", false); L.busy = false; }
         });
     }, function () { rbAcctMsg(L, "COULD NOT REACH THE SERVER", false); L.busy = false; });
+}
+function rbAcctSignOut() {
+    var L = rbLog; if (!L || L.busy) return;
+    var s = rbSbGet(); if (!s) return;
+    L.busy = true; rbAcctMsg(L, "SIGNING OUT", true);
+    var finish = function () {
+        try { rbSbReq("POST", "/auth/v1/logout", s.access_token, {}).catch(function () {}); } catch (_e) {}
+        rbSbSet(null); rbSbPending = null;
+        if (rbSbTimer) { clearTimeout(rbSbTimer); rbSbTimer = null; }
+        try { localStorage.removeItem(RB_SYNC_KEY); localStorage.removeItem(RB_DIRTY_KEY); } catch (_e) {}
+        rbAcctMsg(L, "SIGNED OUT", true); L.busy = false;
+    };
+    var v = rbSbPending;                                              // upload any save that hasn't gone up yet, then sign out
+    if (v !== null) { rbSbToken().then(function (t) { return t ? rbSbPush(t, v) : false; }).then(finish, finish); } else { finish(); }
 }
 // ---- Login screen: "LOGIN" header, USERNAME / PASSWORD text boxes (left side) and a SIGN IN button ----
 var rbLog = null;
@@ -8970,15 +9029,16 @@ function rbLogRects(){
         rsub: { cx: xr + w / 2, y: o.y + 60 },
         su: { x: xr, y: o.y + 76,  w: w, h: h },
         sp: { x: xr, y: o.y + 112, w: w, h: h },
-        rbtn: { x: xr + Math.floor((w - bw) / 2), y: o.y + 150, w: bw, h: bh }
+        rbtn: { x: xr + Math.floor((w - bw) / 2), y: o.y + 150, w: bw, h: bh },
+        obtn: { x: Math.floor(o.w / 2 - bw / 2), y: o.y + 224, w: bw, h: bh }
     };
 }
 function rbLogIn(_r, mx, my) { return mx >= _r.x && mx <= _r.x + _r.w && my >= _r.y && my <= _r.y + _r.h; }
 function rbLogStep(_i,_o){
     var b = rbConBack(), R = rbLogRects();
     var mx = device_mouse_x_to_gui(0), my = device_mouse_y_to_gui(0);
-    var hit = rbLogIn(b, mx, my) ? "back" : "", ids = ["lu", "lp", "su", "sp", "lbtn", "rbtn"];
-    for (var k = 0; k < ids.length; k++) { if (hit === "" && rbLogIn(R[ids[k]], mx, my)) { hit = ids[k]; } }
+    var hit = rbLogIn(b, mx, my) ? "back" : "", ids = ["lu", "lp", "su", "sp", "lbtn", "rbtn", "obtn"];
+    for (var k = 0; k < ids.length; k++) { if (hit === "" && rbLogIn(R[ids[k]], mx, my) && (ids[k] !== "obtn" || rbSbGet())) { hit = ids[k]; } }
     if (rbLog.edit !== "") {
         var ks = String(g_pBuiltIn.keyboard_string);
         if (ks.length > 24) { g_pBuiltIn.keyboard_string = ks.substring(0, 24); }
@@ -8993,6 +9053,7 @@ function rbLogStep(_i,_o){
         if (hit === "back" && dn === "back") { rbBjSound(_i,_o); rbLogClose(); return; }
         if (hit === "lbtn" && dn === "lbtn") { rbBjSound(_i,_o); rbAcctSignIn(_i,_o); return; }
         if (hit === "rbtn" && dn === "rbtn") { rbBjSound(_i,_o); rbAcctCreate(_i,_o); return; }
+        if (hit === "obtn" && dn === "obtn") { rbBjSound(_i,_o); rbAcctSignOut(); return; }
     }
     if (rbLog.edit === "" && yyGetBool(keyboard_check_pressed(27))) { rbBjSound(_i,_o); rbLogClose(); }
 }
@@ -9056,9 +9117,15 @@ function rbLogDraw(_i,_o){
         }
         // status line + who is signed in
         draw_set_font(global.gmlfnt_small_flex); draw_set_valign(1);
-        if (rbLog.msg) { rbBjT(o.w * 0.5, o.y + 200, rbLog.msg, 1, rbLog.msgOk ? 5753701 : 6579455, 1); }
+        if (rbLog.msg) { rbBjT(o.w * 0.5, o.y + 190, rbLog.msg, 1, rbLog.msgOk ? 5753701 : 6579455, 1); }
         var who = ""; try { var ss = rbSbGet(); who = ss ? String(ss.name || "") : ""; } catch (_e) {}
-        if (who) { rbBjT(o.w * 0.5, o.y + 222, "SIGNED IN AS " + who.toUpperCase(), 1, 16777215, 1); }
+        if (who) { rbBjT(o.w * 0.5, o.y + 208, "SIGNED IN AS " + who.toUpperCase(), 1, 16777215, 1);
+            var oc = R.obtn, prO = rbLogIn(oc, mx, my) && down && rbLog.downId === "obtn";
+            var otx = oc.x + Math.floor(oc.w / 2) + 1, oty = oc.y + Math.floor(oc.h / 2) - 1;
+            if (!prO) { draw_sprite(_i, 126, 0, oc.x, oc.y); draw_sprite_ext(_i, 126, 2, oc.x, oc.y, 1, 1, 0, global.gmlc_background, 1); }
+            else { draw_sprite(_i, 126, 1, oc.x, oc.y); draw_sprite_ext(_i, 126, 2, oc.x - 2, oc.y + 2, 1, 1, 0, global.gmlc_background, 1); otx -= 2; oty += 2; }
+            rbBjT(otx, oty, "SIGN OUT", 1, 16777215, 1);
+        }
         // back arrow (bottom-left)
         var b = rbConBack();
         var pressed = rbLogIn(b, mx, my) && down && rbLog.downId === "back";
